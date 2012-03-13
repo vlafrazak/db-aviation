@@ -4,6 +4,10 @@
 
 <h2>
 <?php
+    include 'connect.php';
+    connect();
+    disconnect();
+    
 	echo "Hello World";
 ?>
 </h2>
