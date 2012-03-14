@@ -6,7 +6,10 @@
 <h1>Test</h1>
 
 <?php
-	echo "<p>Hello World</p>";
+    include 'models/connect.php';
+    connect();
+    echo "<p>Hello World</p>";
+    disconnect();
 ?>
 
 <?php
