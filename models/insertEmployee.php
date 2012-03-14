@@ -1,7 +1,7 @@
 <p>
 <?php  
-  include 'connect.php';
-  include 'database.php';
+  include '/../connect.php';
+  include '/../database.php';
   connect();
 //  echo    $_POST[Emp_Code];
 //  echo    $_POST[SSN];
