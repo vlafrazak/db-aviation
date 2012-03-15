@@ -25,7 +25,12 @@ strict.dtd">
 
 	<div id="menu">
 		<ul>
-		<li><a href="/~db/db-aviation">Αρχική Σελίδα</a></li>
+		<li><img 
+                	src="maurouli.jpg" 
+                	alt= "The db is not a lie..." 
+                	width="50" 
+                	hight="50" /> 
+		<a href="/~db/db-aviation">Αρχική Σελίδα</a></li>
 		<li><a href="/~db/db-aviation/views/listEmployees/">Εργαζόμενοι</a></li>
 		<li><a href="/~db/db-aviation/views/listAircraftFleet/">Βάση Αεροσκαφών</a></li>
 		<!--<li><a href="/~db/db-aviation/views/listAircraftModels/">Μοντέλα Αεροσκαφών</a></li>
