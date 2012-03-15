@@ -3,7 +3,7 @@
 ?>
 
 
-<table border = "1" >
+<table>
 <tr>
 <th>Emp_Code</th>
 <th>SSN</th>
@@ -15,6 +15,7 @@
 <th>Postal_Code</th>
 <th>Year_of_Birth</th>
 <th>Salary</th>
+<th><a href="/~db/db-aviation/views/createEmployees">+</a></th>
 </tr>
 
 <?php
@@ -32,11 +33,11 @@
         echo "<td>" .  $employee[ 'Postal_Code' ] . "</td>";
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
-        echo "<td><form action='../models/deleteEmployee.php' method='post'>";
+        echo "<td><form action='../../models/deleteEmployee.php' method='post'>";
             echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
             echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
-        echo "<td><form action='../models/updateEmployee.php' method='post'>";
+        echo "<td><form action='../../models/updateEmployee.php' method='post'>";
             echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
             echo "<input type='hidden' name='SSN' value=" . $employee[ 'SSN' ] . "/>";
             echo "<input type='hidden' name='Union_Membership_Number' value=" . $employee[ 'Union_Membership_Number' ] . "/>";

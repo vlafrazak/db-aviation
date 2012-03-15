@@ -8,6 +8,7 @@ function query($query) {
     }
     disconnect();
 }
+
 function query_array($query) {
     connect();
     $result = mysql_query($query) or die(mysql_error());
@@ -19,6 +20,19 @@ function query_array($query) {
     {
         $answer[ $row[0] ] = $row;
     } 
+    mysql_free_result($result);
+    disconnect();
+    return $answer;
+}
+
+function query_row($query) {
+    connect();
+    $result = mysql_query($query) or die(mysql_error());
+    if ( !$result ) {
+        die( mysql_error() );
+    }
+
+    $row = mysql_fetch_row($result);
     mysql_free_result($result);
     disconnect();
     return $answer;

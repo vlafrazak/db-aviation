@@ -5,7 +5,7 @@
 <h2>employees</h2>
 <form action="../models/updateEmployee.php" method="post">
 <table class="input form">
-<tr><td>Emp_Code:</td><td> <input type="int" name="Emp_Code" /></td></tr>
+<tr><td>Emp_Code:</td><td> <input type="int" name="Emp_Code" value=<?php $_POST[Emp_Code] ?>/></td></tr>
 <tr><td>SSN:</td><td> <input type="int" name="SSN" /></td></tr>
 <tr><td>Union_Membership_Number:</td><td> <input type="int" name="Union_Membership_Number" /></td></tr>
 <tr><td>First_Name:</td><td> <input type="varchar" name="First_Name" /></td></tr>
