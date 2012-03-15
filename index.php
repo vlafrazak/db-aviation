@@ -5,8 +5,6 @@
 
 <?php
     include 'models/connect.php';
-    connect();
-    disconnect();
 ?>
 
 <?php
