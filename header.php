@@ -16,11 +16,8 @@ strict.dtd">
 		<link rel = "shotcut icon" href= "images/maurouli.jpg"/>
 	</head>
     <body>
-	<h1 id = "top"> <img
-                src="maurouli.jpg"
-                alt= "The db is not a lie..."
-                width="50"
-                hight="50" /> ΑΕΡΟΔΡΟΜΙΟ   ΕΛΕΥΘΕΡΙΟΣ   ΒΕΝΙΖΕΛΟΣ
+	<!--#include virtual="/style/csbanner.ssi"-->
+	<h1 id = "top">     ΑΕΡΟΔΡΟΜΙΟ   ΕΛΕΥΘΕΡΙΟΣ   ΒΕΝΙΖΕΛΟΣ
 		</h1>
 <?php
     $myset = include "settings-local.php";
@@ -31,11 +28,8 @@ strict.dtd">
 		<li><a href="/~db/db-aviation">Αρχική Σελίδα</a></li>
 		<li><a href="/~db/db-aviation/views/listEmployees/">Εργαζόμενοι</a></li>
 		<li><a href="/~db/db-aviation/views/listAircraftFleet/">Βάση Αεροσκαφών</a></li>
-		<!--<li><a href="/~db/db-aviation/list/">Μοντέλα Αεροσκαφών</a></li>
-		<li><a href="/~db/db-aviation/listchecks/">Έλεγχοι</a></li>-->
+		<!--<li><a href="/~db/db-aviation/views/listAircraftModels/">Μοντέλα Αεροσκαφών</a></li>
+		<li><a href="/~db/db-aviation/views/listChecks/">Έλεγχοι</a></li>-->
 		</ul>
 		
 	</div>
-
-<!--#include virtual="/style/csbanner.ssi" -->
-

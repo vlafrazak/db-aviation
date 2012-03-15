@@ -1,38 +1,24 @@
-/*h1{
-
-	font-size = 130%	
-	font-style: italics;
-	font-weight: bold;
-	text-decoration: underline;
-	color: #396;
-	background-color: #e0e0e0;
-	text-align: center;
-}*/
 h1{
 	color: white;  /*#ffc;*/
 	background-color: #191970;
 	/*text-align: center;*/
 	font-size: 1.0em;
-	margin-bottom: 0.5em;
+	margin : 0px;
 	font-family : 'Comic';
-	padding: 1em;
+	adding: 1em;
 	border-bottom-style: solid;
-	/*border-bottom-width: 0.7em;
-	border-bottom-color: #c63c64;*/
+	border-bottom-width: 0.7em;
+	
+	/*border-bottom-color: #c63c64;*/
 
-      background-image: url(clouds.jpg);
-      background-repeat: no-repeat;
-      background-position: left top;absolute;
-	border:"0";
-      padding-top:40px;
-	padding-bottom:20px;
+      	background-image: url(clouds.jpg);
+     	background-repeat: no-repeat;
+      	background-position: right top;
 
-   /*  background-image: url(maurouli.jpg);
-      background-repeat: no-repeat;
-      background-position: left top relative;
-      padding-top:40px;
+     	padding-top:40px;
 	padding-bottom:20px;
-      margin-bottom:50px;*/
+	width: auto;
+
    }
 
 #menu ul {margin: 0; padding: 0; 
@@ -40,6 +26,6 @@ h1{
 #menu li {display: inline; padding: 5px 20px 5px 20px}
 #menu ul li a {text-decoration:none;  margin: none;
 	padding: 5px 10px 5px 20px; color:#FFFFCC;
-	background: #003399;}
+	background:  #191970;}
 #menu ul li a:hover {color: white;
 	background: navy; }
