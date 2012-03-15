@@ -3,23 +3,31 @@ h1{
 	background-color: #191970;
 	/*text-align: center;*/
 	font-size: 1.0em;
-	margin : 0px;
+	width:auto
 	font-family : 'Comic';
-	adding: 1em;
+	/*adding: 1em;*/
 	border-bottom-style: solid;
-	border-bottom-width: 0.7em;
+	clear:left;
+	/*border-bottom-width: 0.7em;*/
 	
 	/*border-bottom-color: #c63c64;*/
 
-      	background-image: url(/~db/db-aviation/images/clouds.jpg);
-     	background-repeat: no-repeat;
-      	background-position: right top;
+       background-image: url(clouds.jpg);
+       background-repeat: no-repeat;
+       background-position: right top;
+       padding-top:40px;
+       padding-bottom:20px;
+       width: 100%;
+       clear:left;
 
-     	padding-top:40px;
+   /*  background-image: url(maurouli.jpg);
+      background-repeat: no-repeat;
+      background-position: left top relative;
+      padding-top:40px;
 	padding-bottom:20px;
-	width: auto;
-
+      margin-bottom:50px;*/
    }
+
 
 #menu ul {margin: 0; padding: 0; 
 	list-style-type: none; list-style-image: none; }
@@ -29,3 +37,31 @@ h1{
 	background:  #191970;}
 #menu ul li a:hover {color: white;
 	background: navy; }
+
+#footer{
+	border-top-width: 2px;
+	border-top-style: solid;	
+	border-top-color: #87CEFA;
+
+	position:absolute;
+	bottom:0px;
+	color: #00008B;
+	text-align: center;
+	font-size: small;
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 80px;
+	/*background-image: url(images/footer.png);
+	background-position: top;
+	background-repeat:repeat-x;
+	padding-bottom: 0px;*/
+}
+
+/*#footer .center_section {
+	text-align : center;
+	width:33%;
+	color:#00008B;
+	margin-top: 5px;
+}*/
