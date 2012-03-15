@@ -1,13 +1,3 @@
-/*h1{
-
-	font-size = 130%	
-	font-style: italics;
-	font-weight: bold;
-	text-decoration: underline;
-	color: #396;
-	background-color: #e0e0e0;
-	text-align: center;
-}*/
 h1{
 	color: white;  /*#ffc;*/
 	background-color: #191970;
@@ -22,13 +12,13 @@ h1{
 	
 	/*border-bottom-color: #c63c64;*/
 
-      background-image: url(clouds.jpg);
-      background-repeat: no-repeat;
-      background-position: right top;
-
-     padding-top:40px;
-	padding-bottom:20px;
-width: auto;
+       background-image: url(clouds.jpg);
+       background-repeat: no-repeat;
+       background-position: right top;
+       padding-top:40px;
+       padding-bottom:20px;
+       width: 100%;
+       clear:left;
 
    /*  background-image: url(maurouli.jpg);
       background-repeat: no-repeat;
@@ -37,9 +27,7 @@ width: auto;
 	padding-bottom:20px;
       margin-bottom:50px;*/
    }
-a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
-	border: none;
-}
+
 
 #menu ul {margin: 0; padding: 0; 
 	list-style-type: none; list-style-image: none; }
@@ -49,3 +37,31 @@ a img { /* this selector removes the default blue border displayed in some brows
 	background:  #191970;}
 #menu ul li a:hover {color: white;
 	background: navy; }
+
+#footer{
+	border-top-width: 2px;
+	border-top-style: solid;	
+	border-top-color: #87CEFA;
+
+	position:absolute;
+	bottom:0px;
+	color: #00008B;
+	text-align: center;
+	font-size: small;
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 80px;
+	/*background-image: url(images/footer.png);
+	background-position: top;
+	background-repeat:repeat-x;
+	padding-bottom: 0px;*/
+}
+
+/*#footer .center_section {
+	text-align : center;
+	width:33%;
+	color:#00008B;
+	margin-top: 5px;
+}*/
