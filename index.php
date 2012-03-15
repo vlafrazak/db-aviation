@@ -1,11 +1,15 @@
-<html>
-<body>
-<h1>Test</h1>
 
-<h2>
 <?php
-	echo "Hello World";
+    include 'header.php';
 ?>
-</h2>
-</body>
-</html>
+
+<?php
+    include 'models/connect.php';
+    connect();
+    disconnect();
+?>
+
+<?php
+    include 'footer.php';
+?>
+
