@@ -3,7 +3,7 @@
 ?>
 
 <h2>Aircraft Fleet</h2>
-<form action="../models/inserAircraftFleet.php" method="post">
+<form action="../models/insertAircraftFleet.php" method="post">
 <table class="input form">
 <tr><td>Registration_Number:</td><td> <input type="int" name="Registration_Number" /></td></tr>
 <tr><td>Air_Carrier:</td><td> <input type="int" name="Air_Carrier" /></td></tr>
