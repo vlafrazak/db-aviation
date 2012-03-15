@@ -12,8 +12,8 @@ strict.dtd">
 		<link
         		rel = "stylesheet"
         		type = "text/css"
-			href = "css/style.css" />
-		<link rel = "shotcut icon" href= "images/maurouli.jpg"/>
+			href = "/~db/db-aviation/css/style.css" />
+		<link rel = "shotcut icon" href= "/~db/db-aviation/images/maurouli.jpg"/>
 	</head>
     <body>
 	<!--#include virtual="/style/csbanner.ssi"-->
