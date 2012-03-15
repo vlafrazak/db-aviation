@@ -3,7 +3,7 @@
 ?>
 
 <h2>employees</h2>
-<form action="../models/updateEmployee.php" method="post">
+<form action="/~db/db-aviation/models/updateEmployee.php" method="post">
 <table class="input form">
 <tr><td>Emp_Code:</td><td> <input type="int" name="Emp_Code" value=<?php $_POST[Emp_Code] ?>/></td></tr>
 <tr><td>SSN:</td><td> <input type="int" name="SSN" /></td></tr>
