@@ -13,5 +13,5 @@
         $_POST[Construction_Date],
         $_POST[Model_Code]
     )");
-  include '../views/listAircraftFleet.php';
+    Header ('Location: ../views/listAircraftFleet.php');
 ?>
