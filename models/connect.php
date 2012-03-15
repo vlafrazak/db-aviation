@@ -10,13 +10,13 @@
                 die('Could not connect: ' . mysql_error());
         }
 
-        //make foo the current db
+        //make database the current db
         $db_selected = mysql_select_db($myset[ 'database' ], $link);
         if (!$db_selected) {
             die ('Can\'t use aviation : ' . mysql_error());
         }
         mysql_query("SET NAMES utf8");
-        echo "I am connected\n";
+        //echo "I am connected\n";
     }
     function disconnect() {
         mysql_close();
