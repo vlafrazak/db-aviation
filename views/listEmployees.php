@@ -36,7 +36,6 @@
             echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
             echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form>";
-
         echo "</tr>";
     }
 

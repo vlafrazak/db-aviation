@@ -25,4 +25,5 @@
         $_POST[Year_of_Birth],
         $_POST[Salary]
     )");
+  Redirect ('views/listEmployees2');
 ?>
