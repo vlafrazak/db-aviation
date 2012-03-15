@@ -1,0 +1,23 @@
+/*h1{
+
+	font-size = 130%	
+	font-style: italics;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #396;
+	background-color: #e0e0e0;
+	text-align: center;
+}*/
+h1{
+	color: #ffc;
+	background-color: #c10c64;
+	text-align: center;
+	font-size: 1.0em;
+	margin-bottom: 0.5em;
+	font-family : 'Comic';
+	padding: 1em;
+	border-bottom-style: solid;
+	border-bottom-width: 0.7em;
+	border-bottom-color: #c63c64;
+}
+
