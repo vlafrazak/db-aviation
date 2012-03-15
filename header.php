@@ -28,8 +28,8 @@ strict.dtd">
 	<div id="menu">
 		<ul>
 		<li><a href="/~db/db-aviation">Αρχική Σελίδα</a></li>
-		<li><a href="/~db/db-aviation/views/listEmployees/">Εργαζόμενοι</a></li>
-		<li><a href="/~db/db-aviation/views/listAircraftFleet/">Βάση Αεροσκαφών</a></li>
+		<li><a href="/~db/db-aviation/views/listEmployees.php/">Εργαζόμενοι</a></li>
+		<li><a href="/~db/db-aviation/views/listAircraftFleet.php/">Βάση Αεροσκαφών</a></li>
 		<!--<li><a href="/~db/db-aviation/list/">Μοντέλα Αεροσκαφών</a></li>
 		<li><a href="/~db/db-aviation/listchecks/">Έλεγχοι</a></li>-->
 		</ul>
