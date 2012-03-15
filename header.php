@@ -26,7 +26,7 @@ strict.dtd">
 	<div id="menu">
 		<ul>
 		<li><img 
-                	src="maurouli.jpg" 
+		            src = "/~db/db-aviation/images/maurouli.jpg"
                 	alt= "The db is not a lie..." 
                 	width="50" 
                 	hight="50" /> 
