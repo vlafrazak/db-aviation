@@ -16,11 +16,12 @@ strict.dtd">
 		<link rel = "shotcut icon" href= "images/maurouli.jpg"/>
 	</head>
     <body>
-	<h1 id = "top">Αεροδρόμιο   Ελευθέριος   Βενιζέλος</h1>
-		<img
-                src="images/maurouli.jpg"
-                width="100"
-                height="100" />
+	<h1 id = "top"> <img
+                src="maurouli.jpg"
+                alt= "The db is not a lie..."
+                width="50"
+                hight="50" /> ΑΕΡΟΔΡΟΜΙΟ   ΕΛΕΥΘΕΡΙΟΣ   ΒΕΝΙΖΕΛΟΣ
+		</h1>
 <?php
     $myset = include "settings-local.php";
 ?>
@@ -35,3 +36,6 @@ strict.dtd">
 		</ul>
 		
 	</div>
+
+<!--#include virtual="/style/csbanner.ssi" -->
+

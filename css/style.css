@@ -9,19 +9,31 @@
 	text-align: center;
 }*/
 h1{
-	color: #ffc;
-	background-color: #c10c64;
-	text-align: center;
+	color: white;  /*#ffc;*/
+	background-color: #191970;
+	/*text-align: center;*/
 	font-size: 1.0em;
 	margin-bottom: 0.5em;
 	font-family : 'Comic';
 	padding: 1em;
 	border-bottom-style: solid;
-	border-bottom-width: 0.7em;
-	border-bottom-color: #c63c64;
-}
+	/*border-bottom-width: 0.7em;
+	border-bottom-color: #c63c64;*/
 
+      background-image: url(clouds.jpg);
+      background-repeat: no-repeat;
+      background-position: left top;absolute;
+	border:"0";
+      padding-top:40px;
+	padding-bottom:20px;
 
+   /*  background-image: url(maurouli.jpg);
+      background-repeat: no-repeat;
+      background-position: left top relative;
+      padding-top:40px;
+	padding-bottom:20px;
+      margin-bottom:50px;*/
+   }
 
 #menu ul {margin: 0; padding: 0; 
 	list-style-type: none; list-style-image: none; }
