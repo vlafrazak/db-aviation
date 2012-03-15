@@ -15,6 +15,7 @@
         if (!$db_selected) {
             die ('Can\'t use aviation : ' . mysql_error());
         }
+        mysql_query("SET NAMES utf8");
         echo "I am connected\n";
     }
     function disconnect() {
