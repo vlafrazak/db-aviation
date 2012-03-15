@@ -1,0 +1,51 @@
+/*h1{
+
+	font-size = 130%	
+	font-style: italics;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #396;
+	background-color: #e0e0e0;
+	text-align: center;
+}*/
+h1{
+	color: white;  /*#ffc;*/
+	background-color: #191970;
+	/*text-align: center;*/
+	font-size: 1.0em;
+	width:auto
+	font-family : 'Comic';
+	/*adding: 1em;*/
+	border-bottom-style: solid;
+	clear:left;
+	/*border-bottom-width: 0.7em;*/
+	
+	/*border-bottom-color: #c63c64;*/
+
+      background-image: url(clouds.jpg);
+      background-repeat: no-repeat;
+      background-position: right top;
+
+     padding-top:40px;
+	padding-bottom:20px;
+width: auto;
+
+   /*  background-image: url(maurouli.jpg);
+      background-repeat: no-repeat;
+      background-position: left top relative;
+      padding-top:40px;
+	padding-bottom:20px;
+      margin-bottom:50px;*/
+   }
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+#menu ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+#menu li {display: inline; padding: 5px 20px 5px 20px}
+#menu ul li a {text-decoration:none;  margin: none;
+	padding: 5px 10px 5px 20px; color:#FFFFCC;
+	background:  #191970;}
+#menu ul li a:hover {color: white;
+	background: navy; }
