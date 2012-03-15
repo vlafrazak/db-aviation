@@ -12,14 +12,18 @@
 </tr>
 
 <?php
-    $employees = include "../models/listAircraftFleet.php";
+    $aircrafts = include "../models/listAircraftFleet.php";
 
-    foreach( $employees as $employee ) {
+    foreach( $aircrafts as $aircraft ) {
         echo "<tr>";
-        echo "<td>" .  $employee[ 'Registration_Number' ] . "</td>";
-        echo "<td>" .  $employee[ 'Air_Carrier' ] . "</td>";
-        echo "<td>" .  $employee[ 'Construction_Date' ] . "</td>";
-        echo "<td>" .  $employee[ 'Model_Code' ] . "</td>";
+        echo "<td>" .  $aircraft[ 'Registration_Number' ] . "</td>";
+        echo "<td>" .  $aircraft[ 'Air_Carrier' ] . "</td>";
+        echo "<td>" .  $aircraft[ 'Construction_Date' ] . "</td>";
+        echo "<td>" .  $aircraft[ 'Model_Code' ] . "</td>";
+        echo "<td><form action='../models/deleteAircraft.php' method='post'>";
+            echo "<input type='hidden' name='Registration_Number' value=" . $aircraft[ 'Registration_Number' ] . "/>";
+            echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
+        echo "</form></td>";
         echo "</tr>";
     }
 

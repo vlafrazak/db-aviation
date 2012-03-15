@@ -32,10 +32,10 @@
         echo "<td>" .  $employee[ 'Postal_Code' ] . "</td>";
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
-        echo "<form action="../models/deleteEmployee.php" method="post">";
+        echo "<td><form action='../models/deleteEmployee.php' method='post'>";
             echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
             echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
-        echo "</form>";
+        echo "</form></td>";
         echo "</tr>";
     }
 
