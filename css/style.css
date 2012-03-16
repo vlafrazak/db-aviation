@@ -9,35 +9,30 @@ h1{
 	border-bottom-style: solid;
 	clear:left;
 	/*border-bottom-width: 0.7em;*/
-	
 	/*border-bottom-color: #c63c64;*/
-
-       background-image: url(/~db/db-aviation/images/clouds.jpg);
+       background-image: url(clouds.jpg);
        background-repeat: no-repeat;
        background-position: right top;
        padding-top:40px;
        padding-bottom:20px;
        width: auto;
-       clear:left;
-
-   /*  background-image: url(maurouli.jpg);
-      background-repeat: no-repeat;
-      background-position: left top relative;
-      padding-top:40px;
-	padding-bottom:20px;
-      margin-bottom:50px;*/
+	height:auto;
+       /*clear:left;*/
    }
 
 
-#menu ul {margin: 0; padding: 20px; 
+/*menu*/
+#menu ul {margin: 0; padding: 0; 
 	list-style-type: none; list-style-image: none; }
 #menu li {display: inline; padding: 5px 20px 5px 20px}
 #menu ul li a {text-decoration:none;  margin: none;
-	padding: 5px 10px 5px 20px; color:#FFFFCC;
+	padding: 5px 10px 5px 10px; color:#FFFFCC;
 	background:  #191970;}
 #menu ul li a:hover {color: white;
 	background: #1E90FF; }
 
+
+/*footer*/
 #footer{
 	border-top-width: 2px;
 	border-top-style: solid;	
@@ -52,31 +47,6 @@ h1{
 	padding-top: 10px;
 	padding-right: 0px;
 	padding-left: 0px;
-	height: 10px; /*to allaxa gia na hwraei o pinakas ths insert alla prepei na ginetai automata*/
-	/*background-image: url(images/footer.png);
-	background-position: top;
-	background-repeat:repeat-x;
-	padding-bottom: 0px;*/
+	height: 60px;
 }
 
-table {
-    border-collapse:collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-    
-
-}
-/*#footer .center_section {
-	text-align : center;
-	width:33%;
-	color:#00008B;
-	margin-top: 5px;
-}*/
-.show {
-    display:block;
-}
-.hide {
-    display:none;
-}
