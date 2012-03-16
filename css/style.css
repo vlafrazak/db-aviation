@@ -29,7 +29,7 @@ h1{
    }
 
 
-#menu ul {margin: 0; padding: 0; 
+#menu ul {margin: 0; padding: 20px; 
 	list-style-type: none; list-style-image: none; }
 #menu li {display: inline; padding: 5px 20px 5px 20px}
 #menu ul li a {text-decoration:none;  margin: none;
@@ -59,6 +59,15 @@ h1{
 	padding-bottom: 0px;*/
 }
 
+table {
+    border-collapse:collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+
+}
 /*#footer .center_section {
 	text-align : center;
 	width:33%;

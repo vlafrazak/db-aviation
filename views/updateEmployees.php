@@ -2,7 +2,7 @@
     include "../header.php"
 ?>
 
-<h2>employees</h2>
+<h2>Update an Employee</h2>
 <form action="/~db/db-aviation/models/updateEmployee.php" method="post">
 <table class="input form">
 <tr><td>Emp_Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
@@ -15,9 +15,17 @@
 <tr><td>Postal_Code:</td><td> <input type="int" name="Postal_Code" value="<?php echo rtrim($_POST['Postal_Code'],'/'); ?>"/></td></tr>
 <tr><td>Year_of_Birth:</td><td> <input type="int" name="Year_of_Birth" value="<?php echo rtrim($_POST['Year_of_Birth'],'/'); ?>"/></td></tr>
 <tr><td>Salary:</td><td> <input type="int" name="Salary" value="<?php echo rtrim($_POST['Year_of_Birth'],'/'); ?>"/></td></tr>
-<tr><td></td><td><input type="submit" /></td></tr>
 </table>
-</form>
+
+<input type="submit" /></td></tr>
+
+<tr><td></td><td><input type="submit" /></td></tr>
+
+<td><form action='/~db/db-aviation/models/listEmployee.php' method='post'>
+<input type='submit' value='Cancel' title='Άκυρο'/>
+</form></td> 
+
+</form></td>                                                              </form>
 <?php
     include "../footer.php"
 ?>
