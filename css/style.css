@@ -1,7 +1,3 @@
-html{
-
-    overflow-y: scroll;
-
 h1{
 	color: white;  /*#ffc;*/
 	background-color: #191970;
@@ -44,6 +40,8 @@ body{
 
 /*footer*/
 #footer{
+	overflow-y: scroll;
+	margin: auto;
 	border-top-width: 2px;
 	border-top-style: solid;	
 	border-top-color: #87CEFA;
@@ -59,4 +57,4 @@ body{
 	padding-left: 0px;
 	height: 60px;
 }
-}
+
