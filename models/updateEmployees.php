@@ -14,7 +14,8 @@
             Postal_Code='$_POST[Postal_Code]',
             Year_of_Birth='$_POST[Year_of_Birth]',
             Salary='$_POST[Salary]'
-         WHERE Emp_Code='$_POST[Emp_Code]'"
+         WHERE 
+            Emp_Code='$_POST[Emp_Code]'"
         );
     Header ('Location: /~db/db-aviation/views/listEmployees.php');
 ?>
