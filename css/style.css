@@ -36,6 +36,7 @@ body{
 #menu ul li a:hover {color: white;
 	background: #1E90FF; 
 	overflow-y: scroll;
+	height:100%;
 	margin:auto;
 }
 
@@ -47,7 +48,7 @@ body{
 	border-top-style: solid;	
 	border-top-color: #87CEFA;
 
-	position:absolute;
+	/*position:absolute;*/
 	bottom:0px;
 	color: #00008B;
 	text-align: center;
