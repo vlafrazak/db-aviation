@@ -15,16 +15,8 @@
 <th>Postal_Code</th>
 <th>Year_of_Birth</th>
 <th>Salary</th>
-<th class='<?php
-    if ( !isset( $employees[0][ 'Model_Code' ] ) ) {
-    ?>
-        hide<?php
-    }
-    else {
-    ?>
-        show<?php
-    }
-    ?>'>Model_Code</th>
+<th>e-mail</th>
+<th>Phone</th>
 <th>      </th>
 <th>      </th>
 </tr>
@@ -45,8 +37,8 @@
         echo "<td>" .  $employee[ 'Postal_Code' ] . "</td>";
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
-        echo "<td>" .  $employee[ 'e-mail' ] . "</td>";
-        echo "<td>" .  $employee[ 'Phone Number' ] . "</td>";
+        echo "<td>" .  $employee[ 'E_mail' ] . "</td>";
+        echo "<td>" .  $employee[ 'Phone_Number' ] . "</td>";
         
         echo "<td><form action='/~db/db-aviation/views/updateEmployees.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
