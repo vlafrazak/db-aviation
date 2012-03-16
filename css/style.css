@@ -23,6 +23,7 @@ h1{
 body{
 	font-size: 90%;
     font-family: 'Georgia', serif;
+	margin:auto;
 }
 
 /*menu*/
@@ -34,7 +35,7 @@ body{
 	background:  #191970;}
 #menu ul li a:hover {color: white;
 	background: #1E90FF; 
-
+	margin:auto;
 }
 
 
