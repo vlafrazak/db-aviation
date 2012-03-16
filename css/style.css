@@ -43,12 +43,12 @@ body{
 
 /*footer*/
 #footer{
-	margin: auto;
+	/*margin: auto;*/
 	border-top-width: 2px;
 	border-top-style: solid;	
 	border-top-color: #87CEFA;
 
-	position:absolute;
+	position:relative;
 	bottom:0px;
 	color: #00008B;
 	text-align: center;
