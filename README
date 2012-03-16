@@ -1,12 +1,23 @@
 ---php---
-*
-*mporei na einai lathos to cancel sto insert giati phgain sto views 
 *antistoiha arheia me tous Employees gia olous tous allous, mboroume na grafoume edw pio analambanei h kathemia
+*prepei na ftiaxoume filtro pou px na emfanizzei mono tou technicians apo olous tous employees 
+
+---views---
+  ---Employees---
+  *na emfanizetai kapoio idiaitero haraktiristiko otan patame kapoion, px Iren Vlassi ki ohi Update an Employee
+  ---buttons---
+  *sth insert to cancel vgainei apo katw apo to submit alla fainetai na kanei swsth douleia, action sto views ki ohi sto models, opws mallon ua eprepe
+  *morfopoihsh buttons to ti grafoun pws ktl
 
 ---css---
 *allagh sto footer na allazei mono tou th thesh tou gia na phgainei parakatw otan megalwnei enas pinaks
+*allagh hrwmatos h kati opou eimaste gia na to ksehwrizoume
 *morfopoihsh apo to styles.css to <table> , dhladh olous tous pinakes
+*ta edit - x stous pinakes isws hwris grammoula anamesa
 *morfopoihsh twn <h2>
 
----buttons---
-*morfopoihsh buttons
+
+---genika---
+*den einai me proteraiothta oi douleies
+*na xeroume pote einai sto server h kathemia giati einai ligo lepto to thema me to syhronismo
+*an eiste se vim to control+N sou emfanizei ta pithana auto-complete pou vriskontai ekei konta
