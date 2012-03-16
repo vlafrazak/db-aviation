@@ -32,9 +32,8 @@ strict.dtd">
                 	hight="50" /> 
 		<a href="/~db/db-aviation">Αρχική Σελίδα</a></li>
         <li class="mainMenu" ><a href="/~db/db-aviation/views/listEmployees/">Εργαζόμενοι</a>
-            <ul>
-                <li><a href="/~db/db-aviation/views/listTechnicians/">Τεχνικοί</a></li>
-            </ul>
+        li><a href="/~db/db-aviation/views/listTechnicians/">Τεχνικοί</a></li>
+        li><a href="/~db/db-aviation/views/listAirTrafficControllers/">Τεχνικοί</a></li>
         </li>
 		<li class="mainMenu" ><a href="/~db/db-aviation/views/listAircraftFleet/">Βάση Αεροσκαφών</a></li>
 		<!--<li><a href="/~db/db-aviation/views/listAircraftModels/">Μοντέλα Αεροσκαφών</a></li>
