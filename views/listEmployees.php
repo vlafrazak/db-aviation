@@ -45,6 +45,8 @@
         echo "<td>" .  $employee[ 'Postal_Code' ] . "</td>";
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
+        echo "<td>" .  $employee[ 'e-mail' ] . "</td>";
+        echo "<td>" .  $employee[ 'Phone Number' ] . "</td>";
         
         echo "<td><form action='/~db/db-aviation/views/updateEmployees.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
@@ -57,6 +59,8 @@
         echo "<input type='hidden' name='Postal_Code' value=" . $employee[ 'Postal_Code' ] . "/>";
         echo "<input type='hidden' name='Year_of_Birth' value=" . $employee[ 'Year_of_Birth' ] . "/>";
         echo "<input type='hidden' name='Salary' value=" . $employee[ 'Salary' ] . "/>";
+        echo "<input type='hidden' name='E_mail' value=" . $employee[ 'E_mail' ] . "/>";
+        echo "<input type='hidden' name='Phone_Number' value=" . $employee[ 'Phone_Number' ] . "/>";
         echo "<input type='submit' value='Edit' title='Επεξεργασία'/>";
         echo "</form></td>";
         
