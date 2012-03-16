@@ -23,6 +23,7 @@ h1{
 body{
 	font-size: 90%;
     font-family: 'Georgia', serif;
+	overflow-y: scroll;
 	margin:auto;
 }
 
@@ -35,13 +36,13 @@ body{
 	background:  #191970;}
 #menu ul li a:hover {color: white;
 	background: #1E90FF; 
+	overflow-y: scroll;
 	margin:auto;
 }
 
 
 /*footer*/
 #footer{
-	overflow-y: scroll;
 	margin: auto;
 	border-top-width: 2px;
 	border-top-style: solid;	
