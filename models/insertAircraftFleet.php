@@ -7,11 +7,14 @@
       Construction_Date,
       Model_Code
     )
-    VALUES(
+    VALUES (
        $_POST[Registration_Number],
         '$_POST[Air_Carrier]',
         $_POST[Construction_Date],
         $_POST[Model_Code]
     )");
-    Header ('Location: ../views/listAircraftFleet.php');
+   
+    $numargs = func_num_args();
+    echo "Number of arguments: $numargs\n";
+    Header ('Location: /~db/db-aviation/views/listAircraftFleet.php');
 ?>

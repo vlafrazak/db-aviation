@@ -13,7 +13,7 @@
         Year_of_Birth,
         Salary
     )
-    VALUES(
+    VALUES (
         $_POST[Emp_Code],
         $_POST[SSN],
         $_POST[Union_Membership_Number],
@@ -25,7 +25,8 @@
         $_POST[Year_of_Birth],
         $_POST[Salary]
     )");
- $numargs = func_num_args();
+    
+    $numargs = func_num_args();
     echo "Number of arguments: $numargs\n";
     Header ('Location: /~db/db-aviation/views/listEmployees.php');
 ?>
