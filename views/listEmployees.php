@@ -2,7 +2,7 @@
     include "../header.php";
 ?>
 
-
+<h2>Employees</h2>
 <table>
 <tr>
 <th>Emp_Code</th>
@@ -15,6 +15,8 @@
 <th>Postal_Code</th>
 <th>Year_of_Birth</th>
 <th>Salary</th>
+<th>      </th>
+<th>      </th>
 </tr>
 
 <?php
