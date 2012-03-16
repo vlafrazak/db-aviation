@@ -48,7 +48,7 @@ body{
 	border-top-style: solid;	
 	border-top-color: #87CEFA;
 
-	position:relative;
+	position:absolute;
 	bottom:0px;
 	color: #00008B;
 	text-align: center;
