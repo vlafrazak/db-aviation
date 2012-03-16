@@ -25,5 +25,5 @@
         $_POST[Year_of_Birth],
         $_POST[Salary]
     )");
-    Header ('Location: ../views/listEmployees.php');
+    Header ('Location: /~db/db-aviation/views/listEmployees.php');
 ?>

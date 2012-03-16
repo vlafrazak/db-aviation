@@ -37,7 +37,7 @@
             echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
             echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
-        echo "<td><form action='../../models/updateEmployee.php' method='post'>";
+        echo "<td><form action='/~db/db-aviation/views/updateEmployees.php' method='post'>";
             echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
             echo "<input type='hidden' name='SSN' value=" . $employee[ 'SSN' ] . "/>";
             echo "<input type='hidden' name='Union_Membership_Number' value=" . $employee[ 'Union_Membership_Number' ] . "/>";

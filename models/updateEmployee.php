@@ -1,16 +1,21 @@
 <?php  
     include 'database.php';
 
-    $employee = query_row( 
-        "SELECT *
-            FROM
+    query( 
+        "UPDATE
             EMPLOYEES
-            WHERE Emp_Code='$_POST[Emp_Code]'"
+         SET
+            SSN='$_POST[SSN]',
+            Union_Membership_Number='$_POST[Union_Membership_Number]',
+            First_Name='$_POST[First_Name]',
+            Surname='$_POST[Surname]',
+            Street_Name='$_POST[Street_Namej]',
+            Street_Number='$_POST[Street_Number]',
+            Postal_Code='$_POST[Postal_Code]',
+            Year_of_Birth='$_POST[Year_of_Birth]',
+            Salary='$_POST[Salary]'
+         WHERE Emp_Code='$_POST[Emp_Code]'"
         );
-    echo '$_POST[Emp_Code]';
-    if( !$employee ) {
-        die( mysql_error() );
-    }
-    return $employee;    
+    Header ('Location: /~db/db-aviation/views/listEmployees.php');
 ?>
 
