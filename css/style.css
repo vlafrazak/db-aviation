@@ -43,7 +43,7 @@ body{
 
 /*footer*/
 #footer{
-	/*margin: auto;*/
+	margin: auto;
 	border-top-width: 2px;
 	border-top-style: solid;	
 	border-top-color: #87CEFA;
