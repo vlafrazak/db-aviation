@@ -25,5 +25,7 @@
         $_POST[Year_of_Birth],
         $_POST[Salary]
     )");
+ $numargs = func_num_args();
+    echo "Number of arguments: $numargs\n";
     Header ('Location: /~db/db-aviation/views/listEmployees.php');
 ?>
