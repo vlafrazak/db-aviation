@@ -52,7 +52,7 @@ h1{
 	padding-top: 10px;
 	padding-right: 0px;
 	padding-left: 0px;
-	height: 80px;
+	height: 10px; /*to allaxa gia na hwraei o pinakas ths insert alla prepei na ginetai automata*/
 	/*background-image: url(images/footer.png);
 	background-position: top;
 	background-repeat:repeat-x;

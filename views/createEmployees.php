@@ -22,11 +22,11 @@
     
     <input type="submit" /></td>
 
-    <form action='/~db/db-aviation/models/listEmployees.php' method='post'>
+</form>
+
+    <form action='/~db/db-aviation/views/listEmployees.php' method='post'>
     <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
     </form>
-
-</form>
 
 
 
