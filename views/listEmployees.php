@@ -37,7 +37,7 @@
         echo "<td>" .  $employee[ 'Postal_Code' ] . "</td>";
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
-        echo "<td>" .  $employee[ 'E_mail' ] . "</td>";
+        echo "<td><a href='mailto:" .  $employee[ 'E_mail' ] . "'>" . $employee[ 'E_mail' ] . "</a></td>";
         echo "<td>" .  $employee[ 'Phone_Number' ] . "</td>";
         
         echo "<td><form action='/~db/db-aviation/views/updateEmployees.php' method='post'>";
