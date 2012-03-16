@@ -74,3 +74,9 @@ table, th, td {
 	color:#00008B;
 	margin-top: 5px;
 }*/
+.show {
+    display:block;
+}
+.hide {
+    display:none;
+}
