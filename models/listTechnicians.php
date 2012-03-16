@@ -6,9 +6,11 @@
             e . * , m.E_mail, p.Phone_Number, t.Rank
         FROM 
             EMPLOYEES e
+        INNER JOIN 
+            TECHNICIANS t
         LEFT JOIN 
         (
-            E_MAILS m, PHONES p, TECHNICIANS t
+            E_MAILS m, PHONES p
         )
         ON 
         (
