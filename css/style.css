@@ -15,7 +15,7 @@ h1{
        background-position: right top;
        padding-top:40px;
        padding-bottom:20px;
-       width: auto;
+       width: 100%;
 	height:auto;
        /*clear:left;*/
    }
