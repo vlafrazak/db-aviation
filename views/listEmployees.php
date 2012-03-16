@@ -15,6 +15,16 @@
 <th>Postal_Code</th>
 <th>Year_of_Birth</th>
 <th>Salary</th>
+<th class='<?php
+    if ( !isset( $employees[0][ 'Model_Code' ] ) ) {
+    ?>
+        hide<?php
+    }
+    else {
+    ?>
+        show<?php
+    }
+    ?>'>Model_Code</th>
 <th>      </th>
 <th>      </th>
 </tr>
@@ -23,7 +33,7 @@
     $employees = include "../models/listEmployees.php";
 
     foreach( $employees as $employee ) {
-        echo "<tr>";
+        echo "\n<tr>";
         
         echo "<td>" .  $employee[ 'Emp_Code' ] . "</td>";
         echo "<td>" .  $employee[ 'SSN' ] . "</td>";
