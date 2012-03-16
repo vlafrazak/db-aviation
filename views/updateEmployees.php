@@ -4,7 +4,7 @@
 
 <h2>Update an Employee</h2>
 
-<form action="/~db/db-aviation/models/updateEmployee.php" method="post">
+<form action="/~db/db-aviation/models/updateEmployees.php" method="post">
 
     <table class="input form">
     <tr><td>Emp_Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
@@ -22,7 +22,7 @@
     <input type="submit" />
 
 
-    <form action='/~db/db-aviation/models/listEmployee.php' method='post'>
+    <form action='/~db/db-aviation/models/listEmployees.php' method='post'>
     <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
     </form>
 

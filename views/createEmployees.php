@@ -5,7 +5,7 @@
 <h2>Insert an Employee</h2>
 
 
-<form action="/~db/db-aviation/models/insertEmployee.php" method="post">
+<form action="/~db/db-aviation/models/insertEmployees.php" method="post">
 
     <table class="input form">
     <tr><td>Emp_Code:</td><td> <input type="int" name="Emp_Code" /></td></tr>
@@ -22,7 +22,7 @@
     
     <input type="submit" /></td>
 
-    <form action='/~db/db-aviation/models/listEmployee.php' method='post'>
+    <form action='/~db/db-aviation/models/listEmployees.php' method='post'>
     <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
     </form>
 
