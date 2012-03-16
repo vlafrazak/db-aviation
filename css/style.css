@@ -4,8 +4,7 @@ h1{
 	/*text-align: center;*/
 	font-size: 1.0em;
 	width:auto
-	/*font-family : 'Comic';*/
-    font-family: 'Georgia', serif;
+	font-family : 'Comic';
 	/*adding: 1em;*/
 	border-bottom-style: solid;
 	clear:left;
@@ -21,6 +20,10 @@ h1{
        /*clear:left;*/
    }
 
+body{
+	font-size: 90%;
+    font-family: 'Georgia', serif;
+}
 
 /*menu*/
 #menu ul {margin: 0; padding: 0; 
