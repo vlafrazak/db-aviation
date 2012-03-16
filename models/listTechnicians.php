@@ -3,7 +3,7 @@
 
     $techs = query_array( 
         "SELECT 
-            e . *  t.Rank
+            e . *,  t.Rank
         FROM 
             EMPLOYEES e, TECHNICIANS t
         WHERE
