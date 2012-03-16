@@ -8,7 +8,7 @@
             EMPLOYEES e, TECHNICIANS t
         WHERE
             e.Emp_Code = t.Emp_Code
-        )"
+        "
         );
     if( !$techs ) {
         die( mysql_error() );
