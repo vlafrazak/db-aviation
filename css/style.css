@@ -4,13 +4,14 @@ h1{
 	/*text-align: center;*/
 	font-size: 1.0em;
 	width:auto
-	font-family : 'Comic';
+	/*font-family : 'Comic';*/
+    font-family: 'Georgia', serif;
 	/*adding: 1em;*/
 	border-bottom-style: solid;
 	clear:left;
 	/*border-bottom-width: 0.7em;*/
 	/*border-bottom-color: #c63c64;*/
-       background-image: url(clouds.jpg);
+       background-image: url(/~db/db-aviation/images/clouds.jpg);
        background-repeat: no-repeat;
        background-position: right top;
        padding-top:40px;
