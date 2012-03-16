@@ -3,21 +3,12 @@
 
     $techs = query_array( 
         "SELECT 
-            e . * , m.E_mail, p.Phone_Number, t.Rank
+            e . *,  t.Rank
         FROM 
-            EMPLOYEES e
-        INNER JOIN 
-            TECHNICIANS t
-        INNER JOIN 
-            E_MAILS m
-        INNER JOIN 
-            PHONES p
-        ON 
-        (
-            e.Emp_Code = p.Emp_Code
-            AND e.Emp_Code = p.Emp_Code
-            AND e.Emp_Code = t.Emp_Code
-        )"
+            EMPLOYEES e, TECHNICIANS t
+        WHERE
+            e.Emp_Code = t.Emp_Code
+        "
         );
     if( !$techs ) {
         die( mysql_error() );
