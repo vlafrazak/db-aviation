@@ -6,6 +6,9 @@ function query($query) {
     if ( !$result ) {
         die( mysql_error() );
     }
+    $count=mysql_num_rows($result);
+    if ($count != 10) 
+	 echo "Wrong Username or Password";
     disconnect();
 }
 
@@ -13,7 +16,7 @@ function query_array($query) {
     connect();
     $result = mysql_query($query) or die(mysql_error());
     if ( !$result ) {
-        die( mysql_error() );
+        die( mysql_error() );	
     }
 
     while($row = mysql_fetch_array($result))
