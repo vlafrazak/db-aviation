@@ -8,10 +8,10 @@
             EMPLOYEES e
         INNER JOIN 
             TECHNICIANS t
-        LEFT JOIN 
-        (
-            E_MAILS m, PHONES p
-        )
+        INNER JOIN 
+            E_MAILS m
+        INNER JOIN 
+            PHONES p
         ON 
         (
             e.Emp_Code = p.Emp_Code
