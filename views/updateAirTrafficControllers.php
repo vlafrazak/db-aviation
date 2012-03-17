@@ -5,7 +5,6 @@
 <h2>Update a Controller's Exam Information</h2>
 
 <form action="/~db/db-aviation/models/updateAirTrafficControllers.php" method="post">
-
     <table class="input form">
     <tr><td>Emp Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
     <tr><td>Last Exam Date:</td><td> <input type="date" name="Last_Exam_Date" value="<?php echo rtrim($_POST['Last_Exam_Date'],'/'); ?>"/></td></tr>

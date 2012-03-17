@@ -26,16 +26,16 @@
         echo "<td>" .  $aircraft[ 'Model_Code' ] . "</td>";
         
         echo "<td><form action='/~db/db-aviation/views/updateAircraftFleet.php' method='post'>";
-        echo "<input type='hidden' name='Registration_Number' value=" . $employee[ 'Registration_Number' ] . "/>";
-        echo "<input type='hidden' name='Air_Carrier' value=" . $employee[ 'Air_Carrier' ] . "/>";
-        echo "<input type='hidden' name='Construction_Date' value=" . $employee[ 'Construction_Date' ] . "/>";
-        echo "<input type='hidden' name='Model_Code' value=" . $employee[ 'Model_Code' ] . "/>";
+        echo "<input type='hidden' name='Registration_Number' value=" . $aircraft[ 'Registration_Number' ] . "/>";
+        echo "<input type='hidden' name='Air_Carrier' value=" . $aircraft[ 'Air_Carrier' ] . "/>";
+        echo "<input type='hidden' name='Construction_Date' value=" . $aircraft[ 'Construction_Date' ] . "/>";
+        echo "<input type='hidden' name='Model_Code' value=" . $aircraft[ 'Model_Code' ] . "/>";
         echo "<input type='submit' value='Edit' title='Επεξεργασία'/>";
         echo "</form></td>";
 
 
         echo "<td><form action='/~db/db-aviation/models/deleteAircraftFleet.php' method='post'>";
-        echo "<input type='hidden' name='Registration_Number' value=" . $employee[ 'Registration_Number' ] . "/>";
+        echo "<input type='hidden' name='Registration_Number' value=" . $aircraft[ 'Registration_Number' ] . "/>";
         echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
         
