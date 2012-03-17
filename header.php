@@ -37,7 +37,7 @@ strict.dtd">
 			<li class="mainMenu" ><a href="/~db/db-aviation/views/listAircraftFleet/">AIRCRAFT FLEET</a></li>
 			<li><a href="/~db/db-aviation/views/listAircraftModels/">AIRCRAFT MODELS</a></li>
 			<li><a href="/~db/db-aviation/views/listChecks/">CHECKS</a></li>
-			<li><a href="/~db/db-aviation/views/listFAACheckTypes/">FAA CHECK TYPES</a></li>
+			<li><a href="/~db/db-aviation/views/listFAATests/">FAA CHECK TYPES</a></li>
 		    </ul>
 		</div>
   	</body>

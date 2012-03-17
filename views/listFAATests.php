@@ -10,6 +10,7 @@
 <th>Test Number</th> 
 <th>Test Name</th> 
 <th>Max Score</th> 
+<th></th>
 </tr>
 
 <?php
