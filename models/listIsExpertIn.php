@@ -1,7 +1,5 @@
 <?php  
     include 'database.php';
-    include 'listEmails.php';
-    include 'listPhones.php';
 
     function isExpertIn( $Model_Code ) {
         $expert = query_array( 
@@ -36,7 +34,7 @@
                     p.Emp_Code = " . $expert[ 'Emp_Code' ] );
             $answer[] = $expert;
         }
-        return $expert;    
+        return $answer;    
 
     }
 
