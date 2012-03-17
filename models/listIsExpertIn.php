@@ -10,7 +10,8 @@
                 AND ex.Model_Code = " . $Model_Code .
             ")
             LEFT JOIN PHONES p ON p.Emp_Code = e.Emp_Code
-            LEFT JOIN E_MAILS m ON m.Emp_Code = e.Emp_Code"
+            LEFT JOIN E_MAILS m ON m.Emp_Code = e.Emp_Code
+            ORDER BY Degree_of_Experience DESC"
             );
         if( !$expert ) {
             die( mysql_error() );
