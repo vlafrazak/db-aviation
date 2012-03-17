@@ -3,37 +3,34 @@
 
     $employees = query_array ( 
         "SELECT 
-            e . * , p.Phone_Number
+            e . * 
         FROM 
-            EMPLOYEES e
-        LEFT JOIN 
-        (
-            PHONES p
-        ) 
-        ON 
-        (
-            e.Emp_Code = p.Emp_Code
-        )"
+            EMPLOYEES e"
     );
-
-     $employees = query_array ( 
-        "SELECT 
-            e . * , m.E_mail
-        FROM 
-            EMPLOYEES e
-        LEFT JOIN 
-        (
-            E_MAILS m
-        ) 
-        ON 
-        (
-            e.Emp_Code = m.Emp_Code
-        )"
-    );
-
 
     if( !$employees ) {
         die( mysql_error() );
     }
-    return $employees;    
+
+    $answer = array();
+    foreach( $employees as $employee) {
+        $mails = query_array(
+            "SELECT m.E_mail
+            FROM
+                E_MAILS m
+            WHERE
+                m.Emp_Code = " . $employee[ 'Emp_Code' ]
+        );
+        $phones = query_array(
+            "SELECT p.Phone_number
+            FROM
+                PHONES p
+            WHERE
+                p.Emp_Code = " . $employee[ 'Emp_Code' ]
+        );
+        $employee[ 'mails' ] = $mails;
+        $employee[ 'phones' ] = $phones;
+        $answer[] = $employee;
+    }
+    return $answer;    
 ?>
