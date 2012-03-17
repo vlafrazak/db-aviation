@@ -40,22 +40,6 @@
         echo "<td>" .  $employee[ 'Phone_Number' ] . "</td>";
         echo "<td>" .  $employee[ 'Rank' ] . "</td>";
         
-        echo "<td><form action='/~db/db-aviation/views/updateEmployees.php' method='post'>";
-        echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
-        echo "<input type='hidden' name='SSN' value=" . $employee[ 'SSN' ] . "/>";
-        echo "<input type='hidden' name='Union_Membership_Number' value=" . $employee[ 'Union_Membership_Number' ] . "/>";
-        echo "<input type='hidden' name='First_Name' value=" . $employee[ 'First_Name' ] . "/>";
-        echo "<input type='hidden' name='Surname' value=" . $employee[ 'Surname' ] . "/>";
-        echo "<input type='hidden' name='Street_Name' value=" . $employee[ 'Street_Name' ] . "/>";
-        echo "<input type='hidden' name='Street_Number' value=" . $employee[ 'Street_Number' ] . "/>";
-        echo "<input type='hidden' name='Postal_Code' value=" . $employee[ 'Postal_Code' ] . "/>";
-        echo "<input type='hidden' name='Year_of_Birth' value=" . $employee[ 'Year_of_Birth' ] . "/>";
-        echo "<input type='hidden' name='Salary' value=" . $employee[ 'Salary' ] . "/>";
-        echo "<input type='hidden' name='E_mail' value=" . $employee[ 'E_mail' ] . "/>";
-        echo "<input type='hidden' name='Phone_Number' value=" . $employee[ 'Phone_Number' ] . "/>";
-        echo "<input type='submit' value='Edit' title='Edit'/>";
-        echo "</form></td>";
-
         echo "<td><form action='/~db/db-aviation/views/updateTechnicians.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input type='hidden' name='Rank' value=" . $employee[ 'Rank' ] . "/>";
@@ -73,7 +57,6 @@
 ?>
 </table>
 
-<th><a href="/~db/db-aviation/views/createTechnicians">Insert a Technician</a></th>
 
 <?php
     include "../footer.php";

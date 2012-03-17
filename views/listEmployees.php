@@ -54,6 +54,11 @@
         echo "<input type='submit' value='Edit' title='Επεξεργασία'/>";
         echo "</form></td>";
         
+        echo "<td><form action='/~db/db-aviation/views/createTechnicians.php' method='post'>";
+        echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
+        echo "<input type='submit' value='Technician' title='Κάνε αυτόν τον υπάλληλο τεχνικό.'/>";
+        echo "</form></td>";
+
         echo "<td><form action='/~db/db-aviation/models/deleteEmployees.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
