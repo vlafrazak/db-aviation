@@ -2,7 +2,11 @@
     include "../header.php";
     include "../models/listIsExpertIn.php";
 ?>
-<h2>Technicians</h2>
+<h2>
+<?php
+    echo $_GET[ 'Model_Name' ];
+?>
+</h2>
 <table id="playlist" class = "content">
 <tr class="even">
 <th>Emp Code</th>
@@ -24,7 +28,7 @@
         echo "<td>" .  $expert[ 'Surname' ] . "</td>";
         echo "<td>";
         echo "<ul>";
-        foreach( $tech['mails'] as $mail ) {
+        foreach( $expert['mails'] as $mail ) {
             echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></li>";
         }
         echo "</ul>";
@@ -32,7 +36,7 @@
         
         echo "<td>";
         echo "<ul>";
-        foreach( $tech['phones'] as $phone ) {
+        foreach( $expert['phones'] as $phone ) {
             echo "<li> $phone[0] </li>";
         }
         echo "</ul>";

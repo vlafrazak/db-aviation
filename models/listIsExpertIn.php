@@ -1,10 +1,8 @@
 <?php  
     include 'database.php';
-    include 'listEmails.php';
-    include 'listPhones.php';
 
     function isExpertIn( $Model_Code ) {
-        $expert = query_array( 
+        $experts = query_array( 
             "SELECT e . * , ex.Degree_of_Experience
             FROM EMPLOYEES e
             INNER JOIN IS_EXPERT_IN ex 
@@ -17,7 +15,7 @@
                 Degree_of_Experience DESC
                 "
             );
-        if( !$expert ) {
+        if( !$experts ) {
             die( mysql_error() );
         }
         $answer = array();
@@ -36,7 +34,7 @@
                     p.Emp_Code = " . $expert[ 'Emp_Code' ] );
             $answer[] = $expert;
         }
-        return $expert;    
+        return $answer;    
 
     }
 
