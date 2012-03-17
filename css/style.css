@@ -77,7 +77,7 @@ padding:15px;
 
 table, td, th
 {
-border:1px solid #FFF8C6;
+border:7px solid #FFF8C6;
 }
 th
 {
@@ -89,10 +89,10 @@ color:#C6DEFF;
       background-color:#E3E4FA;
     }
 #playlist tr.even td {
-      background-color:	#FFF8C6;
+      background-color:	#E3E4FA;
     }
 #playlist tr.odd td {
-      background-color:#E3E4FA;
+      background-color:	#FFF8C6;
     }
 
 #footer{
