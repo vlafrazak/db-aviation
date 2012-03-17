@@ -4,7 +4,7 @@
 
 
 <h2>Aircraft Fleet</h2>
-<table>
+<table class = "content">
 <tr>
 <th>Registration Number</th> 
 <th>Air Carrier</th> 

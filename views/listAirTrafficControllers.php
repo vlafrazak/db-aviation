@@ -3,7 +3,7 @@
 ?>
 
 <h2>Air Traffic Controllers</h2>
-<table>
+<table class = "content">
 <tr>
 <th>Emp Code</th>
 <th>SSN</th>
