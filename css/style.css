@@ -84,11 +84,13 @@ th
 background-color:#15317E;
 color:white;
 }
+
+#playlist tr#odd  td {
+      background-color: #C6DEFF;
+    }
+
 #playlist tr td {
       background-color: #eee;
-    }
-#playlist tr.odd  td {
-      background-color: #C6DEFF;
     }
 
 
