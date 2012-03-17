@@ -21,7 +21,7 @@
 </tr>
 
 <?php
-    echo "Here i am : "$_GET[ 'Model_Code' ];
+    echo "Here i am : ".$_GET[ 'Model_Code' ];
     $experts = isExpertIn( $_GET[ 'Model_Code' ] );
     
     foreach($experts as $expert) {
