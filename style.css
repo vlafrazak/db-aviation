@@ -1,7 +1,16 @@
-* {
-margin: 0;
+html,body {
+   margin:0;
+   padding:0;
+   height:100%;
 }
-	h1{
+
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+h1{
 	color: white;  /*#ffc;*/
 	background-color: #191970;
 	/*text-align: center;*/
@@ -13,64 +22,41 @@ margin: 0;
 	clear:left;
 	/*border-bottom-width: 0.7em;*/
 	/*border-bottom-color: #c63c64;*/
-       background-image: url(clouds.jpg);
+       background-image: url(/~db/db-aviation/images/clouds.jpg);
        background-repeat: no-repeat;
        background-position: right top;
        padding-top:40px;
        padding-bottom:20px;
        width: 100%;
-	height:100%;
-	margin:0 auto;
+	margin:0;
+	padding:25px;
        /*clear:left;*/
    }
 
 body{
 	font-size: 90%;
-    font-family: 'Georgia', serif;
+        font-family: 'Georgia', serif;
 	overflow-y: scroll;
-	margin:auto;
-	height:100%;
+	 padding:10px;
+   	padding-bottom:60px;
 }
 
 /*menu*/
 #menu ul {margin: 0; padding: 0; 
 	/*list-style-type: none; list-style-image: none;*/ }
-#menu li {display: inline; padding: 5px 20px 5px 20px; }
+#menu li {display: inline; padding: 5px 20px 5px 20px; 	}
 #menu ul li a {text-decoration:none;  margin: none;text-align:center;
 	padding: 5px 10px 5px 10px; color:#FFFFCC;
 	background:  #191970;}
 #menu ul li a:hover {color: white;
-	background: #1E90FF; 
-	overflow-y: scroll;
-	height:100%;
-min-height: 100%;
-margin-bottom: -30px;
-position: relative;
-	/*margin:auto;*/
-}
-
-.clearfooter {
-height:30px;
-clear: both;
-}
-/*footer
-
-#footer ul {margin: 0; padding: 0; }
-	list-style-type: none; list-style-image: none; 
-#footer li {display: inline;}
-#footer ul li a {text-decoration:none;  margin: none;
-	padding: 5px 10px 5px 10px;color:#00008B;
-	background:  white;}
-#footer ul li a:hover {color: #139BAE;
-	background: white; 
-	overflow-y: scroll;
-	height:100%;
-	margin:auto;*/
+	background: #1E90FF; }
 
 #footer{
-	height: 30px;
-	position: relative;
-
+	height: 330px;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	height:60px;
 	margin: 0 auto;
 	border-top-width: 2px;
 	border-top-style: solid;	
@@ -81,7 +67,6 @@ clear: both;
 	color: #00008B;
 	text-align: center;
 	font-size: small;
-	width: 100%;
 	padding-top: 10px;
 	padding-right: 0px;
 	padding-left: 0px;}
@@ -92,5 +77,4 @@ clear: both;
 
 #footer a:hover {color: #139BAE;
 	background: white; 
-	margin:auto;
-	/*height: 60px;*/}
+	margin:auto;}
