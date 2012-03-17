@@ -25,11 +25,11 @@ strict.dtd">
 
 	<div id="menu">
 		<ul>
-		<li class="mainMenu"><img 
+		<li class="mainMenu"><!--<img 
 		            src = "/~db/db-aviation/images/maurouli.jpg"
                 	alt= "The db is not a lie..." 
                 	width="50" 
-                	hight="50" /> 
+                	hight="50" /> -->
 		<a href="/~db/db-aviation">Αρχική Σελίδα</a></li>
         <li class="mainMenu" ><a href="/~db/db-aviation/views/listEmployees/">Εργαζόμενοι</a>
         <li><a href="/~db/db-aviation/views/listTechnicians/">Τεχνικοί</a></li>
@@ -41,14 +41,5 @@ strict.dtd">
 		</ul>
 		
 	</div>
-  <div class="clearfooter"></div>
-
-  <div id="footer"><p>Credits: 
-		<a href="mailto:lydiazak90@gmail.com">  Lydia Zak </a> ,
-		<a href="mailto:iren.vlsi@gmail.com">  Iren Vlassi</a> , 	
-		<a href="mailto:valia.fragiad@gmail.com">  Valia Fr</a>.
-  	</div><!-- End of container-->	
-	</body>
-</html>
 
 
