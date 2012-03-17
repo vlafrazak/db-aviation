@@ -20,7 +20,7 @@
     <tr><td>Salary:</td><td> <input type="int" name="Salary" /></td></tr>
     </table>
     
-    <input type="submit" /></td>
+    <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
 
 </form>
 

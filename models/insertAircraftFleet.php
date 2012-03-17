@@ -8,7 +8,7 @@
       Model_Code
     )
     VALUES (
-       $_POST[Registration_Number],
+        $_POST[Registration_Number],
         '$_POST[Air_Carrier]',
         $_POST[Construction_Date],
         $_POST[Model_Code]
