@@ -62,6 +62,18 @@ body{
 	height:200px;
 }
 
+table
+{
+width:100%;
+}
+th
+{
+height:50px;
+} 
+td
+{
+padding:15px;
+}
 
 table, td, th
 {
@@ -69,7 +81,7 @@ border:1px solid navy;
 }
 th
 {
-background-color:#1E90FF;
+background-color:#87CEFA ;
 color:white;
 }
 
