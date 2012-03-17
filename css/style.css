@@ -77,22 +77,22 @@ padding:15px;
 
 table, td, th
 {
-border:7px solid #ECD872;
+border:7px solid #FFF8C6;  /*mpezouli*/
 }
 th
 {
-background-color:#15317E;
+background-color:#15317E;  /*royal blue*/
 color:#C6DEFF;
 }
 
 #playlist tr td {
-      background-color:#E3E4FA;
+      background-color:	#C2DFFF;  /*galazio*/
     }
 #playlist tr.even td {
-      background-color:	#E3E4FA;
+      background-color:	#C2DFFF; /*galazio*/ /*#E3E4FA:  levanda*/
     }
 #playlist tr.odd td {
-      background-color:	#ECD872;
+      background-color:	#ECD872;  /*xryso*/
     }
 
 #footer{
