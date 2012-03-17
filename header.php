@@ -13,7 +13,7 @@ strict.dtd">
 			<link
         			rel = "stylesheet"
         			type = "text/css"
-				href = "style.css" />
+				href = "/~db/db-aviation/css/style.css" />
 			<link rel = "shotcut icon" href= "/~db/db-aviation/images/maurouli.jpg"/>
 		</head>
     	<body>
