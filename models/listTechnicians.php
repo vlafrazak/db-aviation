@@ -18,8 +18,18 @@
 
     $answer = array();
     foreach( $techs as $tech) {
-        $tech[ 'mails' ] = listEmails( $employee[ 'Emp_Code' ] );
-        $tech[ 'phones' ] = listPhones( $employee[ 'Emp_Code' ] );
+        $tech[ 'mails' ] = query_array( 
+            "SELECT e.E_mail
+                FROM
+            E_MAILS e
+                WHERE
+                e.Emp_Code = " . $tech[ 'Emp_Code' ] );
+        $tech[ 'phones' ] = query_array(
+                "SELECT p.Phone_number
+                FROM
+                    PHONES p
+                WHERE
+                    p.Emp_Code = " . $tech[ 'Emp_Code' ] );
         $answer[] = $tech;
     }
     return $answer;    

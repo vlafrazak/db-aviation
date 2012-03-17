@@ -1,7 +1,5 @@
 <?php  
-    include 'database.php';
-    include 'listEmails.php';
-    include 'listPhones.php';
+    include_once 'database.php';
 
     $employees = query_array ( 
         "SELECT 
@@ -16,8 +14,18 @@
 
     $answer = array();
     foreach( $employees as $employee) {
-        $employee[ 'mails' ] = listEmails( $employee[ 'Emp_Code' ] );
-        $employee[ 'phones' ] = listPhones( $employee[ 'Emp_Code' ] );
+        $employee[ 'mails' ] = query_array( 
+            "SELECT e.E_mail
+                FROM
+            E_MAILS e
+                WHERE
+                e.Emp_Code = " . $employee[ 'Emp_Code' ] );
+        $employee[ 'phones' ] = query_array(
+                "SELECT p.Phone_number
+                FROM
+                    PHONES p
+                WHERE
+                    p.Emp_Code = " . $employee[ 'Emp_Code' ] );
         $answer[] = $employee;
     }
     return $answer;    

@@ -18,8 +18,18 @@
     
     $answer = array();
     foreach( $controllers as $controller) {
-        $controller[ 'mails' ] = listEmails( $employee[ 'Emp_Code' ] );
-        $controller[ 'phones' ] = listPhones( $employee[ 'Emp_Code' ] );
+        $controller[ 'mails' ] = query_array( 
+            "SELECT e.E_mail
+                FROM
+            E_MAILS e
+                WHERE
+                e.Emp_Code = " . $controller[ 'Emp_Code' ] );
+        $controller[ 'phones' ] = query_array(
+                "SELECT p.Phone_number
+                FROM
+                    PHONES p
+                WHERE
+                    p.Emp_Code = " . $controller[ 'Emp_Code' ] );
         $answer[] = $controller;
     }
     return $answer;    
