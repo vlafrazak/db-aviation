@@ -3,7 +3,7 @@
 ?>
 
 
-<h2>Aircraft Model</h2>
+<h2>Aircraft Models</h2>
 
 <table class = "content">
 <tr>
@@ -28,7 +28,9 @@
         
         echo "<td><form action='/~db/db-aviation/views/updateAircraftModels.php' method='post'>";
         echo "<input type='hidden' name='Model_Code' value=" . $aircraft[ 'Model_Code' ] . "/>";
-        echo "<input type='hidden' name='Model_Name' value=" . $aircraft[ 'Model_Name' ] . "/>";
+        ?>
+        <input type='hidden' name='Model_Name' value= <a href="/~db/db-aviation/views/listIsExpertIn>" .$aircraft[ 'Model_Name' ] ."</a>" "/>";
+        <?php
         echo "<input type='hidden' name='Capacity' value=" . $aircraft[ 'Capacity' ] . "/>";
         echo "<input type='hidden' name='Weight' value=" . $aircraft[ 'Weight' ] . "/>";
         echo "<input type='hidden' name='Manufacturer' value=" . $aircraft[ 'Manufacturer' ] . "/>";
