@@ -4,8 +4,7 @@
 
 <h2>Insert an Aircraft Model</h2>
 
-
-<form action="/~db/db-aviation/models/insertAircraftModel.php" method="post">
+<form action="/~db/db-aviation/models/insertAircraftModels.php" method="post">
 
     <table class="input form">
     <tr class="odd"><td>Model Code:</td><td> <input type="int" name="Model_Code" /></td></tr>
@@ -14,15 +13,14 @@
     <tr><td>Weight:</td><td> <input type="int" name="Weight" /></td></tr>
     <tr class="odd"><td>Manufacturer:</td><td> <input type="text" name="Manufacturer" /></td></tr>
     </table>
-    
-    <input type="submit" /></td>
+
+    <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
 
 </form>
 
-<form action='/~db/db-aviation/views/listAircraftModel.php' method='post'> 
-<input type='submit' value='Cancel' title='Άκυρο'/>                                                   
+<form action='/~db/db-aviation/views/listAircraftModels.php' method='post'> 
+   <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
 </form>
-
 
 <?php
     include "../footer.php"
