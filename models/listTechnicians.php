@@ -1,5 +1,7 @@
 <?php  
-include 'database.php';
+    include 'database.php';
+    include 'listEmails.php';
+    include 'listPhones.php';
 
     $techs = query_array( 
         "SELECT e.*, t.Rank
@@ -16,22 +18,8 @@ include 'database.php';
 
     $answer = array();
     foreach( $techs as $tech) {
-        $mails = query_array(
-            "SELECT m.E_mail
-            FROM
-                E_MAILS m
-            WHERE
-                m.Emp_Code = " . $tech[ 'Emp_Code' ]
-        );
-        $phones = query_array(
-            "SELECT p.Phone_number
-            FROM
-                PHONES p
-            WHERE
-                p.Emp_Code = " . $tech[ 'Emp_Code' ]
-        );
-        $tech[ 'mails' ] = $mails;
-        $tech[ 'phones' ] = $phones;
+        $tech[ 'mails' ] = listEmails( $employee[ 'Emp_Code' ] );
+        $tech[ 'phones' ] = listPhones( $employee[ 'Emp_Code' ] );
         $answer[] = $tech;
     }
     return $answer;    
