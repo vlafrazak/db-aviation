@@ -13,7 +13,7 @@
 </tr>
 
 <?php
-    $tests = include "../models/lisTFAATests.php";
+    $tests = include "../models/listFAATests.php";
 
     foreach( $tests as $test ) {
         echo "<tr>";
@@ -30,7 +30,7 @@
        // echo "</form></td>";
 
 
-        echo "<td><form action='/~db/db-aviation/models/deleteFAATest.php' method='post'>";
+        echo "<td><form action='/~db/db-aviation/models/deleteFAATests.php' method='post'>";
         echo "<input type='hidden' name='Test_Number' value=" . $test[ 'Test_Number' ] . "/>";
         echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
