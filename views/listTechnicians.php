@@ -4,7 +4,7 @@
 
 <h2>Technicians</h2>
 <table id="playlist" class = "content">
-<tr class="odd">
+<tr class="even">
 <th>Emp Code</th>
 <th>SSN</th>
 <th>UMN</th>
