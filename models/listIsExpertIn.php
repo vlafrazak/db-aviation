@@ -1,14 +1,24 @@
 <?php  
     include 'database.php';
-
-    $expert = query_array( 
-        "SELECT *
-            FROM
-            IS_EXPERT_IN"
-        );
-    if( !$expert ) {
-        die( mysql_error() );
+    function isExpertIn( $Model_Code ) {
+        $expert = query_array( 
+            "SELECT e . * , ex.Degree_of_Experience, p.Phone_Number, m.E_mail
+            FROM EMPLOYEES e
+            INNER JOIN IS_EXPERT_IN ex ON
+            (
+                e.Emp_Code = ex.Emp_Code
+                AND ex.Model_Code = " . $Model_Code .
+            ")
+            LEFT JOIN PHONES p ON p.Emp_Code = e.Emp_Code
+            LEFT JOIN E_MAILS m ON m.Emp_Code = e.Emp_Code"
+            );
+        if( !$expert ) {
+            die( mysql_error() );
+        }
+        return $expert;    
+            
     }
-    return $expert;    
+
+
 ?>
 
