@@ -13,7 +13,7 @@ strict.dtd">
 			<link
         			rel = "stylesheet"
         			type = "text/css"
-				href = "/~db/db-aviation/css/style.css" />
+				href = "style.css" />
 			<link rel = "shotcut icon" href= "/~db/db-aviation/images/maurouli.jpg"/>
 		</head>
     	<body>
@@ -25,7 +25,7 @@ strict.dtd">
 		<div id="menu">
 			<ul>
 			<li class="mainMenu"><img 
-			            src = "maurouli.jpg"
+			            src = "/~db/db-aviation/images/maurouli.jpg"
                 		alt= "The db is not a lie..." 
                 		width="50" 
                 		hight="50" /> 
@@ -42,7 +42,7 @@ strict.dtd">
 		</div>
   	</body>
 	<img id = "eikona"
-		src = "first.jpg"
+		src = "/~db/db-aviation/images/first.jpg"
                 alt= "The db is not a lie..." 
              	width="50" 
                 hight="50"
