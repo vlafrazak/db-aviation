@@ -1,21 +1,37 @@
 <?php  
     include 'database.php';
 
-    $employees = query_array( 
+    $employees = query_array ( 
         "SELECT 
-            e . * , m.E_mail, p.Phone_Number
+            e . * , p.Phone_Number
         FROM 
             EMPLOYEES e
         LEFT JOIN 
         (
-            E_MAILS m, PHONES p
+            PHONES p
         ) 
         ON 
         (
             e.Emp_Code = p.Emp_Code
-            AND e.Emp_Code = p.Emp_Code
         )"
-        );
+    );
+
+     $employees = query_array ( 
+        "SELECT 
+            e . * , m.E_mail
+        FROM 
+            EMPLOYEES e
+        LEFT JOIN 
+        (
+            E_MAILS m
+        ) 
+        ON 
+        (
+            e.Emp_Code = m.Emp_Code
+        )"
+    );
+
+
     if( !$employees ) {
         die( mysql_error() );
     }
