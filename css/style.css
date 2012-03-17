@@ -85,12 +85,11 @@ background-color:#15317E;
 color:white;
 }
 
-#playlist tr.odd td {
-      background-color:#FFF8C6; 
-    }
-
 #playlist tr.even td {
       background-color:	#C6DEFF;
+    }
+#playlist tr.odd td {
+      background-color:#FFF8C6; 
     }
 
 
