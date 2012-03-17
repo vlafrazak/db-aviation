@@ -4,7 +4,7 @@
 
 <h2>Technicians</h2>
 <table class = "content">
-<tr>
+<tr class="odd">
 <th>Emp Code</th>
 <th>SSN</th>
 <th>UMN</th>

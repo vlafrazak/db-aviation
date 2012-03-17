@@ -7,9 +7,9 @@
 <form action="/~db/db-aviation/models/insertAirTrafficControllers.php" method="post">
 
     <table>
-    <tr><td>Emp Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
+    <tr class="odd"><td>Emp Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
     <tr><td>Last Exam Date:</td><td> <input type="date" name="Last_Exam_Date" /></td></tr>
-    <tr><td>Exam Result:</td><td> <input type="int" name="Exam_Result" /></td></tr>
+    <tr class="odd"><td>Exam Result:</td><td> <input type="int" name="Exam_Result" /></td></tr>
     </table>
     
     <input type='submit' value='Submit' title='Προσθήκη'/>                                                   

@@ -7,7 +7,7 @@
 <form action="/~db/db-aviation/models/insertTechnicians.php" method="post">
 
     <table>
-    <tr><td>Emp Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
+    <tr class="odd"><td>Emp Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
     <tr><td>Rank:</td><td> <input type="int" name="Rank" /></td></tr>
     </table>
     

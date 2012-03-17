@@ -5,7 +5,7 @@
 
 <h2>Aircraft Fleet</h2>
 <table class = "content">
-<tr>
+<tr class="odd">
 <th>Registration Number</th> 
 <th>Air Carrier</th> 
 <th>Construction Date</th> 
