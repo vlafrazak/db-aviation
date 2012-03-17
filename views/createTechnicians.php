@@ -5,7 +5,7 @@
 <h2>Insert a Technician</h2>
 
 
-<form action="/~db/db-aviation/models/insertTechnicians.php" method="post">
+<form action="/~db/db-aviation/models/insertEmployees.php" method="post">
 
     <table class="input form">
     <tr><td>Emp_Code:</td><td> <input type="int" name="Emp_Code" /></td></tr>
@@ -18,15 +18,20 @@
     <tr><td>Postal_Code:</td><td> <input type="int" name="Postal_Code" /></td></tr>
     <tr><td>Year_of_Birth:</td><td> <input type="int" name="Year_of_Birth" /></td></tr>
     <tr><td>Salary:</td><td> <input type="int" name="Salary" /></td></tr>
-    <tr><td>Rank:</td><td> <input type="int" name="Rank" /></td></tr>
     </table>
     
     <input type="submit" /></td>
 
 </form>
 
+<form action="/~db/db-aviation/models/insertTechnicians.php" method="post">
+    <tr><td>Rank:</td><td> <input type="int" name="Rank" /></td></tr>
+    <input type="submit" /></td>
+</form>
+
+
 <form action='/~db/db-aviation/views/listTechnicians.php' method='post'> 
-<input type='submit' value='Cancel' title='Άκυρο'/>                                                   
+    <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
 </form>
 
 

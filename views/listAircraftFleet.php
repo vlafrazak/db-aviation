@@ -6,10 +6,10 @@
 <h2>Aircraft Fleet</h2>
 <table>
 <tr>
-<th>Registration_Number</th> 
-<th>Air_Carrier</th> 
-<th>Construction_Date</th> 
-<th>Model_Code</th> 
+<th>Registration Number</th> 
+<th>Air Carrier</th> 
+<th>Construction Date</th> 
+<th>Model Code</th> 
 <th>    </th>
 <th>    </th>
 </tr>

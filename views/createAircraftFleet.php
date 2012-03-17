@@ -6,10 +6,10 @@
 <form action="/~db/db-aviation/models/insertAircraftFleet.php" method="post">
 
     <table class="input form">
-    <tr><td>Registration_Number:</td><td> <input type="int" name="Registration_Number" /></td></tr>
-    <tr><td>Air_Carrier:</td><td> <input type="text" name="Air_Carrier" /></td></tr>
-    <tr><td>Construction_Date:</td><td> <input type="int" name="Construction_Date" /></td></tr>
-    <tr><td>Model_Code:</td><td> <input type="int" name="Model_Code" /></td></tr>
+    <tr><td>Registration Number:</td><td> <input type="int" name="Registration_Number" /></td></tr>
+    <tr><td>Air Carrier:</td><td> <input type="text" name="Air_Carrier" /></td></tr>
+    <tr><td>Construction Date:</td><td> <input type="int" name="Construction_Date" /></td></tr>
+    <tr><td>Model Code:</td><td> <input type="int" name="Model_Code" /></td></tr>
     </table>
 
     <input type="submit" />

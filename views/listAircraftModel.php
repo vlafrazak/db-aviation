@@ -7,8 +7,8 @@
 
 <table>
 <tr>
-<th>Model_Code</th> 
-<th>Model_Name</th> 
+<th>Model Code</th> 
+<th>Model Name</th> 
 <th>Capacity</th> 
 <th>Weight</th> 
 <th>Manufacturer</th>
