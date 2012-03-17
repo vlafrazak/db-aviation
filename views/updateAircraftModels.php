@@ -6,7 +6,7 @@
 
 <form action="/~db/db-aviation/models/updateAircraftModels.php" method="post">
 
-    <table class="input form">
+    <table id="playlist" class="input form">
 <<<<<<< HEAD
     <tr class="odd"><td>Model_Code:</td><td> <input type="int" readonly="readonly" name="Model_Code" value="<?php echo rtrim($_POST['Model_Code'],'/'); ?>"/></td></tr>
     <tr><td>Model_Name:</td><td> <input type="text" name="Model_Name" value="<?php echo rtrim($_POST['Model_Name'],'/'); ?>"/></td></tr>

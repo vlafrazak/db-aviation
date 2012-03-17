@@ -4,7 +4,7 @@
 
 
 <h2>Aircraft Fleet</h2>
-<table class = "content">
+<table id="playlist" class = "content">
 <tr class="odd">
 <th>Registration Number</th> 
 <th>Air Carrier</th> 

@@ -5,7 +5,7 @@
 
 <h2>Aircraft Model</h2>
 
-<table class = "content">
+<table id="playlist" class = "content">
 <tr class="odd">
 <th>Model Code</th> 
 <th>Model Name</th> 

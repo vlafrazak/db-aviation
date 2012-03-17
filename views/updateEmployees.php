@@ -6,7 +6,7 @@
 
 <form action="/~db/db-aviation/models/updateEmployees.php" method="post">
 
-    <table class="input form">
+    <table id="playlist" class="input form">
     <tr class="odd"><td>Emp Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
     <tr><td>SSN:</td><td> <input type="int" name="SSN" value="<?php echo rtrim($_POST['SSN'],'/'); ?>"/></td></tr>
     <tr><td>UMN:</td><td> <input type="int" name="Union_Membership_Number" value="<?php echo rtrim($_POST['Union_Membership_Number'],'/'); ?>"/></td></tr>

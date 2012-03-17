@@ -3,7 +3,7 @@
 ?>
 
 <h2>Air Traffic Controllers</h2>
-<table class="odd">
+<table id="playlist" class="odd">
 <tr>
 <th>Emp Code</th>
 <th>SSN</th>

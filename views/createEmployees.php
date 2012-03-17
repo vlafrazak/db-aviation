@@ -7,7 +7,7 @@
 
 <form action="/~db/db-aviation/models/insertEmployees.php" method="post">
 
-    <table class="input form">
+    <table id="playlist" class="input form">
     <tr class="odd"><td>Emp Code:</td><td> <input type="int" name="Emp_Code" /></td></tr>
     <tr><td>SSN:</td><td> <input type="int" name="SSN" /></td></tr>
     <tr class="odd"><td>UMN:</td><td> <input type="int" name="Union_Membership_Number" /></td></tr>
