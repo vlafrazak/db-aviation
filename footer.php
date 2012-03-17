@@ -1,4 +1,4 @@
-
+</div>
   <div class="clearfooter"></div>
 
   <div id="footer"><p>Credits: 

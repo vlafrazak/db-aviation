@@ -41,5 +41,6 @@ strict.dtd">
 		</ul>
 		
 	</div>
+	<div id = "content"
 
 

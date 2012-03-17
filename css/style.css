@@ -49,6 +49,12 @@ position: relative;
 	/*margin:auto;*/
 }
 
+content{
+	clear:both;
+	padding:5px;
+}
+
+
 .clearfooter {
 height:490px;
 clear: both;
