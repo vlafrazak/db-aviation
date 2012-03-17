@@ -57,6 +57,7 @@
         echo "</form></td>";
 
         echo "<td><form action='/~db/db-aviation/views/updateTechnicians.php' method='post'>";
+        echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input type='hidden' name='Rank' value=" . $employee[ 'Rank' ] . "/>";
         echo "<input type='submit' value='Edit Rank' title='Edit Rank'/>";
         echo "</form></td>";

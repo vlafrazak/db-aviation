@@ -1,6 +1,16 @@
 <?php  
   include 'database.php';
   query(
+   "INSERT INTO TECHNICIANS (
+       Emp_Code,
+       Rank
+   ) 
+   VALUES (
+       $_POST[Emp_Code],
+       $_POST[Rank]
+   )");
+
+  query(
     "INSERT INTO EMPLOYEES (
         Emp_Code,
         SSN,
@@ -11,8 +21,7 @@
         Street_Number,
         Postal_Code,
         Year_of_Birth,
-        Salary,
-        Rank
+        Salary
     )
     VALUES (
         $_POST[Emp_Code],
@@ -24,10 +33,11 @@
         $_POST[Street_Number],
         $_POST[Postal_Code],
         $_POST[Year_of_Birth],
-        $_POST[Salary],
-        $_POST[Rank]
+        $_POST[Salary]
     )");
-    
+  
+ 
+     
     $numargs = func_num_args();
     echo "Number of arguments: $numargs\n";
     Header ('Location: /~db/db-aviation/views/listTechnicians.php');
