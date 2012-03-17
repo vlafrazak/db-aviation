@@ -33,11 +33,18 @@ h1{
        /*clear:left;*/
    }
 
+
 #insert{
-	position:right;
-	padding: 5px 20px 5px 20px; 
+	border: 2px solid #6b766f;
+	background-color: #93a299;
 	color: #7E2217;
-	background:  navy;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	margin-bottom: 5px;
+	margin-top:10px;
+
+	position:right;
 }
 # insert a:hover {
 	color: #E18B6B;
