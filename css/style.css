@@ -40,9 +40,9 @@ h1{
 
 	position:right;
 } */
-#insert a {text-decoration:none;  margin: none; padding:5px 10px 10px 15px;
+#insert a {text-decoration:none;  margin: none; padding:400px 10px 10px 15px;
 	color:#F9966B;
-	background: #7E2217;position:right;}
+	background: #7E2217; position:right;}
 
 # insert a:hover {
 	color: white;
