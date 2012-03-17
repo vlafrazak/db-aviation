@@ -40,5 +40,4 @@ strict.dtd">
 			</ul>
 		
 		</div>
-	
-
+  	</body>
