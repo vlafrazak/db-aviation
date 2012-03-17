@@ -1,5 +1,5 @@
 <?php  
-    include 'database.php';
+    include_once 'database.php';
 
     function listEmails( $Emp_Code ) {
         $mails = query_array( 
