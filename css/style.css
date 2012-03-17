@@ -82,7 +82,7 @@ border:7px solid #FFF8C6;
 th
 {
 background-color:#15317E;
-color:#C6DEFF;
+color:#ECD872;
 }
 
 #playlist tr td {
@@ -92,7 +92,7 @@ color:#C6DEFF;
       background-color:	#E3E4FA;
     }
 #playlist tr.odd td {
-      background-color:	#FAF8CC;
+      background-color:	#ECD872;
     }
 
 #footer{
