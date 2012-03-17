@@ -52,7 +52,6 @@ body{
 	background: #1E90FF; }
 
 #footer{
-	height: 60px;
 	position: absolute;
 	bottom:0;
 	width: 100%;
@@ -62,7 +61,6 @@ body{
 	border-top-style: solid;	
 	border-top-color: #87CEFA;
 
-	/*position:absolute;*/
 	bottom:0px;
 	color: #00008B;
 	text-align: center;
