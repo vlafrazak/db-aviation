@@ -19,7 +19,7 @@ function query_array($query) {
 
     while($row = mysql_fetch_array($result))
     {
-        $answer[ $row[0] ] = $row;
+        $answer[ ] = $row;
     } 
     mysql_free_result($result);
     disconnect();
