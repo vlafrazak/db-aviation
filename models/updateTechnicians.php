@@ -9,7 +9,7 @@
             Rank=$_POST[Rank]
          WHERE 
             Emp_Code='$_POST[Emp_Code]'"
-        );
+    );
     Header ('Location: /~db/db-aviation/views/listTechnicians.php');
 ?>
 

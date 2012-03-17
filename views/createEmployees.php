@@ -25,7 +25,7 @@
 </form>
 
 <form action='/~db/db-aviation/views/listEmployees.php' method='post'> 
-<input type='submit' value='Cancel' title='Άκυρο'/>                                                   
+    <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
 </form>
 
 
