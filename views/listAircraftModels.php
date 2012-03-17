@@ -21,16 +21,13 @@
         echo "<tr>";
 
         echo "<td>" .  $aircraft[ 'Model_Code' ] . "</td>";
-        echo "<td>" .  $aircraft[ 'Model_Name' ] . "</td>";
+        echo "<td><a href='/~db/db-aviation/views/listIsExpertIn.php?Model_Code=" . $aircraft[ 'Model_Code' ] ."'>" .  $aircraft[ 'Model_Name' ] . "</a></td>";
         echo "<td>" .  $aircraft[ 'Capacity' ] . "</td>";
         echo "<td>" .  $aircraft[ 'Weight' ] . "</td>";
         echo "<td>" .  $aircraft[ 'Manufacturer' ] . "</td>";
         
         echo "<td><form action='/~db/db-aviation/views/updateAircraftModels.php' method='post'>";
         echo "<input type='hidden' name='Model_Code' value=" . $aircraft[ 'Model_Code' ] . "/>";
-        ?>
-        <input type='hidden' name='Model_Name' value= <a href="/~db/db-aviation/views/listIsExpertIn>" .$aircraft[ 'Model_Name' ] ."</a>" "/>";
-        <?php
         echo "<input type='hidden' name='Capacity' value=" . $aircraft[ 'Capacity' ] . "/>";
         echo "<input type='hidden' name='Weight' value=" . $aircraft[ 'Weight' ] . "/>";
         echo "<input type='hidden' name='Manufacturer' value=" . $aircraft[ 'Manufacturer' ] . "/>";
