@@ -6,7 +6,7 @@
 <h2>Aircraft Model</h2>
 
 <table class = "content">
-<tr>
+<tr class="odd">
 <th>Model Code</th> 
 <th>Model Name</th> 
 <th>Capacity</th> 

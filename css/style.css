@@ -81,9 +81,15 @@ border:1px solid navy;
 }
 th
 {
-background-color:#151B54;
+background-color:#15317E;
 color:white;
 }
+#playlist tbody tr td {
+      background-color: #fff;
+    }
+#playlist tbody tr.odd  td {
+      background-color: #C6DEFF;
+    }
 
 
 #footer{

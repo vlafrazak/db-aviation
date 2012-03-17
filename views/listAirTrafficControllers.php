@@ -3,7 +3,7 @@
 ?>
 
 <h2>Air Traffic Controllers</h2>
-<table class = "content">
+<table class="odd">
 <tr>
 <th>Emp Code</th>
 <th>SSN</th>
