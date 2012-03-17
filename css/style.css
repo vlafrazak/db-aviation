@@ -86,13 +86,13 @@ color:#C6DEFF;
 }
 
 #playlist tr td {
-      background-color:		#E3E4FA;
+      background-color:#E3E4FA;
     }
 #playlist tr.even td {
       background-color:	#C6DEFF;
     }
 #playlist tr.odd td {
-      background-color:#FFF8C6; 
+      background-color:#E3E4FA;
     }
 
 #footer{
