@@ -35,29 +35,41 @@ body{
 /*menu*/
 #menu ul {margin: 0; padding: 0; 
 	/*list-style-type: none; list-style-image: none;*/ }
-#menu li {display: inline; padding: 5px 20px 5px 20px; }
+#menu li {display: inline; padding: 5px 20px 5px 20px; 	min-height: 100%;
+	margin-bottom: -330px;
+	position: relative;}
 #menu ul li a {text-decoration:none;  margin: none;text-align:center;
 	padding: 5px 10px 5px 10px; color:#FFFFCC;
 	background:  #191970;}
 #menu ul li a:hover {color: white;
+
 	background: #1E90FF; 
-	overflow-y: scroll;
+	/*overflow-y: scroll;
 	height:100%;
-min-height: 100%;
-margin-bottom: -490px;
-position: relative;
-	/*margin:auto;*/
+	margin:auto;*/
 }
 
+#content{
+	clear:both;
+	padding:5px;
+	height:-330px;
+}
+
+<<<<<<< HEAD
 #content{
 	clear:both;
 	padding:5px;
 }
 
 
-.clearfooter {
-height:490px;
-clear: both;
+#clearfooter {
+	height:330px;
+	clear: both;
+=======
+#clearfooter {
+	height:330px;
+	clear: both;
+>>>>>>> d71239f4e7d0c79c9eeaa1a5520e4a40c4885e5a
 }
 /*footer
 
