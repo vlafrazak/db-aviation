@@ -17,6 +17,8 @@
 <th>Salary</th>
 <th>E-mail</th>
 <th>Phone</th>
+<th></th>
+<th></th>
 </tr>
 
 <?php

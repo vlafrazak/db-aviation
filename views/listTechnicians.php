@@ -18,6 +18,8 @@
 <th>E-mail</th>
 <th>Phone</th>
 <th>Rank</th>
+<th></th>
+<th></th>
 </tr>
 
 <?php

@@ -12,6 +12,8 @@
 <th>Capacity</th> 
 <th>Weight</th> 
 <th>Manufacturer</th>
+<th></th>
+<th></th>
 </tr>
 
 <?php

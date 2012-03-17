@@ -19,6 +19,8 @@
 <th>Phone</th>
 <th>Last Exam Date</th>
 <th>Exam Result</th>
+<th></th>
+<th></th>
 </tr>
 
 <?php
