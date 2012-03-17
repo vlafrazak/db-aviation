@@ -2,7 +2,7 @@
 include 'database.php';
 
     $techs = query_array( 
-        "SELECT *
+        "SELECT e.*, t.Rank, m.E_mail, p.Phone_Number
         FROM 
             EMPLOYEES e
         INNER JOIN 
