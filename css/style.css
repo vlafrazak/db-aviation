@@ -84,10 +84,10 @@ th
 background-color:#15317E;
 color:white;
 }
-#playlist tbody tr td {
+#playlist tr td {
       background-color: #fff;
     }
-#playlist tbody tr.odd  td {
+#playlist tr.odd  td {
       background-color: #C6DEFF;
     }
 
