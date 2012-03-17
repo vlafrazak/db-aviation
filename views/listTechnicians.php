@@ -5,20 +5,19 @@
 <h2>Technicians</h2>
 <table>
 <tr>
-<th>Emp_Code</th>
+<th>Emp Code</th>
 <th>SSN</th>
-<th>Union_Membership_Number</th>
-<th>First_Name</th>
+<th>UMN</th>
+<th>First Name</th>
 <th>Surname</th>
-<th>Street_Name</th>
-<th>Street_Number</th>
-<th>Postal_Code</th>
-<th>Year_of_Birth</th>
+<th>Street Name</th>
+<th>Street Number</th>
+<th>Postal Code</th>
+<th>Year of Birth</th>
 <th>Salary</th>
 <th>e-mail</th>
 <th>Phone</th>
-<th>      </th>
-<th>      </th>
+<th>Rank</th>
 </tr>
 
 <?php
@@ -39,8 +38,9 @@
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
         echo "<td><a href='mailto:" .  $employee[ 'E_mail' ] . "'>" . $employee[ 'E_mail' ] . "</a></td>";
         echo "<td>" .  $employee[ 'Phone_Number' ] . "</td>";
+        echo "<td>" .  $employee[ 'Rank' ] . "</td>";
         
-        echo "<td><form action='/~db/db-aviation/views/updateTechnicians.php' method='post'>";
+        echo "<td><form action='/~db/db-aviation/views/updateEmployees.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input type='hidden' name='SSN' value=" . $employee[ 'SSN' ] . "/>";
         echo "<input type='hidden' name='Union_Membership_Number' value=" . $employee[ 'Union_Membership_Number' ] . "/>";
@@ -53,12 +53,17 @@
         echo "<input type='hidden' name='Salary' value=" . $employee[ 'Salary' ] . "/>";
         echo "<input type='hidden' name='E_mail' value=" . $employee[ 'E_mail' ] . "/>";
         echo "<input type='hidden' name='Phone_Number' value=" . $employee[ 'Phone_Number' ] . "/>";
-        echo "<input type='submit' value='Edit' title='Επεξεργασία'/>";
+        echo "<input type='submit' value='Edit' title='Edit'/>";
+        echo "</form></td>";
+
+        echo "<td><form action='/~db/db-aviation/views/updateTechnicians.php' method='post'>";
+        echo "<input type='hidden' name='Rank' value=" . $employee[ 'Rank' ] . "/>";
+        echo "<input type='submit' value='Edit Rank' title='Edit Rank'/>";
         echo "</form></td>";
         
-        echo "<td><form action='/~db/db-aviation/models/deleteEmployee.php' method='post'>";
+        echo "<td><form action='/~db/db-aviation/models/deleteEmployees.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
-        echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
+        echo "<input type='submit' value='&times;' title='Delete'/>";
         echo "</form></td>";
         
         echo "</tr>";
@@ -67,7 +72,7 @@
 ?>
 </table>
 
-<th><a href="/~db/db-aviation/views/createTechnicians">Insert</a></th>
+<th><a href="/~db/db-aviation/views/createTechnicians">Insert a Technician</a></th>
 
 <?php
     include "../footer.php";

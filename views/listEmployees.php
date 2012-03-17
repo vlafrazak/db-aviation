@@ -5,20 +5,18 @@
 <h2>Employees</h2>
 <table>
 <tr>
-<th>Emp_Code</th>
+<th>Emp Code</th>
 <th>SSN</th>
-<th>Union_Membership_Number</th>
-<th>First_Name</th>
+<th>UMN</th>
+<th>First Name</th>
 <th>Surname</th>
-<th>Street_Name</th>
-<th>Street_Number</th>
-<th>Postal_Code</th>
-<th>Year_of_Birth</th>
+<th>Street Name</th>
+<th>Street Number</th>
+<th>Postal Code</th>
+<th>Year of Birth</th>
 <th>Salary</th>
 <th>e-mail</th>
 <th>Phone</th>
-<th>      </th>
-<th>      </th>
 </tr>
 
 <?php

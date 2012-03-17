@@ -67,7 +67,7 @@
 ?>
 </table>
 
-<th><a href="/~db/db-aviation/views/createAirTraficControllers/">Insert</a></th>
+<th><a href="/~db/db-aviation/views/createAirTraficControllers/">Insert a Controller</a></th>
 
 <?php
     include "../footer.php";
