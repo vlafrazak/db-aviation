@@ -17,7 +17,7 @@ strict.dtd">
 			<link rel = "shotcut icon" href= "/~db/db-aviation/images/maurouli.jpg"/>
 		</head>
     	<body>
-		<h1 id = "top">     ΑΕΡΟΔΡΟΜΙΟ   ΕΛΕΥΘΕΡΙΟΣ   ΒΕΝΙΖΕΛΟΣ</h1>
+		<h1 id = "top">     AIRPORT   ELEFTHERIOS   VENIZELOS</h1>
 		<?php
     			$myset = include "settings-local.php";
 		?>
@@ -29,16 +29,16 @@ strict.dtd">
                 		alt= "The db is not a lie..." 
                 		width="50" 
                 		hight="50" /> 
-			<a href="/~db/db-aviation">Αρχική Σελίδα</a></li>
-        		<li class="mainMenu" ><a href="/~db/db-aviation/views/listEmployees/">Εργαζόμενοι</a>
-        		<li><a href="/~db/db-aviation/views/listTechnicians/">Τεχνικοί</a></li>
-      		  	<li><a href="/~db/db-aviation/views/listAirTrafficControllers/">Χειριστές Εναέριας Κυκλοφορίας</a></li>
+			<a href="/~db/db-aviation">HOME</a></li>
+        		<li class="mainMenu" ><a href="/~db/db-aviation/views/listEmployees/">EMPLOYEES</a>
+        		<li><a href="/~db/db-aviation/views/listTechnicians/">TECHNICIANS</a></li>
+      		  	<li><a href="/~db/db-aviation/views/listAirTrafficControllers/">AIR TRAFFIC CONTROLLERS</a></li>
         		</li>
-			<li class="mainMenu" ><a href="/~db/db-aviation/views/listAircraftFleet/">Βάση Αεροσκαφών</a></li>
-			<!--<li><a href="/~db/db-aviation/views/listAircraftModels/">Μοντέλα Αεροσκαφών</a></li>
-			<li><a href="/~db/db-aviation/views/listChecks/">Έλεγχοι</a></li>-->
-			</ul>
-		
+			<li class="mainMenu" ><a href="/~db/db-aviation/views/listAircraftFleet/">AIRCRAFT FLEET</a></li>
+			<li><a href="/~db/db-aviation/views/listAircraftModels/">AIRCRAFT MODELS</a></li>
+			<li><a href="/~db/db-aviation/views/listChecks/">CHECKS</a></li>
+			<li><a href="/~db/db-aviation/views/listFAACheckTypes/">FAA CHECK TYPES</a></li>
+		    </ul>
 		</div>
   	</body>
 
