@@ -55,7 +55,6 @@ body{
 	height:-330px;
 }
 
-<<<<<<< HEAD
 #content{
 	clear:both;
 	padding:5px;
@@ -65,11 +64,6 @@ body{
 #clearfooter {
 	height:330px;
 	clear: both;
-=======
-#clearfooter {
-	height:330px;
-	clear: both;
->>>>>>> d71239f4e7d0c79c9eeaa1a5520e4a40c4885e5a
 }
 /*footer
 
