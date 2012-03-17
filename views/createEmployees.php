@@ -20,7 +20,7 @@
     <tr class="even"><td>Salary:</td><td> <input type="int" name="Salary" /></td></tr>
     </table>
     
-    <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
+    <input id = "koumpi" type='submit' value='Submit' title='Προσθήκη'/>                                                   
 
 </form>
 

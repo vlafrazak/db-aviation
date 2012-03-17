@@ -3,6 +3,9 @@
 ?>
 
 <h2>Employees</h2>
+
+<h3 id= "insert"><th><a href="/~db/db-aviation/views/createEmployees">INSERT</a></th> </h3>
+
 <table id="playlist" class = "content">
 <tr class="even">
 <th>Emp Code</th>
@@ -91,7 +94,7 @@
 ?>
 </table>
 
-<th><a href="/~db/db-aviation/views/createEmployees">Insert</a></th>
+
 
 <?php
     include "../footer.php";

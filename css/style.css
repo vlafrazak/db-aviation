@@ -33,6 +33,18 @@ h1{
        /*clear:left;*/
    }
 
+#insert{
+	position:right;
+	padding: 5px 20px 5px 20px; 
+	color: #7E2217;
+	background:  navy;
+}
+# insert a:hover {
+	color: #E18B6B;
+	background: white; 
+	margin:auto;}	
+}
+
 body{
 	font-size: 90%;
         font-family: 'Georgia', serif;
@@ -96,6 +108,12 @@ text-align:center;
 #playlist tr.odd td {
       background-color:	#ECD872;  /*xryso*/
     }
+
+koumpi{
+	
+
+}
+
 
 #footer{
 	position: relative;
