@@ -36,16 +36,14 @@ h1{
 
 #insert{
 	border: 2px solid #6b766f;
-	background-color: #93a299;
-	color: #7E2217;
-	padding-left: 10px;
-	padding-right: 5px;
-	padding-bottom: 20px;
-	margin-bottom: 5px;
-	margin-top:10px;
+	
 
 	position:right;
 }
+#insert a {text-decoration:none;  margin: none;
+	color:#00008B;
+	background:  white;position:right;}
+
 # insert a:hover {
 	color: #E18B6B;
 	background: white; 
@@ -72,7 +70,7 @@ body{
 	background: #1E90FF; }
 
 #eikona{
-	padding-top:150px;
+	padding-top:250px;
 	padding-bottom:75px;
 	padding-left:200px;
 	
