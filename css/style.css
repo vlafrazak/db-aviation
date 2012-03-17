@@ -49,7 +49,7 @@ position: relative;
 	/*margin:auto;*/
 }
 
-content{
+#content{
 	clear:both;
 	padding:5px;
 }
