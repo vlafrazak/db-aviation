@@ -8,18 +8,31 @@ include 'database.php';
         INNER JOIN 
             TECHNICIANS t
         ON 
-            e.Emp_Code = t.Emp_Code
-        LEFT JOIN
-            E_MAILS m
-        ON 
-            m.Emp_Code = e.Emp_Code
-        LEFT JOIN
-            PHONES p
-        ON
-            p.Emp_Code = e.Emp_Code"
+            e.Emp_Code = t.Emp_Code"
     );
     if( !$techs ) {
         die( mysql_error() );
     }
-    return $techs;    
+
+    $answer = array()
+    foreach( $techs as $tech) {
+        $mails = query_array(
+            "SELECT m.E_mail
+            FROM
+                EMAILS m
+            WHERE
+                m.Emp_Code = " . $tech[ 'Emp_Code' ];
+        );
+        $phones = query_array(
+            "SELECT p.Phone_number
+            FROM
+                PHONES p
+            WHERE
+                p.Emp_Code = " . $tech[ 'Emp_Code' ];
+        );
+        $tech[ 'mails' ] = $mails;
+        $tech[ 'phones' ] = $phones;
+        $answer[] = $tech;
+    }
+    return $answer;    
 ?>
