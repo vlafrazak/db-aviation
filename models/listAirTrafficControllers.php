@@ -1,5 +1,7 @@
 <?php  
     include 'database.php';
+    include 'listEmails.php';
+    include 'listPhones.php';
 
     $controllers = query_array( 
         "SELECT e.*, c.Last_Exam_Date, c.Exam_Result
@@ -16,22 +18,8 @@
     
     $answer = array();
     foreach( $controllers as $controller) {
-        $mails = query_array(
-            "SELECT m.E_mail
-            FROM
-                E_MAILS m
-            WHERE
-                m.Emp_Code = " . $controller[ 'Emp_Code' ]
-        );
-        $phones = query_array(
-            "SELECT p.Phone_number
-            FROM
-                PHONES p
-            WHERE
-                p.Emp_Code = " . $controller[ 'Emp_Code' ]
-        );
-        $controller[ 'mails' ] = $mails;
-        $controller[ 'phones' ] = $phones;
+        $controller[ 'mails' ] = listEmails( $employee[ 'Emp_Code' ] );
+        $controller[ 'phones' ] = listPhones( $employee[ 'Emp_Code' ] );
         $answer[] = $controller;
     }
     return $answer;    
