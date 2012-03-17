@@ -13,7 +13,7 @@ strict.dtd">
 			<link
         			rel = "stylesheet"
         			type = "text/css"
-				href = "/~db/db-aviation/css/style.css" />
+				href = "style.css" />
 			<link rel = "shotcut icon" href= "/~db/db-aviation/images/maurouli.jpg"/>
 		</head>
     	<body>
@@ -24,11 +24,11 @@ strict.dtd">
 
 		<div id="menu">
 			<ul>
-			<li class="mainMenu"><!--<img 
-			            src = "/~db/db-aviation/images/maurouli.jpg"
+			<li class="mainMenu"><img 
+			            src = "maurouli.jpg"
                 		alt= "The db is not a lie..." 
                 		width="50" 
-                		hight="50" /> -->
+                		hight="50" /> 
 			<a href="/~db/db-aviation">Αρχική Σελίδα</a></li>
         		<li class="mainMenu" ><a href="/~db/db-aviation/views/listEmployees/">Εργαζόμενοι</a>
         		<li><a href="/~db/db-aviation/views/listTechnicians/">Τεχνικοί</a></li>
@@ -41,3 +41,11 @@ strict.dtd">
 		
 		</div>
   	</body>
+	<img id = "eikona"
+		src = "first.jpg"
+                alt= "The db is not a lie..." 
+             	width="50" 
+                hight="50"
+		align = center
+	/>
+
