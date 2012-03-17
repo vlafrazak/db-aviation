@@ -40,7 +40,8 @@ h1{
 
 	position:right;
 } */
-#insert a {text-decoration:none;  margin: none; padding:400px 10px 10px 15px;
+#insert a {text-decoration:none;  margin: none; padding:15px 15px 15px 15px;
+	margin-right:300px;
 	color:#F9966B;
 	background: #7E2217; position:right;}
 
@@ -75,8 +76,8 @@ body{
 	padding-left:200px;
 	
 	position:right;
-	width:320px;
-	height:200px;
+	width:350px;
+	height:250px;
 }
 
 table
