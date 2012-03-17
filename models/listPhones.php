@@ -1,5 +1,5 @@
 <?php  
-    include 'database.php';
+    include_once 'database.php';
 
     function listPhones( $Emp_Code ) {
         $phones = query_array(
