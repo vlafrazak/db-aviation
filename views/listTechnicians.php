@@ -53,9 +53,8 @@
         
         echo "</tr>";
     
-
+    }
 ?>
-</table>
 
 
 <?php
