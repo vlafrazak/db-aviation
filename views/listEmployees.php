@@ -15,7 +15,7 @@
 <th>Postal Code</th>
 <th>Year of Birth</th>
 <th>Salary</th>
-<th>e-mail</th>
+<th>E-mail</th>
 <th>Phone</th>
 </tr>
 
@@ -35,9 +35,22 @@
         echo "<td>" .  $employee[ 'Postal_Code' ] . "</td>";
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
-        echo "<td><a href='mailto:" .  $employee[ 'E_mail' ] . "'>" . $employee[ 'E_mail' ] . "</a></td>";
-        echo "<td>" .  $employee[ 'Phone_Number' ] . "</td>";
-        
+        echo "<td>";
+        echo "<ul>";
+        foreach( $employee['mails'] as $mail ) {
+            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></li>";
+        }
+        echo "</ul>";
+        echo "</td>";
+       
+        echo "<td>";
+        echo "<ul>";
+        foreach( $employee['phones'] as $phone ) {
+            echo "<li> $phone[0] </li>";
+        }
+        echo "</ul>";
+        echo "</td>";
+          
         echo "<td><form action='/~db/db-aviation/views/updateEmployees.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input type='hidden' name='SSN' value=" . $employee[ 'SSN' ] . "/>";
@@ -49,8 +62,9 @@
         echo "<input type='hidden' name='Postal_Code' value=" . $employee[ 'Postal_Code' ] . "/>";
         echo "<input type='hidden' name='Year_of_Birth' value=" . $employee[ 'Year_of_Birth' ] . "/>";
         echo "<input type='hidden' name='Salary' value=" . $employee[ 'Salary' ] . "/>";
-        echo "<input type='hidden' name='E_mail' value=" . $employee[ 'E_mail' ] . "/>";
-        echo "<input type='hidden' name='Phone_Number' value=" . $employee[ 'Phone_Number' ] . "/>";
+    
+      
+        echo "<td>"; 
         echo "<input type='submit' value='Edit' title='Επεξεργασία'/>";
         echo "</form></td>";
         

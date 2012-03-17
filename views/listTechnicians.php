@@ -15,7 +15,7 @@
 <th>Postal Code</th>
 <th>Year of Birth</th>
 <th>Salary</th>
-<th>e-mail</th>
+<th>E-mail</th>
 <th>Phone</th>
 <th>Rank</th>
 </tr>
@@ -53,7 +53,6 @@
         echo "</ul>";
         echo "</td>";
        
-        echo "<td>" .  $tech[ 'Phone_Number' ] . "</td>";
         echo "<td>" .  $tech[ 'Rank' ] . "</td>";
         
         echo "<td><form action='/~db/db-aviation/views/updateTechnicians.php' method='post'>";
