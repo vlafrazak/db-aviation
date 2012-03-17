@@ -12,8 +12,7 @@
     <tr><td>Exam Result:</td><td> <input type="int" name="Exam_Result" value="<?php echo rtrim($_POST['Exam_Result'],'/'); ?>"/></td></tr>
     </table>
 
-    <input type="submit" />
-
+    <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
 
     <form action='/~db/db-aviation/models/listAirTrafficControllers.php' method='post'>
     <input type='submit' value='Cancel' title='Άκυρο'/>                                                   

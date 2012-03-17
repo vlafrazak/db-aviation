@@ -55,7 +55,7 @@
     
     }
 ?>
-
+</table>
 
 <?php
     include "../footer.php";
