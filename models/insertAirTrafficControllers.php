@@ -8,7 +8,7 @@
    ) 
    VALUES (
        $_POST[Emp_Code],
-       $_POST[Last_Exam_Date],
+       '$_POST[Last_Exam_Date]',
        $_POST[Exam_Result]
 
    )");

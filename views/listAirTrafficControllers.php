@@ -42,14 +42,14 @@
         echo "<td>" .  $employee[ 'Last_Exam_Date' ] . "</td>";
         echo "<td>" .  $employee[ 'Exam_Result' ] . "</td>";
        
-        echo "<td><form action='/~db/db-aviation/views/updateAircraftControllers.php' method='post'>";
+        echo "<td><form action='/~db/db-aviation/views/updateAirTrafficControllers.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input type='hidden' name='Last_Exam_Date' value=" . $employee[ 'Laste_Exam_Date' ] . "/>";
         echo "<input type='hidden' name='Exam_Result' value=" . $employee[ 'Exam_Result' ] . "/>";
         echo "<input type='submit' value='Edit Exam' title='Επεξεργασία Εξέτασης'/>";
         echo "</form></td>";
 
-        echo "<td><form action='/~db/db-aviation/models/deleteEmployee.php' method='post'>";
+        echo "<td><form action='/~db/db-aviation/models/deleteEmployees.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
