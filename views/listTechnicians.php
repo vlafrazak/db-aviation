@@ -21,33 +21,49 @@
 </tr>
 
 <?php
-    $employees = include "../models/listTechnicians.php";
+    $techs = include "../models/listTechnicians.php";
 
-    foreach( $employees as $employee ) {
+    foreach( $techs as $tech ) {
         echo "\n<tr>";
         
-        echo "<td>" .  $employee[ 'Emp_Code' ] . "</td>";
-        echo "<td>" .  $employee[ 'SSN' ] . "</td>";
-        echo "<td>" .  $employee[ 'Union_Membership_Number' ] . "</td>";
-        echo "<td>" .  $employee[ 'First_Name' ] . "</td>";
-        echo "<td>" .  $employee[ 'Surname' ] . "</td>";
-        echo "<td>" .  $employee[ 'Street_Name' ] . "</td>";
-        echo "<td>" .  $employee[ 'Street_Number' ] . "</td>";
-        echo "<td>" .  $employee[ 'Postal_Code' ] . "</td>";
-        echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
-        echo "<td>" .  $employee[ 'Salary' ] . "</td>";
-        echo "<td><a href='mailto:" .  $employee[ 'E_mail' ] . "'>" . $employee[ 'E_mail' ] . "</a></td>";
-        echo "<td>" .  $employee[ 'Phone_Number' ] . "</td>";
-        echo "<td>" .  $employee[ 'Rank' ] . "</td>";
+        echo "<td>" .  $tech[ 'Emp_Code' ] . "</td>";
+        echo "<td>" .  $tech[ 'SSN' ] . "</td>";
+        echo "<td>" .  $tech[ 'Union_Membership_Number' ] . "</td>";
+        echo "<td>" .  $tech[ 'First_Name' ] . "</td>";
+        echo "<td>" .  $tech[ 'Surname' ] . "</td>";
+        echo "<td>" .  $tech[ 'Street_Name' ] . "</td>";
+        echo "<td>" .  $tech[ 'Street_Number' ] . "</td>";
+        echo "<td>" .  $tech[ 'Postal_Code' ] . "</td>";
+        echo "<td>" .  $tech[ 'Year_of_Birth' ] . "</td>";
+        echo "<td>" .  $tech[ 'Salary' ] . "</td>";
+
+        echo "<td>";
+        echo "<ul>";
+        foreach( $tech['mails'] as $mail ) {
+            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></li>";
+        }
+        echo "</ul>";
+        echo "</td>";
+        
+        echo "<td>";
+        echo "<ul>";
+        foreach( $tech['phones'] as $phone ) {
+            echo "<li> $phone[0] </li>";
+        }
+        echo "</ul>";
+        echo "</td>";
+       
+        echo "<td>" .  $tech[ 'Phone_Number' ] . "</td>";
+        echo "<td>" .  $tech[ 'Rank' ] . "</td>";
         
         echo "<td><form action='/~db/db-aviation/views/updateTechnicians.php' method='post'>";
-        echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
-        echo "<input type='hidden' name='Rank' value=" . $employee[ 'Rank' ] . "/>";
+        echo "<input type='hidden' name='Emp_Code' value=" . $tech[ 'Emp_Code' ] . "/>";
+        echo "<input type='hidden' name='Rank' value=" . $tech[ 'Rank' ] . "/>";
         echo "<input type='submit' value='Edit Rank' title='Επεξεργασία Βαθμίδας'/>";
         echo "</form></td>";
         
         echo "<td><form action='/~db/db-aviation/models/deleteEmployees.php' method='post'>";
-        echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
+        echo "<input type='hidden' name='Emp_Code' value=" . $tech[ 'Emp_Code' ] . "/>";
         echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
         
