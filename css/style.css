@@ -34,19 +34,19 @@ h1{
    }
 
 
-#insert{
+/*#insert{
 	border: 2px solid #6b766f;
 	
 
 	position:right;
-}
-#insert a {text-decoration:none;  margin: none;
-	color:#00008B;
-	background:  white;position:right;}
+} */
+#insert a {text-decoration:none;  margin: none; padding:5px 10px 10px 15px;
+	color:#F9966B;
+	background: #7E2217;position:right;}
 
 # insert a:hover {
-	color: #E18B6B;
-	background: white; 
+	color: white;
+	background: #F88158; 
 	margin:auto;}	
 }
 
