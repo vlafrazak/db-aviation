@@ -16,7 +16,7 @@ function query_array($query) {
         die( mysql_error() );	
     }
 
-    while($row = mysql_fetch_assoc($result))
+    while($row = mysql_fetch_array($result))
     {
         $answer[] = $row;
     } 
@@ -32,7 +32,7 @@ function query_row($query) {
         die( mysql_error() );
     }
 
-    $row = mysql_fetch_assoc($result);
+    $row = mysql_fetch_array($result);
     mysql_free_result($result);
     disconnect();
     return $answer;

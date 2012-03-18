@@ -15,7 +15,7 @@
         <select type="int" name="Model_Code">
             <?php
                 foreach( $models as $model) {
-                        echo "<option value='".$model[ 'Model_Code' ]."'>".$model[ 'Model_Code' ]."</option>";
+                        echo "<option value='".$model[ 'Model_Code' ]."'>".$model[ 'Model_Code' ]." - ".$model[ 'Model_Name' ]."</option>";
                 }
             ?>
         </select>
