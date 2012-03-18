@@ -11,7 +11,8 @@
 <th>Emp Code</th> 
 <th>Check ID</th> 
 <th>Check Duration</th>
-<th>Check Score   </th>
+<th>Check Score</th>
+<th> </th>
 </tr>
 
 <?php
@@ -27,19 +28,11 @@
         echo "<td>" .  $check[ 'Check_Duration' ] . "</td>";
         echo "<td>" .  $check[ 'Check_Score' ] . "</td>";
         
-        echo "<td><form action='/~db/db-aviation/views/updateChecks.php' method='post'>";
+        echo "<td><form action='/~db/db-aviation/models/deleteChecks.php' method='post'>";
         echo "<input type='hidden' name='Registration_Number' value=" . $check[ 'Registration_Number' ] . "/>";
         echo "<input type='hidden' name='Test_Number' value=" . $check[ 'Test_Number' ] . "/>";
         echo "<input type='hidden' name='Emp_Code' value=" . $check[ 'Emp_Code' ] . "/>";
-        echo "<input type='hidden' name='Check_ID' value=" . $check[ 'Check_ID' ] . "/>";
-        echo "<input type='hidden' name='Check_Duration' value=" . $check[ 'Check_Duration' ] . "/>";
-        echo "<input type='hidden' name='Check_Score' value=" . $check[ 'Check_Score' ] . "/>";
-        echo "<input type='submit' value='Edit' title='Επεξεργασία'/>";
-        echo "</form></td>";
-
-
-        echo "<td><form action='/~db/db-aviation/models/deleteChecks.php' method='post'>";
-        echo "<input type='hidden' name='Registration_Number' value=" . $check[ 'Registration_Number' ] . "/>";
+        echo "<input type='hidden' name='Check_ID' value=" . $check['Check_ID ' ] . "/>";
         echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
         

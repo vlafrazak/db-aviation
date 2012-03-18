@@ -22,6 +22,8 @@
 <th>Phone</th>
 <th></th>
 <th></th>
+<th></th>
+<th></th>
 </tr>
 
 <?php
@@ -41,20 +43,24 @@
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
         echo "<td>";
-        echo "<a class='addPlusButton' href='createEmail.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
+        echo "<a class='addPlusButton' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
                                                             "&First_Name=" . $employee[ 'First_Name' ] .
                                                             "&Surname=" . $employee[ 'Surname' ] .
                                                             "'>+</a><ul>";
         foreach( $employee['mails'] as $mail ) {
-            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a><a href='/~db/db-aviation/models/deleteEmail.php?E_mail=".$employee[ 'E_mail' ]."></li>";
+            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a> <a href='/~db/db-aviation/models/deleteEmail.php?E_mail=". $mail[0] ."'>x</a></li>";
         }
         echo "</ul>";
         echo "</td>";
        
         echo "<td>";
+        echo "<a class='addPlusButton' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
+                                                            "&First_Name=" . $employee[ 'First_Name' ] .
+                                                            "&Surname=" . $employee[ 'Surname' ] .
+                                                            "'>+</a><ul>";
         echo "<ul>";
         foreach( $employee['phones'] as $phone ) {
-            echo "<li> $phone[0] </li>";
+            echo "<li> $phone[0]  <a href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></li>";
         }
         echo "</ul>";
         echo "</td>";
@@ -70,9 +76,6 @@
         echo "<input type='hidden' name='Postal_Code' value=" . $employee[ 'Postal_Code' ] . "/>";
         echo "<input type='hidden' name='Year_of_Birth' value=" . $employee[ 'Year_of_Birth' ] . "/>";
         echo "<input type='hidden' name='Salary' value=" . $employee[ 'Salary' ] . "/>";
-    
-      
-        echo "<td>"; 
         echo "<input type='submit' value='Edit' title='Επεξεργασία'/>";
         echo "</form></td>";
         

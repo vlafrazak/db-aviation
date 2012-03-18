@@ -2,7 +2,7 @@
     include "../header.php"
 ?>
 
-<h2>Insert an Aircraft Fleet</h2>
+<h2>Insert a Check</h2>
 
 <form action="/~db/db-aviation/models/insertChecks.php" method="post">
 

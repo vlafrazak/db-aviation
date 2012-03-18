@@ -25,6 +25,28 @@
         $_POST[Year_of_Birth],
         $_POST[Salary]
     )");
+
+  query(
+      "INSERT INTO E_MAILS (
+        Emp_Code,
+        E_mail
+    )
+    VALUES (
+        $_POST[Emp_Code],
+        '$_POST[E_mail]'
+    )");
+     
+  query(
+      "INSERT INTO PHONES (
+        Emp_Code,
+        Phone_Number
+    )
+    VALUES (
+        $_POST[Emp_Code],
+        $_POST[Phone_Number]
+    )");
+
+ 
     
     $numargs = func_num_args();
     echo "Number of arguments: $numargs\n";

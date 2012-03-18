@@ -1,5 +1,6 @@
 <?php
     include "database.php";
-    query("DELETE FROM E_MAILS WHERE E_mail = " . $_GET[ 'E_mail' ] );
+    query("DELETE FROM PHONES WHERE Phone_Number = " . $_GET[ 'Phone_Number' ] );
     Header ('Location: /~db/db-aviation/views/listEmployees.php');
 ?>
+
