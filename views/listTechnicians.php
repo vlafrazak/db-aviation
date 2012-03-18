@@ -69,7 +69,7 @@
                                                             "&Surname=" . $tech[ 'Surname' ] .
                                                             "'>+</a></td></tr>";
         foreach( $tech['expertise'] as $expertise ) {
-            echo "<tr><td class='noframe'>". $expertise[2]. "<td class='noframe'> $expertise[1] </td></td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deleteIsExpertIn.php?Phone=". $expertise[0] ."'>x</a></td></tr>";
+            echo "<tr><td class='noframe'>". $expertise[2]. "<td class='noframe'> $expertise[1] </td></td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deleteIsExpertIn.php?Emp_Code=". $tech[ 'Emp_Code' ] ."&Model_Code=".$expertise[0]."'>x</a></td></tr>";
         }
         echo "</table>";
         echo "</td>";
