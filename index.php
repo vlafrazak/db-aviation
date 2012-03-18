@@ -7,7 +7,7 @@
     include 'models/connect.php';
 ?>
 <img id = "eikona"
-		src = "/~db/db-aviation/images/synnefakia.jpg"
+		src = "/~db/db-aviation/images/El_Ven.jpg"
                 alt= "The db is not a lie..." 
              	width="50" 
                 hight="50"
