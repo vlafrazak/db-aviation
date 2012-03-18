@@ -26,6 +26,13 @@
                     PHONES p
                 WHERE
                     p.Emp_Code = " . $employee[ 'Emp_Code' ] );
+        $employee[ 'occ' ] = query_array(
+            "SELECT t.Emp_Code
+            FROM
+                TECHNICIANS t
+            WHERE
+                t.Emp_Code = " . $employee[ 'Emp_Code' ]
+        );
         $answer[] = $employee;
     }
     return $answer;    
