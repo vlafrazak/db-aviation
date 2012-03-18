@@ -231,6 +231,7 @@ input[type="submit"]:active {
         padding:none;
         width:default;
         height:default;
+ 	margin:1px;
         min-height:default;
         text-align:left;
 }
