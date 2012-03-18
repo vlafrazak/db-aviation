@@ -52,14 +52,14 @@ body{
 
 
 /*Main Menu*/
-/*#chromemenu ul {margin: 0; padding: 0; */
+#chromemenu ul {margin: 0; padding: 0; 
     /*list-style-type: none; list-style-image: none;*/ }
-/*#chromemenu li {display: inline; padding: 5px 20px 5px 20px; 	}
+#chromemenu li {display: inline; padding: 5px 20px 5px 20px; 	}
 #chromemenu ul li a {text-decoration:none;  margin: none;text-align:center;
    	padding: 5px 10px 5px 10px; color:#FFFFCC;
         background:  #191970;}
         #chromemenu ul li a:hover {color: white;
-        background: #1E90FF; } */
+        background: #1E90FF; } 
 
 #eikona{
             padding-top:200px;
