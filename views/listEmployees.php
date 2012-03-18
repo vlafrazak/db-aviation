@@ -46,7 +46,7 @@
                                                             "&Surname=" . $employee[ 'Surname' ] .
                                                             "'>+</a><ul>";
         foreach( $employee['mails'] as $mail ) {
-            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></li>";
+            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a><a href='/~db/db-aviation/models/deleteEmail.php?E_mail=".$employee[ 'E_mail' ]."></li>";
         }
         echo "</ul>";
         echo "</td>";
