@@ -105,7 +105,7 @@ table {
 #playlist tr td {
     border-right: 1px solid #ccc;
 }
-#playlist th {
+/*#playlist th {
     color: white;
     text-align: left;
     background-color: #191970;
@@ -126,10 +126,11 @@ table {
 tr th {
     border-top-left-radius: 5px;
 }
-/*
+
 tr th:last-child {
     border-top-right-radius: 5px;
 }*/
+
 #playlist tr.even td {
     background-color: #eee;;
     border-top: 1px solid #ccc;
