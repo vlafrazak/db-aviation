@@ -31,7 +31,7 @@
                 WHERE
                     p.Emp_Code = " . $tech[ 'Emp_Code' ] );
         $tech[ 'expertise' ] = query_array(
-                "SELECT ex.Model_Code,ex.Degree_of_Experience,m.Model_Code
+                "SELECT ex.Model_Code,ex.Degree_of_Experience,m.Model_Name
                 FROM
                     IS_EXPERT_IN ex
                 INNER JOIN
