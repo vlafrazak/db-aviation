@@ -41,7 +41,7 @@ position:relative;
     position:right;
     } */
     #insert a {font-size = 12pt;text-decoration:none;  margin-left: 700px; padding:2px 4px 2px 4px;
-        color:#71C42B;
+        color:#E67451;
         background:white; 
         -moz-border-radius: 40px / 20px;
         -webkit-border-radius: 40px / 20px;
@@ -50,7 +50,7 @@ position:relative;
 
     #insert a:hover {
         color: white;
-    background: #71C42B;}	
+    background: #F76541;}	
 
 
     body{
