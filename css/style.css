@@ -26,9 +26,6 @@ h1{
         padding:25px;
         /*clear:left;*/
 }
-#insert{
-	margin-left: 650px;
-}
 
 #insert, input[type="submit"], .button {
 	color:#777777;
@@ -59,7 +56,7 @@ h1{
 }#insert:active, input[type="submit"]:active, .button:active{
 	color:#777777;
 	font-family:arial;
-	font-size:15px;
+	font-size:12px;
 	font-weight:bold;
 	text-decoration:none; 
 	position:relative;
@@ -67,6 +64,11 @@ h1{
 }
 .button {
 	font-family: Courier New, monospace ;
+}
+
+#insert{
+	margin-left: 650px;
+	font-size:15px;
 }
 body{
         font-size: 90%;
