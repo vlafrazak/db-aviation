@@ -6,7 +6,7 @@ if( !function_exists('query'))
         connect();
         $result = mysql_query($query) or die(mysql_error());
         if ( !$result ) {
-            die( mysql_error() );
+            die( error_function( $query,mysql_error()) );
         }
         disconnect();
     }
@@ -17,7 +17,7 @@ if( !function_exists('query_array'))
         connect();
         $result = mysql_query($query) or die(mysql_error());
         if ( !$result ) {
-            die( mysql_error() );	
+            die( error_function( $query,mysql_error()) );
         }
 
         while($row = mysql_fetch_array($result))
@@ -36,7 +36,7 @@ if( !function_exists('query_row'))
         connect();
         $result = mysql_query($query) or die(mysql_error());
         if ( !$result ) {
-            die( mysql_error() );
+            die( error_function( $query,mysql_error()) );
         }
 
         $row = mysql_fetch_array($result);
@@ -45,4 +45,15 @@ if( !function_exists('query_row'))
         return $answer;
     }
 }
+if( !function_exists('error_function'))
+{
+    function error_function($query,$error) {
+        include "../header.php";
+        echo "This shouldn't happen";
+        echo "<table> <tr><td>query :" . $query;
+        echo "</td><td>error :" . $error;
+        echo "</td><td></table>"
+        include "../footer.php";
+
+    }
 ?>
