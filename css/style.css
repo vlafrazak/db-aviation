@@ -108,7 +108,7 @@ table {
 #playlist th {
     color: white;
     text-align: left;
-    background-color: #333;
+    background-color: #191970;
     background-image: linear-gradient(bottom, rgb(29,29,31) 32%, rgb(39,44,54) 83%);
     background-image: -o-linear-gradient(bottom, rgb(29,29,31) 32%, rgb(39,44,54) 83%);
     background-image: -moz-linear-gradient(bottom, rgb(29,29,31) 32%, rgb(39,44,54) 83%);
