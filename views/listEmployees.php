@@ -81,7 +81,7 @@
         echo "<td><form action='/~db/db-aviation/views/createTechnicians.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input class = 'button' ";
-        if ( !isset($employee [ 'occ' ])) {
+        if ( isset($employee [ 'occ' ])) {
             echo "disabled='disabled'";
         }   
         echo "type='submit' value='Technician' title='Κάνε αυτόν τον υπάλληλο τεχνικό.'/>";
@@ -90,7 +90,7 @@
         echo "<td><form action='/~db/db-aviation/views/createAirTrafficControllers.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
         echo "<input class = 'button'"; 
-        if ( !isset($employee [ 'occ' ])) {
+        if ( isset($employee [ 'occ' ])) {
             echo "disabled='disabled'";
         }   
         echo "type='submit' value='Controller' title='Κάνε αυτόν τον υπάλληλο ελεγκτή.'/>";
