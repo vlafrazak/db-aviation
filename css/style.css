@@ -115,9 +115,9 @@ th{
 	
 }
 tr{
-	 -moz-box-shadow:    3px 3px 5px 6px #eee;
-  	-webkit-box-shadow: 3px 3px 5px 6px  #eee;
-  	box-shadow:         3px 3px 5px 6px  #eee;
+	 -moz-box-shadow:    3px 3px 5px 2px #eee;
+  	-webkit-box-shadow: 3px 3px 5px 2px  #eee;
+  	box-shadow:         3px 3px 5px 2px  #eee;
 }
 tr th {
     border-top-left-radius: 5px;
