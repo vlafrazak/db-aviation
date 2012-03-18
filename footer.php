@@ -4,6 +4,6 @@
 		<a href="mailto:iren.vlsi@gmail.com">  Iren Vlassi</a> , 	
 		<a href="mailto:valia.fragiad@gmail.com">  Valia Fr</a>.
   	</div><!-- End of footer-->	
-	</div><!-- End of container-->	
+	</body> <!--end of title and menu-->
 </html>
 

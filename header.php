@@ -19,7 +19,6 @@
 </script>
 
 <html>
-	<div id = "container">
 		<head>
 			<title>AIRPORT EL.VENIZELOS</title>
 			<meta
@@ -79,6 +78,4 @@
 	<script type="text/javascript">
 		cssdropdown.startchrome("chromemenu")
 	</script>
-
-  	</body> <!--end of title and menu-->
 
