@@ -131,6 +131,9 @@ td.emails{
 td.emails: hover{
 	color:#FFFFFF;
 }
+a.emails {
+	text-decoration:none;
+}
 
 td.phones {
         text-align:left;
