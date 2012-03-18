@@ -29,9 +29,6 @@ h1{
 #insert{
 	margin-left: 650px;
 }
-.button {
-	font-family: Courier New, monospace !important;
-}
 
 #insert, input[type="submit"], .button {
 	color:#777777;
@@ -68,7 +65,9 @@ h1{
 	position:relative;
 	top:1px;
 }
-
+.button {
+	font-family: Courier New, monospace ;
+}
 body{
         font-size: 90%;
         font-family: 'Georgia', serif;
