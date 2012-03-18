@@ -14,8 +14,7 @@
     <tr class="odd"><td>Manufacturer:</td><td> <input type="text" name="Manufacturer" value="<?php echo rtrim($_POST['Manufacturer'],'/'); ?>"/></td></tr>
     </table>
 
-    <input type="submit" />
-
+    <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
 
     <form action='/~db/db-aviation/models/listAircraftModels.php' method='post'>
     <input type='submit' value='Cancel' title='Άκυρο'/>                                                   

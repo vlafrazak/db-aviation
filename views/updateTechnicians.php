@@ -11,7 +11,7 @@
     <tr class="even"><td>Rank:</td><td> <input type="int" name="Rank" value="<?php echo rtrim($_POST['Rank'],'/'); ?>"/></td></tr>
     </table>
 
-    <input type="submit" />
+    <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
 
 
     <form action='/~db/db-aviation/models/listTechnicians.php' method='post'>

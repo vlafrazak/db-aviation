@@ -28,6 +28,11 @@
     <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
 </form>
 
+<form action='/~db/db-aviation/views/listTechnicians.php' method='post'> 
+   <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
+</form>
+
+
 <?php
     include "../footer.php"
 ?>
