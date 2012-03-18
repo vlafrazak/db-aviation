@@ -40,7 +40,7 @@
         echo "<td>" .  $tech[ 'Salary' ] . "</td>";
 
         echo "<td class='emails'>";
-        echo "<table class='noframe'><tr><td></td><td><a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $tech[ 'Emp_Code' ] .
+        echo "<table class='noframe'><tr><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $tech[ 'Emp_Code' ] .
                                                             "&First_Name=" . $tech[ 'First_Name' ] .
                                                             "&Surname=" . $tech[ 'Surname' ] .
                                                             "'>+</a></td></tr>";
@@ -51,7 +51,7 @@
         echo "</td>";
         
         echo "<td class='phones'>";
-        echo "<table class='noframe'><tr><td></td><td><a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $tech[ 'Emp_Code' ] .
+        echo "<table class='noframe'><tr><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $tech[ 'Emp_Code' ] .
                                                             "&First_Name=" . $tech[ 'First_Name' ] .
                                                             "&Surname=" . $tech[ 'Surname' ] .
                                                             "'>+</a></td></tr>";
