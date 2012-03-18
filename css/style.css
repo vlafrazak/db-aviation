@@ -30,7 +30,7 @@ h1{
 	margin-left: 650px;
 }
 
-#insert, input[type="submit"] {
+#insert, input[type="submit"], button {
 	color:#777777;
 	font-family:arial;
 	font-size:15px;
@@ -50,13 +50,13 @@ h1{
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	text-shadow:1px 1px 0px #ffffff;
-}#insert:hover, input[type="submit"]:hover {
+}#insert:hover, input[type="submit"]:hover, button:hover {
 	text-decoration:none;
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
 	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
 	background-color:#dfdfdf;
-}#insert:active, input[type="submit"]:active {
+}#insert:active, input[type="submit"]:active, button:active{
 	color:#777777;
 	font-family:arial;
 	font-size:15px;
@@ -66,23 +66,6 @@ h1{
 	top:1px;
 }
 
-/*   palio insert
-#insert a {
-	font-size = 15pt;text-decoration:none;  
-	margin-left: 700px; 
-	padding:2px 4px 2px 4px;
-        color:#E67451;
-        background:white; 
-        -moz-border-radius: 40px / 20px;
-        -webkit-border-radius: 40px / 20px;
-        border-radius: 40px / 20px;
-}
-
-#insert a:hover {
-        color: white;
-    	background: #F76541;
-}	
-*/
 body{
         font-size: 90%;
         font-family: 'Georgia', serif;
@@ -211,7 +194,7 @@ input[type="submit"]:active {
         border-top-color: #1b435e;
         background: #1b435e;
 }
-*/
+
 .button {
         border-top: 1px solid #96d1f8;
         background: #65a9d7;
@@ -242,7 +225,7 @@ input[type="submit"]:active {
 .button:active {
         border-top-color: #1b435e;
         background: #1b435e;
-}
+}*/
 .noframe{
         border:none;
         padding:none;
