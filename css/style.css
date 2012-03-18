@@ -79,15 +79,16 @@ body{
 #chromemenu li {display: inline; padding: 5px 20px 5px 20px; 	}
 #chromemenu ul li a {text-decoration:none;  margin: none;text-align:center;
    	padding: 5px 10px 5px 10px; color:#FFFFCC;
-        /*background:  #191970;*/-moz-box-shadow:    0px 0px 6px 1px #191970;
-  	-webkit-box-shadow: 0px 0px 6px 1px  #191970;
-  	box-shadow:         0px 0px 6px 1px  #191970;
+        /*background:  #191970;*/
+	-moz-box-shadow:    2px 2px 6px 1px #191970;
+  	-webkit-box-shadow: 2px 2px 6px 1px  #191970;
+  	box-shadow:         2px 2px 6px 1px  #191970;
 }
 #chromemenu ul li a:hover {
 	color: white;
-	-moz-box-shadow:  0px 0px 6px 1px  #1E90FF;
-  	-webkit-box-shadow: 0px 0px 6px 1px  #1E90FF;
-  	box-shadow:         0px 0px 6px 1px   #1E90FF;
+	-moz-box-shadow:  2px 2px 6px 1px  #1E90FF;
+  	-webkit-box-shadow: 2px 2px 6px 1px  #1E90FF;
+  	box-shadow:         2px 2px 6px 1px   #1E90FF;
         /*background: #1E90FF;*/ }
 
 #eikona{
