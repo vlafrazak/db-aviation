@@ -2,6 +2,7 @@
     include 'database.php';
     include 'listEmails.php';
     include 'listPhones.php';
+    include 'listIsExpertIn.php';
 
     $techs = query_array( 
         "SELECT e.*, t.Rank
@@ -30,6 +31,12 @@
                     PHONES p
                 WHERE
                     p.Emp_Code = " . $tech[ 'Emp_Code' ] );
+        $tech[ 'expertise' ] = query_array(
+                "SELECT x.Model_Code, x.Degree_of_Expreriance
+                FROM
+                    IS_EXPERT_IN x
+                WHERE
+                    x.Emp_Code = " . $tech[ 'Emp_Code' ] );
         $answer[] = $tech;
     }
     return $answer;    
