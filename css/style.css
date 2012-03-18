@@ -29,8 +29,11 @@ h1{
 #insert{
 	margin-left: 650px;
 }
+.button {
+	font-family: Courier New, monospace;
+}
 
-#insert, input[type="submit"], button {
+#insert, input[type="submit"], .button {
 	color:#777777;
 	font-family:arial;
 	font-size:15px;
@@ -50,13 +53,13 @@ h1{
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	text-shadow:1px 1px 0px #ffffff;
-}#insert:hover, input[type="submit"]:hover, button:hover {
+}#insert:hover, input[type="submit"]:hover, .button:hover {
 	text-decoration:none;
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
 	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
 	background-color:#dfdfdf;
-}#insert:active, input[type="submit"]:active, button:active{
+}#insert:active, input[type="submit"]:active, .button:active{
 	color:#777777;
 	font-family:arial;
 	font-size:15px;
@@ -196,6 +199,8 @@ input[type="submit"]:active {
 }
 
 .button {
+	font-family: Courier New, monospace;
+}
         border-top: 1px solid #96d1f8;
         background: #65a9d7;
         background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
