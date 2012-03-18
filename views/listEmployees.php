@@ -43,7 +43,7 @@
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
         echo "<td>";
-        echo "<a class='addPlusButton' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
+        echo "<a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
                                                             "&First_Name=" . $employee[ 'First_Name' ] .
                                                             "&Surname=" . $employee[ 'Surname' ] .
                                                             "'>+</a><ul>";
@@ -54,13 +54,13 @@
         echo "</td>";
        
         echo "<td>";
-        echo "<a class='addPlusButton' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
+        echo "<a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
                                                             "&First_Name=" . $employee[ 'First_Name' ] .
                                                             "&Surname=" . $employee[ 'Surname' ] .
                                                             "'>+</a><ul>";
         echo "<ul>";
         foreach( $employee['phones'] as $phone ) {
-            echo "<li> $phone[0]  <a href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></li>";
+            echo "<li> $phone[0]  <a class='button 'href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></li>";
         }
         echo "</ul>";
         echo "</td>";
