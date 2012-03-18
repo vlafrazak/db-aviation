@@ -105,7 +105,33 @@ table {
 #playlist tr td {
     border-right: 1px solid #ccc;
 }
-#playlist th {
+tr th {
+    border-top-left-radius: 5px;
+}
+
+/*tr th:last-child {
+    border-top-right-radius: 5px;
+}*/
+
+#playlist tr td{
+    background-color: #eee;;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#playlist tr.odd td {
+    background-color:white;
+}
+/*th.icon, th.update {
+    color: transparent;
+    width: 50px;
+    font-size: 0;
+    overflow: hidden;
+}
+*/
+th, td {
+    padding: 5px;
+}
+/*#playlist th {
     color: white;
     text-align: left;
     background-color: #191970;
@@ -122,30 +148,7 @@ table {
         color-stop(0.32, rgb(29,29,31)),
         color-stop(0.83, rgb(39,44,54))
     );
-}
-tr th {
-    border-top-left-radius: 5px;
-}
-
-/*tr th:last-child {
-    border-top-right-radius: 5px;
 }*/
-
-#playlist tr.even td {
-    background-color: #eee;;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-}
-th.icon, th.update {
-    color: transparent;
-    width: 50px;
-    font-size: 0;
-    overflow: hidden;
-}
-th, td {
-    padding: 5px;
-}
-
 
 /* palioi pinakes
 
