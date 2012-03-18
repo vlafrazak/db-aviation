@@ -54,11 +54,10 @@
         echo "</td>";
        
         echo "<td class='phones'>";
-        echo "<a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
+        echo "<table class='noframe'><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
                                                             "&First_Name=" . $employee[ 'First_Name' ] .
                                                             "&Surname=" . $employee[ 'Surname' ] .
-                                                            "'>+</a><ul>";
-        echo "<table class='noframe'>";
+                                                            "'>+</a></td>";
         foreach( $employee['phones'] as $phone ) {
             echo "<tr><td class='noframe'> $phone[0] </td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></td></tr>";
         }
