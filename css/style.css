@@ -139,10 +139,6 @@ tr th {
     border-top-left-radius: 5px;
 }
 
-/*tr th:last-child {
-    border-top-right-radius: 5px;
-}*/
-
 #playlist tr td{
    /*background-color: #eee;*/
     border-top: 1px solid #ccc;
@@ -154,35 +150,6 @@ tr th {
    	-webkit-linear-shadow: inset 0 0 80px  #ccc;
    	linear-shadow:         inset 0 0 80px  #ccc;
 }
-
-/*th.icon, th.update {
-    color: transparent;
-    width: 50px;
-    font-size: 0;
-    overflow: hidden;
-}
-*/
-th, td {
-    padding: 5px;
-}
-/*#playlist th {
-    color: white;
-    text-align: left;
-    background-color: #191970;
-    background-image: linear-gradient(bottom, rgb(29,29,31) 32%, rgb(39,44,54) 83%);
-    background-image: -o-linear-gradient(bottom, rgb(29,29,31) 32%, rgb(39,44,54) 83%);
-    background-image: -moz-linear-gradient(bottom, rgb(29,29,31) 32%, rgb(39,44,54) 83%);
-    background-image: -webkit-linear-gradient(bottom, rgb(29,29,31) 32%, rgb(39,44,54) 83%);
-    background-image: -ms-linear-gradient(bottom, rgb(29,29,31) 32%, rgb(39,44,54) 83%);
-
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.32, rgb(29,29,31)),
-        color-stop(0.83, rgb(39,44,54))
-    );
-}*/
 
 /* palioi pinakes
 
@@ -247,10 +214,10 @@ td.phones {
         margin: 0 auto;
         border-top-width: 2px;
         border-top-style: solid;	
-     /*   border-top-color: #87CEFA; */
-	 -moz-linear-shadow:    2px 2px 3px 2px  #87CEFA;
-  	-webkit-linear-shadow: 2px 2px 3px 2px   #87CEFA;
-  	linear-shadow:         2px 2px 3px 2px   #87CEFA;
+        border-top-color: #87CEFA; 
+	 -moz-linear-shadow:    2px 2px 30px 2px  #87CEFA;
+  	-webkit-linear-shadow: 2px 2px 30px 2px   #87CEFA;
+  	linear-shadow:         2px 2px 30px 2px   #87CEFA;
         bottom:0px;
         color: #00008B;
         text-align: center;
@@ -273,7 +240,7 @@ td.phones {
 	-moz-box-linear:    inset 0 0 70px  #139BAE;
    	-webkit-linear-shadow: inset 0 0 70px  #139BAE;
    	linear-shadow:         inset 0 0 70px  #139BAE;
-	/*color: #139BAE;*/
+	color: #139BAE;
         background: white; 
         margin:auto;
 }
