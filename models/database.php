@@ -6,7 +6,6 @@ function query($query) {
     if ( !$result ) {
         die( mysql_error() );
     }
-    $count=mysql_num_rows($result);
     disconnect();
 }
 
@@ -17,9 +16,9 @@ function query_array($query) {
         die( mysql_error() );	
     }
 
-    while($row = mysql_fetch_array($result))
+    while($row = mysql_fetch_assoc($result))
     {
-        $answer[ ] = $row;
+        $answer[] = $row;
     } 
     mysql_free_result($result);
     disconnect();
@@ -33,7 +32,7 @@ function query_row($query) {
         die( mysql_error() );
     }
 
-    $row = mysql_fetch_row($result);
+    $row = mysql_fetch_assoc($result);
     mysql_free_result($result);
     disconnect();
     return $answer;

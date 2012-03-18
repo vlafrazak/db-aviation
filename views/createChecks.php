@@ -1,5 +1,5 @@
 <?php
-    include "../header.php"
+    include "../header.php";
 ?>
 
 <h2>Insert a Check</h2>
@@ -24,6 +24,6 @@
 </form>
 
 <?php
-    include "../footer.php"
+    include "../footer.php";
 ?>
 
