@@ -40,7 +40,7 @@ h1{
 
 	position:right;
 } */
-#insert a {font-size = 12pt;text-decoration:none;  margin-left: 700px; padding:3px 8px 3px 8px;
+#insert a {font-size = 12pt;text-decoration:none;  margin-left: 700px; padding:2px 4px 2px 4px;
 	color:#F9966B;
 	background:white; 
 -moz-border-radius: 40px / 20px;
@@ -97,7 +97,7 @@ padding:15px;
 
 table, td, th
 {
-border:7px solid #FFF8C6;  /*mpezouli*/
+border:7px solid white;  /*mpezouli*/
 text-align:center;
 }
 th
