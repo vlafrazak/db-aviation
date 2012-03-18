@@ -148,9 +148,9 @@ th, td {
 }
 #playlist tr.odd td {
       background-color:white;
-	-moz-box-shadow:    inset 2px 2px 25px  #ccc;
-   	-webkit-box-shadow: inset 2px 2px 25px  #ccc;
-   	box-shadow:         inset 2px 2px 25px  #ccc;
+	-moz-box-shadow:    inset 2px 2px 35px  #ccc;
+   	-webkit-box-shadow: inset 2px 2px 35px  #ccc;
+   	box-shadow:         inset 2px 2px 35px  #ccc;
 }
 
 /* palioi pinakes
