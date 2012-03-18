@@ -30,7 +30,7 @@ h1{
 #insert, input[type="submit"], .button {
 	color:#777777;
 	font-family:arial;
-	font-size:15px;
+	font-size:10px;
 	font-weight:bold;
 	text-decoration:none;   
 	padding:2px 4px 2px 4px;
@@ -54,12 +54,6 @@ h1{
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
 	background-color:#dfdfdf;
 }#insert:active, input[type="submit"]:active, .button:active{
-	color:#777777;
-	font-family:arial;
-	font-size:12px;
-	font-weight:bold;
-	text-decoration:none; 
-	position:relative;
 	top:1px;
 }
 .button {
