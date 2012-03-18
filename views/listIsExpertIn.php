@@ -26,21 +26,29 @@
         echo "<td>" .  $expert[ 'Degree_of_Experience' ] . "</td>";
         echo "<td>" .  $expert[ 'First_Name' ] . "</td>";
         echo "<td>" .  $expert[ 'Surname' ] . "</td>";
-        echo "<td>";
-        echo "<ul>";
+
+        echo "<td class='emails'>";
+        echo "<table class='noframe'><tr><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $expert[ 'Emp_Code' ] .
+                                                            "&First_Name=" . $expert[ 'First_Name' ] .
+                                                            "&Surname=" . $expert[ 'Surname' ] .
+                                                            "'>+</a></td></tr>";
         foreach( $expert['mails'] as $mail ) {
-            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></li>";
+            echo "<tr><td class='noframe'><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></td><td class='noframe'><a class='button' href='/~db/db-aviation/models/deleteEmail.php?E_mail=". $mail[0] ."'>x</a></td></tr>";
         }
-        echo "</ul>";
+        echo "</table>";
         echo "</td>";
         
-        echo "<td>";
-        echo "<ul>";
+        echo "<td class='phones'>";
+        echo "<table class='noframe'><tr><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $expert[ 'Emp_Code' ] .
+                                                            "&First_Name=" . $expert[ 'First_Name' ] .
+                                                            "&Surname=" . $expert[ 'Surname' ] .
+                                                            "'>+</a></td></tr>";
         foreach( $expert['phones'] as $phone ) {
-            echo "<li> $phone[0] </li>";
+            echo "<tr><td class='noframe'> $phone[0] </td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></td></tr>";
         }
-        echo "</ul>";
+        echo "</table>";
         echo "</td>";
+        echo "<ul>";
        
         echo "</tr>";
     }

@@ -41,10 +41,10 @@
         echo "<td>" .  $controller[ 'Salary' ] . "</td>";
 
         echo "<td class='emails'>";
-        echo "<a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $controller[ 'Emp_Code' ] .
+        echo "<table class='noframe'><tr><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $controller[ 'Emp_Code' ] .
                                                             "&First_Name=" . $controller[ 'First_Name' ] .
                                                             "&Surname=" . $controller[ 'Surname' ] .
-                                                            "'>+</a><table class='noframe'>";
+                                                            "'>+</a></td></tr>";
         foreach( $controller['mails'] as $mail ) {
             echo "<tr><td class='noframe'><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></td><td class='noframe'><a class='button' href='/~db/db-aviation/models/deleteEmail.php?E_mail=". $mail[0] ."'>x</a></td></tr>";
         }
@@ -52,11 +52,10 @@
         echo "</td>";
         
         echo "<td class='phones'>";
-        echo "<a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $controller[ 'Emp_Code' ] .
+        echo "<table class='noframe'><tr><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $controller[ 'Emp_Code' ] .
                                                             "&First_Name=" . $controller[ 'First_Name' ] .
                                                             "&Surname=" . $controller[ 'Surname' ] .
-                                                            "'>+</a><ul>";
-        echo "<table class='noframe'>";
+                                                            "'>+</a></td></tr>";
         foreach( $controller['phones'] as $phone ) {
             echo "<tr><td class='noframe'> $phone[0] </td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></td></tr>";
         }

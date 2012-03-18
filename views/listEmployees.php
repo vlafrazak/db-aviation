@@ -43,10 +43,10 @@
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
         echo "<td class='emails'>";
-        echo "<table class='noframe'><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
+        echo "<table class='noframe'><tr><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
                                                             "&First_Name=" . $employee[ 'First_Name' ] .
                                                             "&Surname=" . $employee[ 'Surname' ] .
-                                                            "'>+</a></td>";
+                                                            "'>+</a></td></tr>";
         foreach( $employee['mails'] as $mail ) {
             echo "<tr><td class='noframe'><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></td><td class='noframe'><a class='button' href='/~db/db-aviation/models/deleteEmail.php?E_mail=". $mail[0] ."'>x</a></td></tr>";
         }
@@ -54,11 +54,10 @@
         echo "</td>";
        
         echo "<td class='phones'>";
-        echo "<a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
+        echo "<table class='noframe'><tr><td class='noframe'></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
                                                             "&First_Name=" . $employee[ 'First_Name' ] .
                                                             "&Surname=" . $employee[ 'Surname' ] .
-                                                            "'>+</a><ul>";
-        echo "<table class='noframe'>";
+                                                            "'>+</a></td></tr>";
         foreach( $employee['phones'] as $phone ) {
             echo "<tr><td class='noframe'> $phone[0] </td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></td></tr>";
         }
