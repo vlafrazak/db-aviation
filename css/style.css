@@ -40,8 +40,7 @@ h1{
 
 	position:right;
 } */
-#insert a {text-decoration:none;  margin-left: 400px; padding:5px 20px 5px 20px;
-	margin-right:300px;
+#insert a {font-size = 50%;text-decoration:none;  margin-left: 700px; padding:5px 10px 5px 10px;
 	color:#F9966B;
 	background:white; 
 -moz-border-radius: 40px / 20px;
@@ -51,9 +50,8 @@ border-radius: 40px / 20px;
 
 #insert a:hover {
 	color: white;
-	background: #F88158; 
-	margin:auto;}	
-}
+	background: #F88158;}	
+
 
 body{
 	font-size: 90%;
