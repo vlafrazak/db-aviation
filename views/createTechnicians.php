@@ -7,7 +7,7 @@
 
 <form action="/~db/db-aviation/models/insertTechnicians.php" method="post">
 
-     <table id="playlist" class ="input form">
+    <table id="playlist" class ="input form">
     <tr class="odd"><td>Emp Code:</td><td> <input type="int" readonly="readonly" name="Emp_Code" value="<?php echo rtrim($_POST['Emp_Code'],'/'); ?>"/></td></tr>
     <tr class="even"><td>Rank:</td><td> <input type="int" name="Rank" /></td></tr>
     <tr class="odd"><td>Model Code:</td><td> 
@@ -28,7 +28,7 @@
 </form>
 
 
-<form action='/~db/db-aviation/views/listTechnicians.php' method='post'> 
+<form action='/~db/db-aviation/views/listEmployees.php' method='post'> 
     <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
 </form>
 
