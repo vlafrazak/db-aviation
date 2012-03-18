@@ -4,6 +4,9 @@
 
 
 <h2>Aircraft Fleet</h2>
+
+<h4 id = "insert"><th><a href="/~db/db-aviation/views/createAircraftFleet">Insert</a></th></h4>
+
 <table id="playlist" class = "content">
 <tr class="even">
 <th>Registration Number</th> 
@@ -45,8 +48,6 @@
 
 ?>
 </table>
-
-<th><a href="/~db/db-aviation/views/createAircraftFleet">Insert</a></th>
 
 
 <?php

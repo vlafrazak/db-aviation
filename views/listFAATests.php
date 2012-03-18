@@ -5,6 +5,8 @@
 
 <h2>FAA Tests</h2>
 
+<h4 id = "insert"><th><a href="/~db/db-aviation/views/createFAATests">Insert</a></th></h4>
+
 <table id="playlist" class = "content">
 <tr class="odd">
 <th>Test Number</th> 
@@ -42,8 +44,6 @@
 
 ?>
 </table>
-
-<th><a href="/~db/db-aviation/views/createFAATests">Insert</a></th>
 
 
 <?php
