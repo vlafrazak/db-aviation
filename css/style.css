@@ -105,6 +105,20 @@ table {
 #playlist tr td {
     border-right: 1px solid #ccc;
 }
+
+th{
+	background-color:#003366;
+	color:white;
+	 -moz-box-shadow:    3px 3px 5px 6px #003366;
+  	-webkit-box-shadow: 3px 3px 5px 6px  #003366;
+  	box-shadow:         3px 3px 5px 6px  #003366;
+	
+}
+tr{
+	 -moz-box-shadow:    3px 3px 5px 6px #eee;
+  	-webkit-box-shadow: 3px 3px 5px 6px  #eee;
+  	box-shadow:         3px 3px 5px 6px  #eee;
+}
 tr th {
     border-top-left-radius: 5px;
 }
@@ -114,7 +128,7 @@ tr th {
 }*/
 
 #playlist tr td{
-    background-color: #eee;;
+   /*background-color: #eee;*/
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
