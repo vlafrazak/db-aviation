@@ -28,7 +28,7 @@
             ON
                 c.Test_Number = f.Test_Number
             WHERE
-                c.Registration_Number = '" . $_GET[ 'Registration_Number' ] . "'"
+                c.Registration_Number = '" . $registration_number . "'"
             );
         if( !$checks ) {
             die( mysql_error() );
