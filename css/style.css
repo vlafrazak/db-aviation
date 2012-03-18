@@ -33,7 +33,7 @@ h1{
 	font-size:15px;
 	font-weight:bold;
 	text-decoration:none;  
-	margin-left: 700px; 
+	margin-left: 650px; 
 	padding:2px 4px 2px 4px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -54,6 +54,11 @@ h1{
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
 	background-color:#dfdfdf;
 }#insert:active {
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none; 
 	position:relative;
 	top:1px;
 }
