@@ -44,7 +44,8 @@ h1{
 	font-family:arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:2px 4px 2px 4px;
+	color: white;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #1570cd;
 }
