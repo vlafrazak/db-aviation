@@ -122,12 +122,12 @@ table {
         color-stop(0.32, rgb(29,29,31)),
         color-stop(0.83, rgb(39,44,54))
     );
-}
+}*/
 tr th {
     border-top-left-radius: 5px;
 }
 
-tr th:last-child {
+/*tr th:last-child {
     border-top-right-radius: 5px;
 }*/
 
