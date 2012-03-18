@@ -1,5 +1,6 @@
 <?php
     include "../header.php"
+    $models = include "../models/listAircraftFleet.php";
 ?>
 
 <h2>Insert an Aircraft</h2>
@@ -10,7 +11,16 @@
     <tr class="odd"><td>Registration Number:</td><td> <input type="int" name="Registration_Number" /></td></tr>
     <tr class="even"><td>Air Carrier:</td><td> <input type="text" name="Air_Carrier" /></td></tr>
     <tr class="odd"><td>Construction Date:</td><td> <input type="int" name="Construction_Date" /></td></tr>
-    <tr class="even"><td>Model Code:</td><td> <input type="int" name="Model_Code" /></td></tr>
+    <tr class="even"><td>Model Code:</td><td> 
+        <select type="int" name="Model_Code">
+            <?php
+                foreach( $models as $model) {
+                        echo "<option value='".$model[ 'Model_Code' ]."'>".$model[ 'Model_Name' ]."</option>";
+                }
+            ?>
+        </select>
+    </td>
+    </tr>
     </table>
 
     <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
