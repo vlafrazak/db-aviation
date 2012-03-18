@@ -48,13 +48,13 @@ h1{
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	text-shadow:1px 1px 0px #ffffff;
-}#insert, input[type="submit"]:hover {
+}#insert:hover, input[type="submit"]:hover {
 	text-decoration:none;
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
 	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
 	background-color:#dfdfdf;
-}#insert, input[type="submit"]:active {
+}#insert:active, input[type="submit"]:active {
 	color:#777777;
 	font-family:arial;
 	font-size:15px;
