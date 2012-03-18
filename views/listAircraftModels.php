@@ -32,6 +32,7 @@
         
         echo "<td><form action='/~db/db-aviation/views/updateAircraftModels.php' method='post'>";
         echo "<input type='hidden' name='Model_Code' value=" . $aircraft[ 'Model_Code' ] . "/>";
+        echo "<input type='hidden' name='Model_Name' value=" . $aircraft[ 'Model_Name' ] . "/>";
         echo "<input type='hidden' name='Capacity' value=" . $aircraft[ 'Capacity' ] . "/>";
         echo "<input type='hidden' name='Weight' value=" . $aircraft[ 'Weight' ] . "/>";
         echo "<input type='hidden' name='Manufacturer' value=" . $aircraft[ 'Manufacturer' ] . "/>";
