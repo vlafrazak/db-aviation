@@ -17,7 +17,9 @@
 <th>Salary</th>
 <th>E-mail</th>
 <th>Phone</th>
+<th>Expertise</th>
 <th>Rank</th>
+<th></th>
 <th></th>
 <th></th>
 </tr>
@@ -60,7 +62,18 @@
         }
         echo "</table>";
         echo "</td>";
-       
+        
+        echo "<td class='phones'>";
+        echo "<table class='noframe'><tr><td><td class='noframe'></td></td><td class='noframe'><a class='button' href='/~db/db-aviation/views/createIsExpertIn.php?Emp_Code=" . $tech[ 'Emp_Code' ] .
+                                                            "&First_Name=" . $tech[ 'First_Name' ] .
+                                                            "&Surname=" . $tech[ 'Surname' ] .
+                                                            "'>+</a></td></tr>";
+        foreach( $tech['expertise'] as $expertise ) {
+            echo "<tr><td class='noframe'> $expertise[0] </td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deleteIsExpertIn.php?Phone=". $phone[0] ."'>x</a></td></tr>";
+        }
+        echo "</table>";
+        echo "</td>";
+  
         echo "<td>" .  $tech[ 'Rank' ] . "</td>";
         
         echo "<td><form action='/~db/db-aviation/views/updateTechnicians.php' method='post'>";
