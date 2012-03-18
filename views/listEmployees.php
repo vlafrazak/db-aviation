@@ -4,7 +4,7 @@
 
 <h2>Employees</h2>
 
-<h4 class = "insert"><th><a href="/~db/db-aviation/views/createEmployees">INSERT</a></th> </h4>
+<h4 id = "insert"><th><a href="/~db/db-aviation/views/createEmployees">INSERT</a></th> </h4>
 
 <table id="playlist" class = "content">
 <tr class="even">
