@@ -52,8 +52,9 @@ if( !function_exists('error_function'))
         echo "This shouldn't happen";
         echo "<table> <tr><td>query :" . $query;
         echo "</td><td>error :" . $error;
-        echo "</td><td></table>"
+        echo "</td><td></table>";
         include "../footer.php";
 
     }
+}
 ?>
