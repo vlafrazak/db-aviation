@@ -40,7 +40,7 @@ h1{
 
 	position:right;
 } */
-#insert a {font-size = 25%;text-decoration:none;  margin-left: 700px; padding:5px 10px 5px 10px;
+#insert a {font-size = 15%;text-decoration:none;  margin-left: 700px; padding:5px 10px 5px 10px;
 	color:#F9966B;
 	background:white; 
 -moz-border-radius: 40px / 20px;
@@ -78,7 +78,7 @@ body{
 	padding-left:200px;
 	
 	position:right;
-	width:250px;
+	width:300px;
 	height:200px;
 }
 
