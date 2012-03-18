@@ -30,7 +30,7 @@ h1{
 	margin-left: 650px;
 }
 .button {
-	font-family: Courier New, monospace;
+	font-family: Courier New, monospace !important;
 }
 
 #insert, input[type="submit"], .button {
