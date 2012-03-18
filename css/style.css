@@ -27,7 +27,7 @@ h1{
         /*clear:left;*/
 }
 input.button:disabled:hover{
-	color:transparent;	
+	color:transparent; !important
 }
 
 #insert, input[type="submit"], .button {
