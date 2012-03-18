@@ -22,7 +22,7 @@
         </td>
     </tr>
 
-    <tr class="even"><td>Test Number:</td>
+    <tr class="even"><td>Test Name:</td>
         <td> 
             <select type="text" name="Test_Number">
             <?php
