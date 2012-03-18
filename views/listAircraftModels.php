@@ -25,7 +25,7 @@
         echo "<tr>";
 
         echo "<td>" .  $aircraft[ 'Model_Code' ] . "</td>";
-        echo "<td><a class = "model "href='/~db/db-aviation/views/listIsExpertIn.php?Model_Code=" . $aircraft[ 'Model_Code' ] ."&Model_Name=" . $aircraft[ 'Model_Name' ] . "'>" .  $aircraft[ 'Model_Name' ] . "</a></td>";
+        echo "<td><a class = 'models' "href='/~db/db-aviation/views/listIsExpertIn.php?Model_Code=" . $aircraft[ 'Model_Code' ] ."&Model_Name=" . $aircraft[ 'Model_Name' ] . "'>" .  $aircraft[ 'Model_Name' ] . "</a></td>";
         echo "<td>" .  $aircraft[ 'Capacity' ] . "</td>";
         echo "<td>" .  $aircraft[ 'Weight' ] . "</td>";
         echo "<td>" .  $aircraft[ 'Manufacturer' ] . "</td>";
