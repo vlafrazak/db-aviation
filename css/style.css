@@ -124,6 +124,7 @@ th{
 td.emails{
         text-align:left;
         white-space:nowrap;
+	padding:1px;
 }
 td.phones {
         text-align:left;
@@ -160,6 +161,17 @@ td.phones {
         background: white; 
         margin:auto;
 }
+
+.noframe{
+        border:none;
+        padding:none;
+        width:default;
+        height:default;
+ 	margin:1px;
+        min-height:default;
+        text-align:right;
+}
+
 /*
 input[type="submit"] { 
        border-top: 1px solid #96d1f8;
@@ -226,12 +238,3 @@ input[type="submit"]:active {
         border-top-color: #1b435e;
         background: #1b435e;
 }*/
-.noframe{
-        border:none;
-        padding:none;
-        width:default;
-        height:default;
- 	margin:1px;
-        min-height:default;
-        text-align:left;
-}
