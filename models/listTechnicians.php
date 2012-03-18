@@ -2,7 +2,6 @@
     include 'database.php';
     include 'listEmails.php';
     include 'listPhones.php';
-    include 'listIsExpertIn.php';
 
     $techs = query_array( 
         "SELECT e.*, t.Rank
@@ -32,11 +31,16 @@
                 WHERE
                     p.Emp_Code = " . $tech[ 'Emp_Code' ] );
         $tech[ 'expertise' ] = query_array(
-                "SELECT x.Model_Code, x.Degree_of_Expreriance
+                "SELECT ex.Model_Code,ex.Degree_of_Experience,m.Model_Code
                 FROM
-                    IS_EXPERT_IN x
+                    IS_EXPERT_IN ex
+                INNER JOIN
+                    AIRCRAFT_MODEL m
+                ON
+                    ex.Model_Code = m.Model_Code
                 WHERE
-                    x.Emp_Code = " . $tech[ 'Emp_Code' ] );
+                    ex.Emp_Code = " . $tech[ 'Emp_Code' ] );
+        
         $answer[] = $tech;
     }
     return $answer;    
