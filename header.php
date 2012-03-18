@@ -68,7 +68,7 @@
 
 <!--3rd drop down menu-->
 		<div id="dropmenu3" class="dropmenudiv">
-			<a href="/~db/b-aviation/views/listChecks/">Checks</a>
+			<a href="/~db/db-aviation/views/listChecks/">Checks</a>
 			<a href="/~db/db-aviation/views/listFAATests/">FAA Check Types</a>
 		</div>
 
