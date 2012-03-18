@@ -4,9 +4,11 @@
 <head>
 <title>Chrome CSS Drop Down Menu</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
 <link rel="stylesheet" type="text/css" href="/~db/db-aviation/chromemenu/chrometheme/chromestyle2.css" />
 
 <script type="text/javascript" src="/~db/db-aviation/chromemenu/chromejs/chrome.js">
+
 
 /***********************************************
 * Chrome CSS Drop Down Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
@@ -27,7 +29,7 @@
 			<link
         			rel = "stylesheet"
         			type = "text/css"
-				href = "/~db/db-aviation/css/style.css" />
+				href = "css/style.css" />
 			<link rel = "shotcut icon" href= "/~db/db-aviation/images/maurouli.jpg"/>
 		</head>
 	</div>
@@ -68,7 +70,11 @@
 
 <!--3rd drop down menu-->
 		<div id="dropmenu3" class="dropmenudiv">
+<<<<<<< Updated upstream
 			<a href="/~db/db-aviation/views/listChecks/">Checks</a>
+=======
+			<a href="/~db/b-aviation/views/listChecks/">Checks</a>
+>>>>>>> Stashed changes
 			<a href="/~db/db-aviation/views/listFAATests/">FAA Check Types</a>
 		</div>
 
