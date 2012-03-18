@@ -162,9 +162,9 @@ th, td {
 }
 #playlist tr.odd td {
       background-color:white;
-	-moz-box-shadow:    inset 2px 2px 35px  #ccc;
-   	-webkit-box-shadow: inset 2px 2px 35px  #ccc;
-   	box-shadow:         inset 2px 2px 35px  #ccc;
+	-moz-box-shadow:    inset 2px 2px 45px  #ccc;
+   	-webkit-box-shadow: inset 2px 2px 45px  #ccc;
+   	box-shadow:         inset 2px 2px 45px  #ccc;
 }
 
 td.emails{
