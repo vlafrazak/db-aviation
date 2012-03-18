@@ -243,35 +243,35 @@ td.phones {
         margin: 0 auto;
         border-top-width: 2px;
         border-top-style: solid;	
-       /* border-top-color: #87CEFA;*/
+        border-top-color: #87CEFA;
 	 -moz-box-shadow:    0px 0px 3px 1px  #87CEFA;
   	-webkit-box-shadow: 0px 0px 3px 1px   #87CEFA;
   	box-shadow:         0px 0px 3px 1px   #87CEFA;
         bottom:0px;
-        /*color: #00008B;*/
+        color: #00008B;
         text-align: center;
         font-size: small;
         padding-top: 10px;
         padding-right: 0px;
         padding-left: 0px;
 }
-#footer.a{
-	-moz-box-shadow:    inset 0 0 70px  #00008B;
-   	-webkit-box-shadow: inset 0 0 70px  #00008B;
-   	box-shadow:         inset 0 0 70px  #00008B;
-}
+/*#footer.a{
+	-moz-linear-shadow:    inset 0 0 70px  #00008B;
+   	-webkit-linear-shadow: inset 0 0 70px  #00008B;
+   	linear-shadow:         inset 0 0 70px  #00008B;
+} */
 #footer a {
-	text-decoration:none;  margin: none;
-	-moz-box-shadow:    inset 0 0 70px  #00008B;
-   	-webkit-box-shadow: inset 0 0 70px  #00008B;
-   	box-shadow:         inset 0 0 70px  #00008B;
+	text-decoration:none;  margin-bottom: 3px;;
+	-moz-linear-shadow:    inset 0 0 70px  #00008B;
+   	-webkit-linear-shadow: inset 0 0 70px  #00008B;
+   	linear-shadow:         inset 0 0 70px  #00008B;
         background:  white;
 } 
 
 #footer a:hover {
-	-moz-box-shadow:    inset 0 0 70px  #139BAE;
-   	-webkit-box-shadow: inset 0 0 70px  #139BAE;
-   	box-shadow:         inset 0 0 70px  #139BAE;
+	-moz-box-linear:    inset 0 0 70px  #139BAE;
+   	-webkit-linear-shadow: inset 0 0 70px  #139BAE;
+   	linear-shadow:         inset 0 0 70px  #139BAE;
 	/*color: #139BAE;*/
         background: white; 
         margin:auto;
