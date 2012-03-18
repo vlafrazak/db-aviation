@@ -73,13 +73,13 @@ body{
 	background: #1E90FF; }
 
 #eikona{
-	padding-top:250px;
+	padding-top:150px;
 	padding-bottom:75px;
 	padding-left:200px;
 	
 	position:right;
-	width:350px;
-	height:250px;
+	width:250px;
+	height:200px;
 }
 
 table
