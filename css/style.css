@@ -132,6 +132,12 @@ td.emails: hover{
 	color:#FFFFFF;
 }
 a.emails {
+	colour:black;
+	text-decoration:none;
+}
+
+a.emails:hover {
+	colour:grey;
 	text-decoration:none;
 }
 
