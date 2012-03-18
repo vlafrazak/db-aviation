@@ -84,9 +84,9 @@ body{
   	-webkit-box-shadow: 2px 2px 3px 1px  #191970;
   	box-shadow:         2px 2px 3px 1px  #191970;*/
 	background-color:#191970;
-   	-moz-box-shadow:    inset 0 0 70px #191970;
-   	-webkit-box-shadow: inset 0 0 70px #191970;
-   	box-shadow:         inset 0 0 70px #191970;
+   	-moz-box-shadow:    inset 2 2 40px #191970;
+   	-webkit-box-shadow: inset 2 2 40px #191970;
+   	box-shadow:         inset 2 2 40px #191970;
 
 }
 #chromemenu ul li a:hover {
