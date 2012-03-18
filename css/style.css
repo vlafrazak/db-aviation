@@ -6,7 +6,7 @@ html,body {
 
 h1{
         color: white;  /*#ffc;*/
-        background-color: #102560;  /*#191970*/
+        background-color: #003366; /*#102560;  #191970*/
         /*text-align: center;*/
         font-size: 1.0em;
         width:auto
@@ -103,13 +103,13 @@ table, td, th{
 }
 
 th{
-	background-color:#15317E;  
+	background-color:#336699;  
         color:white; 
         text-align:center;
 }
 
 #playlist tr td {
-        background-color:#7C7263 ; /*#FFF8C6; */
+        background-color:#FFCC66 ; /*#FFF8C6; */
 }
 /*#playlist tr.even td{
         background-color:#C6DEFF; 
