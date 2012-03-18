@@ -26,14 +26,16 @@ h1{
         padding:25px;
         /*clear:left;*/
 }
+#insert{
+	margin-left: 650px;
+}
 
 #insert, input[type="submit"] {
 	color:#777777;
 	font-family:arial;
 	font-size:15px;
 	font-weight:bold;
-	text-decoration:none;  
-	margin-left: 650px; 
+	text-decoration:none;   
 	padding:2px 4px 2px 4px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;

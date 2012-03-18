@@ -5,7 +5,7 @@
 
 <h2>Aircraft Fleet</h2>
 
-<h4 id = "insert"><th><a href="/~db/db-aviation/views/createAircraftFleet">INSERT</a></th></h4>
+<h4><th><a id='insert' href="/~db/db-aviation/views/createAircraftFleet">INSERT</a></th></h4>
 
 <table id="playlist" class = "content">
 <tr class="even">
