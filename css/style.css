@@ -41,7 +41,7 @@ h1{
 	position:right;
 } */
 #insert a {font-size = 12pt;text-decoration:none;  margin-left: 700px; padding:2px 4px 2px 4px;
-	color:#F9966B;
+	color:#71C42B;
 	background:white; 
 -moz-border-radius: 40px / 20px;
 -webkit-border-radius: 40px / 20px;
@@ -50,7 +50,7 @@ border-radius: 40px / 20px;
 
 #insert a:hover {
 	color: white;
-	background: #F88158;}	
+	background: #71C42B;}	
 
 
 body{
