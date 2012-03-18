@@ -19,13 +19,10 @@
 </tr>
 
 <?php
-    if (!isset($_GET[ 'Registration_Number' ])) {
+    if (isset($_GET[ 'Registration_Number' ])) {
+        $registration_number = $_GET[ 'Registration_Number' ];
+    }
     $checks = include "../models/listChecks.php";
-    }
-    else {
-    $checks = include "../models/listChecks.php?Registration_Number=".$_GET[ 'Registration_Number' ];
-
-    }
 
     foreach( $checks as $check ) {
         echo "<tr>";
