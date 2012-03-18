@@ -28,7 +28,9 @@ h1{
 }
 
 #insert a {
-	font-size = 12pt;text-decoration:none;  margin-left: 700px; 		padding:2px 4px 2px 4px;
+	font-size = 12pt;text-decoration:none;  
+	margin-left: 700px; 
+	padding:2px 4px 2px 4px;
         color:#E67451;
         background:white; 
         -moz-border-radius: 40px / 20px;
@@ -50,7 +52,6 @@ body{
         /*padding-bottom:60px;*/
 }
 
-
 /*Main Menu*/
 #chromemenu ul {margin: 0; padding: 0; 
     /*list-style-type: none; list-style-image: none;*/ }
@@ -58,14 +59,14 @@ body{
 #chromemenu ul li a {text-decoration:none;  margin: none;text-align:center;
    	padding: 5px 10px 5px 10px; color:#FFFFCC;
         background:  #191970;}
-        #chromemenu ul li a:hover {color: white;
-        background: #1E90FF; } 
+#chromemenu ul li a:hover {
+	color: white;
+        background: #1E90FF; }
 
 #eikona{
             padding-top:200px;
             padding-bottom:75px;
             padding-left:200px;
-
             position:right;
             width:300px;
             height:200px;
