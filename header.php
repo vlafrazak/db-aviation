@@ -2,12 +2,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Chrome CSS Drop Down Menu</title>
+<title>EL.Venizelos</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<link rel="stylesheet" type="text/css" href="chromemenu/chrometheme/chromestyle.css" />
+<link rel="stylesheet" type="text/css" href="/~db/db-aviation/chromemenu/chrometheme/chromestyle2.css" />
 
-<script type="text/javascript" src="chromejs/chrome.js">
+<script type="text/javascript" src="/~db/db-aviation/chromemenu/chromejs/chrome.js">
 
 
 /***********************************************
@@ -70,11 +70,7 @@
 
 <!--3rd drop down menu-->
 		<div id="dropmenu3" class="dropmenudiv">
-<<<<<<< Updated upstream
 			<a href="/~db/db-aviation/views/listChecks/">Checks</a>
-=======
-			<a href="/~db/b-aviation/views/listChecks/">Checks</a>
->>>>>>> Stashed changes
 			<a href="/~db/db-aviation/views/listFAATests/">FAA Check Types</a>
 		</div>
 
