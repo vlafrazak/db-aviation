@@ -41,7 +41,10 @@
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
         echo "<td>";
-        echo "<ul>";
+        echo "<a class='addPlusButton' href='createEmail.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
+                                                            "&First_Name=" . $employee[ 'First_Name' ] .
+                                                            "&Surname=" . $employee[ 'Surname' ] .
+                                                            "'>+</a><ul>";
         foreach( $employee['mails'] as $mail ) {
             echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></li>";
         }
