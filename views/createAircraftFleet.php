@@ -1,5 +1,5 @@
 <?php
-    include "../header.php"
+    include "../header.php";
     $models = include "../models/listAircraftFleet.php";
 ?>
 
@@ -32,5 +32,5 @@
 </form>
 
 <?php
-    include "../footer.php"
+    include "../footer.php";
 ?>

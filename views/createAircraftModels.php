@@ -1,5 +1,5 @@
 <?php
-    include "../header.php"
+    include "../header.php";
 ?>
 
 <h2>Insert an Aircraft Model</h2>
@@ -23,6 +23,6 @@
 </form>
 
 <?php
-    include "../footer.php"
+    include "../footer.php";
 ?>
 
