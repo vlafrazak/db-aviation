@@ -28,6 +28,13 @@ h1{
 }
 
 #insert {
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;  
+	margin-left: 700px; 
+	padding:2px 4px 2px 4px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -40,12 +47,6 @@ h1{
 	border-radius:6px;
 	border:1px solid #dcdcdc;
 	display:inline-block;
-	color:#6E6A6B;
-	font-family:arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:3px 6px 3px 6px;
-	margin-left: 650px;
 	text-shadow:1px 1px 0px #ffffff;
 }#insert:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
