@@ -64,6 +64,14 @@ h1{
 	margin-left: 650px;
 	font-size:13px;
 }
+
+input.button:disabled{
+	color:transparent;
+	-moz-box-shadow:    0 0 50px 0px #ccc;
+  	-webkit-box-shadow: 0 0 50px 0px #ccc;
+  	box-shadow:         0 0 50px 0px #ccc;
+}
+
 body{
         font-size: 90%;
         font-family: 'Georgia', serif;
@@ -152,37 +160,6 @@ th, td {
    	-webkit-box-shadow: inset 2px 2px 35px  #ccc;
    	box-shadow:         inset 2px 2px 35px  #ccc;
 }
-
-/* palioi pinakes
-
-table{width:100%;}
-th{height:50px;} 
-td{padding:5px;}
-
-table, td, th{
-	border:1px solid #e5e5ff;  
-        text-align:center;
-}
-
-th{
-	background-color:#336699;  
-        color:white; 
-        text-align:center;
-}
-
-#playlist tr td {
-        background-color:#FFCC66 ; #FFF8C6; 
-}
-#playlist tr.even td{
-        background-color:#C6DEFF; 
-}
-#playlist tr.odd td{
-        background-color:#FDEEF4;  
-}
-#playlist li{
-        text-align:left;
-}
-*/
 
 td.emails{
         text-align:left;
