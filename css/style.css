@@ -128,7 +128,7 @@ td.emails{
 	color:black;
 	text-decoration:none;
 }
-td.emails hover{
+td.emails: hover{
 	color:#FFFFFF;
 }
 
