@@ -21,7 +21,7 @@ h1{
         background-position: right top;
         padding-top:40px;
         padding-bottom:20px;
-        width: auto;
+        width: 100%;
         margin:0;
         padding:25px;
         /*clear:left;*/
@@ -49,27 +49,18 @@ body{
         height:100%;
         /*padding-bottom:60px;*/
 }
-<<<<<<< Updated upstream
 
 
-=======
-
-
->>>>>>> Stashed changes
 /*Main Menu*/
-#chromemenu ul {margin: 0; padding: 0; 
+/*#chromemenu ul {margin: 0; padding: 0; */
     /*list-style-type: none; list-style-image: none;*/ }
-#chromemenu li {display: inline; padding: 5px 20px 5px 20px; 	}
+/*#chromemenu li {display: inline; padding: 5px 20px 5px 20px; 	}
 #chromemenu ul li a {text-decoration:none;  margin: none;text-align:center;
    	padding: 5px 10px 5px 10px; color:#FFFFCC;
         background:  #191970;}
         #chromemenu ul li a:hover {color: white;
-<<<<<<< Updated upstream
-        background: #1E90FF; } 
-=======
         background: #1E90FF; }
->>>>>>> Stashed changes
-
+*/
 #eikona{
             padding-top:200px;
             padding-bottom:75px;
