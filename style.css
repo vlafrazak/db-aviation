@@ -29,9 +29,13 @@ h1{
 
 #insert a {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	font-size = 12pt;text-decoration:none;  
 	margin-left: 700px; 
 	padding:2px 4px 2px 4px;
+=======
+	font-size = 12pt;text-decoration:none;  margin-left: 700px; 		padding:2px 4px 2px 4px;
+>>>>>>> Stashed changes
 =======
 	font-size = 12pt;text-decoration:none;  margin-left: 700px; 		padding:2px 4px 2px 4px;
 >>>>>>> Stashed changes
@@ -57,6 +61,10 @@ body{
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -68,8 +76,12 @@ body{
    	padding: 5px 10px 5px 10px; color:#FFFFCC;
         background:  #191970;}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #chromemenu ul li a:hover {
 	color: white;
+=======
+        #chromemenu ul li a:hover {color: white;
+>>>>>>> Stashed changes
 =======
         #chromemenu ul li a:hover {color: white;
 >>>>>>> Stashed changes
@@ -80,6 +92,10 @@ body{
             padding-bottom:75px;
             padding-left:200px;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -109,10 +125,17 @@ th{
 #playlist tr.even td{
         background-color:#C6DEFF; 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 #playlist tr.odd td{
         background-color:#FDEEF4;  
 }
+=======
+}
+#playlist tr.odd td{
+        background-color:#FDEEF4;  
+}
+>>>>>>> Stashed changes
 =======
 }
 #playlist tr.odd td{
