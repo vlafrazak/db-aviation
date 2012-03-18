@@ -1,4 +1,6 @@
 <?php
+if( !function_exists('connect'))
+{
     function connect() {
         $myset = include 'settings-local.php';
         $link = mysql_connect(  $myset[ 'hostname' ],
@@ -18,10 +20,13 @@
         mysql_query("SET NAMES utf8");
         //echo "I am connected\n";
     }
+}
+if (!function_exists('disconnect'))
+{
     function disconnect() {
         mysql_close();
     }
-
+}
 
 ?>
 
