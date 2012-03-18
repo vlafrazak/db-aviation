@@ -71,6 +71,9 @@ input.button:disabled{
   	-webkit-box-shadow: 0 0 50px 0px #ccc;
   	box-shadow:         0 0 50px 0px #ccc;
 }
+input.button:disabled:hover{
+	
+}
 
 body{
         font-size: 90%;
