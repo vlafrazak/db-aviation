@@ -40,10 +40,10 @@ h1{
 
 	position:right;
 } */
-#insert a {text-decoration:none;  margin: none; padding:5px 20px 5px 20px;
+#insert a {text-decoration:none;  margin-left: 400px; padding:5px 20px 5px 20px;
 	margin-right:300px;
 	color:#F9966B;
-	background: #7D2252; position:right;
+	background:white; 
 -moz-border-radius: 40px / 20px;
 -webkit-border-radius: 40px / 20px;
 border-radius: 40px / 20px;
@@ -118,11 +118,6 @@ text-align:center;
 #playlist tr.odd td {
       background-color:	#ECD872;  /*xryso*/
     }
-
-koumpi{
-	
-
-}
 
 
 #footer{
