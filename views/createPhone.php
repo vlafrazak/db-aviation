@@ -18,6 +18,10 @@
     <input type='submit' value='Submit' title='Προσθήκη'/>                                                   
 </form>
 
+<form action='/~db/db-aviation/views/listAircraftFleet.php' method='post'> 
+   <input type='submit' value='Cancel' title='Άκυρο'/>                                                   
+</form>
+
 <?php
     include "../footer.php"
 ?>
