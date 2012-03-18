@@ -97,18 +97,18 @@ padding:15px;
 
 table, td, th
 {
-border:7px solid white;  /*mpezouli*/
+border:7px solid #F2F39E;  /*mpezouli*/
 text-align:center;
 }
 th
 {
-background-color:#15317E;  /*royal blue*/
+background-color:#01243B;  /*royal blue*/
 color:white; /*#FFFFCC; #C6DEFF;*/
 text-align:center;
 }
 
 #playlist tr td {
-      background-color:	#EBDDE2  /*galazio*/
+      background-color:#C5C5C5; /*galazio*/
     }
 #playlist tr.even td {
       background-color:	#FDEEF4; /*galazio*/ /*#E3E4FA:  levanda*/
