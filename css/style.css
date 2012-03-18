@@ -190,13 +190,12 @@ td.emails{
 }
 
 a.emails {
-	color:#191970;
-	font-weight:bold;
+	color:#black;
 	text-decoration:none;
 }
 
 a.emails:hover {
-	color:#777777;
+	color:##C0C0C0;
 	text-decoration:none;
 }
 
