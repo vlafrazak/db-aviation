@@ -26,9 +26,6 @@ h1{
         padding:25px;
         /*clear:left;*/
 }
-input.button:disabled:hover{
-	color:transparent; !important
-}
 
 #insert, input[type="submit"], .button {
 	color:#777777;
@@ -73,6 +70,12 @@ input.button:disabled{
 	-moz-box-shadow:    0 0 50px 0px #ccc;
   	-webkit-box-shadow: 0 0 50px 0px #ccc;
   	box-shadow:         0 0 50px 0px #ccc;
+}
+input.button:disabled:hover{
+	color:transparent; !important
+	-moz-box-shadow:    0 0 50px 0px #ccc; !important
+  	-webkit-box-shadow: 0 0 50px 0px #ccc;!important
+  	box-shadow:         0 0 50px 0px #ccc;!important
 }
 
 body{
