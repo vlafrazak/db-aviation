@@ -39,22 +39,30 @@
         echo "<td>" .  $controller[ 'Postal_Code' ] . "</td>";
         echo "<td>" .  $controller[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $controller[ 'Salary' ] . "</td>";
-    
-        echo "<td>";
-        echo "<ul>";
+
+        echo "<td class='emails'>";
+        echo "<a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $controller[ 'Emp_Code' ] .
+                                                            "&First_Name=" . $controller[ 'First_Name' ] .
+                                                            "&Surname=" . $controller[ 'Surname' ] .
+                                                            "'>+</a><table class='noframe'>";
         foreach( $controller['mails'] as $mail ) {
-            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></li>";
+            echo "<tr><td class='noframe'><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></td><td class='noframe'><a class='button' href='/~db/db-aviation/models/deleteEmail.php?E_mail=". $mail[0] ."'>x</a></td></tr>";
         }
-        echo "</ul>";
+        echo "</table>";
         echo "</td>";
         
-        echo "<td>";
-        echo "<ul>";
+        echo "<td class='phones'>";
+        echo "<a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $controller[ 'Emp_Code' ] .
+                                                            "&First_Name=" . $controller[ 'First_Name' ] .
+                                                            "&Surname=" . $controller[ 'Surname' ] .
+                                                            "'>+</a><ul>";
+        echo "<table class='noframe'>";
         foreach( $controller['phones'] as $phone ) {
-            echo "<li> $phone[0] </li>";
+            echo "<tr><td class='noframe'> $phone[0] </td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></td></tr>";
         }
-        echo "</ul>";
+        echo "</table>";
         echo "</td>";
+    
        
      
         echo "<td>" .  $controller[ 'Last_Exam_Date' ] . "</td>";
