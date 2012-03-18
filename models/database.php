@@ -20,7 +20,7 @@ function query_array($query) {
     {
         $answer[] = $row;
     } 
-    mysql_free_result($result);
+    //mysql_free_result($result);
     disconnect();
     return $answer;
 }
@@ -33,7 +33,7 @@ function query_row($query) {
     }
 
     $row = mysql_fetch_array($result);
-    mysql_free_result($result);
+    //mysql_free_result($result);
     disconnect();
     return $answer;
 }

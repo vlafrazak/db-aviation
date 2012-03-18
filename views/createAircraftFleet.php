@@ -1,6 +1,6 @@
 <?php
     include "../header.php";
-    $models = include "../models/listAircraftFleet.php";
+    $models = include "../models/listAircraftModels.php";
 ?>
 
 <h2>Insert an Aircraft</h2>

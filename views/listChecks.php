@@ -32,7 +32,7 @@
         echo "<input type='hidden' name='Registration_Number' value=" . $check[ 'Registration_Number' ] . "/>";
         echo "<input type='hidden' name='Test_Number' value=" . $check[ 'Test_Number' ] . "/>";
         echo "<input type='hidden' name='Emp_Code' value=" . $check[ 'Emp_Code' ] . "/>";
-        echo "<input type='hidden' name='Check_ID' value=" . $check['Check_ID ' ] . "/>";
+        echo "<input type='hidden' name='Check_ID' value=" . $check['Check_ID' ] . "/>";
         echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
         
