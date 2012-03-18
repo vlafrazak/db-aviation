@@ -42,27 +42,27 @@
         echo "<td>" .  $employee[ 'Postal_Code' ] . "</td>";
         echo "<td>" .  $employee[ 'Year_of_Birth' ] . "</td>";
         echo "<td>" .  $employee[ 'Salary' ] . "</td>";
-        echo "<td>";
+        echo "<td class='emails'>";
         echo "<a class='button' href='/~db/db-aviation/views/createEmail.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
                                                             "&First_Name=" . $employee[ 'First_Name' ] .
                                                             "&Surname=" . $employee[ 'Surname' ] .
-                                                            "'>+</a><ul>";
+                                                            "'>+</a><table class='noframe'>";
         foreach( $employee['mails'] as $mail ) {
-            echo "<li><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a> <a href='/~db/db-aviation/models/deleteEmail.php?E_mail=". $mail[0] ."'>x</a></li>";
+            echo "<tr><td class='noframe'><a href='mailto:" .  $mail[0]  . "'>" . $mail[0] . "</a></td><td class='noframe'><a class='button' href='/~db/db-aviation/models/deleteEmail.php?E_mail=". $mail[0] ."'>x</a></td></tr>";
         }
-        echo "</ul>";
+        echo "</table>";
         echo "</td>";
        
-        echo "<td>";
+        echo "<td class='phones'>";
         echo "<a class='button' href='/~db/db-aviation/views/createPhone.php?Emp_Code=" . $employee[ 'Emp_Code' ] .
                                                             "&First_Name=" . $employee[ 'First_Name' ] .
                                                             "&Surname=" . $employee[ 'Surname' ] .
                                                             "'>+</a><ul>";
-        echo "<ul>";
+        echo "<table class='noframe'>";
         foreach( $employee['phones'] as $phone ) {
-            echo "<li> $phone[0]  <a class='button 'href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></li>";
+            echo "<tr><td class='noframe'> $phone[0] </td> <td class='noframe'><a class='button' href='/~db/db-aviation/models/deletePhone.php?Phone=". $phone[0] ."'>x</a></td></tr>";
         }
-        echo "</ul>";
+        echo "</table>";
         echo "</td>";
           
         echo "<td><form action='/~db/db-aviation/views/updateEmployees.php' method='post'>";

@@ -107,6 +107,7 @@ position:relative;
             text-align:center;
         }
 
+
         #playlist tr td {
             background-color:#FFF8C6; /*galazio*/
         }
@@ -115,6 +116,17 @@ position:relative;
         }
         #playlist tr.odd td {
             background-color:	#FDEEF4;  /*xryso*/
+        }
+        #playlist li {
+            text-align:left;
+        }
+        td.emails {
+            text-align:left;
+            white-space:nowrap;
+        }
+        td.phones {
+            text-align:left;
+            white-space:nowrap;
         }
 
 
@@ -174,4 +186,12 @@ position:relative;
         .button:active {
             border-top-color: #1b435e;
             background: #1b435e;
+        }
+        .noframe{
+            border:none;
+            padding:none;
+            width:default;
+            height:default;
+            min-height:default;
+            text-align:left;
         }
