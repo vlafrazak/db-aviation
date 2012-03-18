@@ -128,16 +128,14 @@ td.emails{
 	color:black;
 	text-decoration:none;
 }
-td.emails: hover{
-	color:#FFFFFF;
-}
+t
 a.emails {
-	colour:black;
+	color:black;
 	text-decoration:none;
 }
 
 a.emails:hover {
-	colour:grey;
+	color:#777777;
 	text-decoration:none;
 }
 
