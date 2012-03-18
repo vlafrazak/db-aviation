@@ -139,9 +139,9 @@ table {
 th{
 	background-color:#003366;
 	color:white;
-	 -moz-box-shadow:    3px 3px 5px 2px #003366;
-  	-webkit-box-shadow: 3px 3px 5px 2px  #003366;
-  	box-shadow:         3px 3px 5px 2px  #003366;
+	 -moz-box-shadow:    4px 3px 5px 2px #003366;
+  	-webkit-box-shadow: 4px 3px 5px 2px  #003366;
+  	box-shadow:         4px 3px 5px 2px  #003366;
 	
 }
 tr{
