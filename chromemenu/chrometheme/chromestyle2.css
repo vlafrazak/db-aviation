@@ -42,7 +42,7 @@ background: url(/~db/db-aviation/chromemenu/chrometheme/chromebg2-over.gif) cent
 .dropmenudiv{
 position:absolute;
 top: 0;
-border: 1px solid #B5E2FE; /*THEME CHANGE HERE*/
+border: 4px solid #B5E2FE; /*THEME CHANGE HERE*/
 border-bottom-width: 0;
 font:normal 12px Verdana;
 line-height:18px;
