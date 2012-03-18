@@ -30,7 +30,7 @@ h1{
 #insert, input[type="submit"], .button {
 	color:#777777;
 	font-family:arial;
-	font-size:10px;
+	font-size:11px;
 	font-weight:bold;
 	text-decoration:none;   
 	padding:2px 4px 2px 4px;
@@ -62,7 +62,7 @@ h1{
 
 #insert{
 	margin-left: 650px;
-	font-size:15px;
+	font-size:13px;
 }
 body{
         font-size: 90%;
