@@ -190,7 +190,8 @@ td.emails{
 }
 
 a.emails {
-	color:black;
+	color:#191970;
+	font-weight:bold;
 	text-decoration:none;
 }
 
