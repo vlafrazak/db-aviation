@@ -8,7 +8,7 @@
 
     <table id="playlist" class ="input form">
     <tr class="odd"><td>Test Number</td><td> <input type="int" name="Test_Number" /></td></tr>
-    <tr><td>Test  Name:</td><td> <input type="text" name="Test_Name" /></td></tr>
+    <tr class = "even"><td>Test  Name:</td><td> <input type="text" name="Test_Name" /></td></tr>
     <tr class="odd"><td>Max Score:</td><td> <input type="int" name="Max_Score" /></td></tr>
     </table>
 
