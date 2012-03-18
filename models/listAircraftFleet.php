@@ -4,9 +4,7 @@
     $fleet = query_array( 
         "SELECT *
             FROM
-            AIRCRAFT_FLEET
-            GROUP BY
-            Model_Code"
+            AIRCRAFT_FLEET"
         );
     if( !$fleet ) {
         die( mysql_error() );
