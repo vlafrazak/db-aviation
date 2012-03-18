@@ -59,10 +59,8 @@ body{
 #chromemenu ul li a {text-decoration:none;  margin: none;text-align:center;
    	padding: 5px 10px 5px 10px; color:#FFFFCC;
         background:  #191970;}
-#chromemenu ul li a:hover {color: white;
-
-        background: #1E90FF; } 
-
+#chromemenu ul li a:hover {
+	color: white;
         background: #1E90FF; }
 
 #eikona{
