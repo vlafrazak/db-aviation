@@ -102,13 +102,13 @@ text-align:center;
 }
 th
 {
-background-color:#01243B;  /*royal blue*/
+background-color:#15317E;  /*royal blue*/
 color:white; /*#FFFFCC; #C6DEFF;*/
 text-align:center;
 }
 
 #playlist tr td {
-      background-color:#C5C5C5; /*galazio*/
+      background-color:#E3E4FA; /*galazio*/
     }
 #playlist tr.even td {
       background-color:	#FDEEF4; /*galazio*/ /*#E3E4FA:  levanda*/
