@@ -111,12 +111,12 @@ th{
 #playlist tr td {
         background-color:#FFF8C6; 
 }
-#playlist tr.even td{
+/*#playlist tr.even td{
         background-color:#C6DEFF; 
 }
 #playlist tr.odd td{
         background-color:#FDEEF4;  
-}
+}*/
 #playlist li{
         text-align:left;
 }
@@ -125,7 +125,13 @@ td.emails{
         text-align:left;
         white-space:nowrap;
 	padding:1px;
+	color:black;
+	text-decoration:none;
 }
+td.emails hover{
+	color:#FFFFFF;
+}
+
 td.phones {
         text-align:left;
         white-space:nowrap;
