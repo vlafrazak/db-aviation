@@ -76,22 +76,22 @@
         echo "<input type='hidden' name='Postal_Code' value=" . $employee[ 'Postal_Code' ] . "/>";
         echo "<input type='hidden' name='Year_of_Birth' value=" . $employee[ 'Year_of_Birth' ] . "/>";
         echo "<input type='hidden' name='Salary' value=" . $employee[ 'Salary' ] . "/>";
-        echo "<input type='submit' value='Edit' title='Επεξεργασία'/>";
+        echo "<input class = 'button' type='submit' value='Edit' title='Επεξεργασία'/>";
         echo "</form></td>";
         
         echo "<td><form action='/~db/db-aviation/views/createTechnicians.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
-        echo "<input type='submit' value='Technician' title='Κάνε αυτόν τον υπάλληλο τεχνικό.'/>";
+        echo "<input class = 'button' type='submit' value='Technician' title='Κάνε αυτόν τον υπάλληλο τεχνικό.'/>";
         echo "</form></td>";
 
         echo "<td><form action='/~db/db-aviation/views/createAirTrafficControllers.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
-        echo "<input type='submit' value='Controller' title='Κάνε αυτόν τον υπάλληλο ελεγκτή.'/>";
+        echo "<input class = 'button' type='submit' value='Controller' title='Κάνε αυτόν τον υπάλληλο ελεγκτή.'/>";
         echo "</form></td>";
 
         echo "<td><form action='/~db/db-aviation/models/deleteEmployees.php' method='post'>";
         echo "<input type='hidden' name='Emp_Code' value=" . $employee[ 'Emp_Code' ] . "/>";
-        echo "<input type='submit' value='&times;' title='Διαγραφή'/>";
+        echo "<input class = 'button' type='submit' value='&times;' title='Διαγραφή'/>";
         echo "</form></td>";
         
         echo "</tr>";
