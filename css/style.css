@@ -115,14 +115,14 @@ body{
         /*background: #1E90FF;*/ }
 
 #eikona{
-            padding-top:200px;
-            padding-bottom:100px;
-            padding-left:200px;
+            margin-top:400px;
+            margin-bottom:200px;
+            margin-left:200px;
             position:right;
-            width:400px;
-            height:250px;
-  	    box-width:400px;
-            box-height:250px;
+            /*width:400px;
+            height:250px;*/
+  	    box-width:100px;
+            box-height:150px;
 	/*-moz-box-shadow:    inset 0 0 35px #ccc;
    	-webkit-box-shadow: inset 0 0 35px #ccc;
    	box-shadow:         inset 0 0 35px #ccc;*/ 
