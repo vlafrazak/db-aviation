@@ -6,7 +6,7 @@
             $contributors = array(
                 'Lydia Zak' => 'lydiazak90@gmail.com',
                 'Iren Vlsi' =>  'iren.vlsi@gmail.com',
-                'Valia Fr' => 'valia.fragiad@gmail.com'
+                'Valia Fragkia' => 'valia.fragiad@gmail.com'
             );
             shuffle( $contributors );
             foreach ( $contributors as $contributor => $url ) {
@@ -17,7 +17,7 @@
                         echo '<a href="mailto:' . $url . '">' . 'Iren Vlsi </a>';
                     }
                     else {
-                        echo '<a href="mailto:' . $url . '">' . 'Valia Fragk </a>';
+                        echo '<a href="mailto:' . $url . '">' . 'Valia Fragkia </a>';
                     }
             }
             ?>
