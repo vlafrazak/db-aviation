@@ -68,5 +68,8 @@ color: black;
 }
 
 .dropmenudiv a:hover{ /*THEME CHANGE HERE*/
-background-color: #EBF7FF;
+-moz-box-shadow:    inset 0 0 35px  #EBF7FF;
+-webkit-box-shadow: inset 0 0 35px  #EBF7FF;
+box-shadow:         inset 0 0 35px  #EBF7FF;
+/*background-color: #EBF7FF;*/
 }
