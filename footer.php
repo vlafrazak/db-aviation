@@ -14,7 +14,7 @@
                 if ( is_numeric( $contributor ) ) {
                     $contributor = $url;
                 }
-                $items[] = '<a href="mailto' . $url . '">' . $contributor . '</a>';
+                $items[] = '<a href="mailto:' . $url . '">' . $contributor . '</a>';
             }
             echo implode( ', ', $items );
             ?>.
