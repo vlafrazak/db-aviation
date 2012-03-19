@@ -56,21 +56,21 @@
 
 <!--1st drop down menu-->
 		<div id="dropmenu1" class="dropmenudiv">
-			<a href="/~db/db-aviation/views/listEmployees/">Employees</a>
-			<a href="/~db/db-aviation/views/listTechnicians/">Technicians</a>
-			<a href="/~db/db-aviation/views/listAirTrafficControllers/">Air Traffic Controllers</a>
+			<a href="/~db/db-aviation/views/listEmployees.php">Employees</a>
+			<a href="/~db/db-aviation/views/listTechnicians.php">Technicians</a>
+			<a href="/~db/db-aviation/views/listAirTrafficControllers.php">Air Traffic Controllers</a>
 		</div>  
 
 <!--2nd drop down menu-->
 			<div id="dropmenu2" class="dropmenudiv">
-			<a href="/~db/db-aviation/views/listAircraftFleet/">Aircraft Fleet</a>
-			<a href="/~db/db-aviation/views/listAircraftModels/">Aircraft Model</a>
+			<a href="/~db/db-aviation/views/listAircraftFleet.php">Aircraft Fleet</a>
+			<a href="/~db/db-aviation/views/listAircraftModels.php">Aircraft Model</a>
 		</div>
 
 <!--3rd drop down menu-->
 		<div id="dropmenu3" class="dropmenudiv">
-			<a href="/~db/db-aviation/views/listChecks/">Checks</a>
-			<a href="/~db/db-aviation/views/listFAATests/">FAA Check Types</a>
+			<a href="/~db/db-aviation/views/listChecks.php">Checks</a>
+			<a href="/~db/db-aviation/views/listFAATests.php">FAA Check Types</a>
 		</div>
 
 <!--javascript menu-->
