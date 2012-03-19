@@ -14,7 +14,7 @@
                         echo '<a href="mailto:' . $url . '">' . 'Lydia Zak </a>';
                     }
                     else if ($url == 'iren.vlsi@gmail.com'){
-                        echo '<a href="mailto:' . $url . '">' . 'Iren Vlsi </a>';
+                        echo '<a href="mailto:' . $url . '">' . 'Iren Vlassi </a>';
                     }
                     else {
                         echo '<a href="mailto:' . $url . '">' . 'Valia Fragkia </a>';
