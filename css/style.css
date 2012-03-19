@@ -63,7 +63,7 @@ h2{
 .button {
 	font-family: Courier New, monospace ;
 }
-input[value = "Submit"],input[value = "Cancel"]{ 
+input[value = "Submit"],input[value = "Cancel"], input [value = "Υποβολή ερωτήματος"]{ 
 	font-size:13px;
 }
 
