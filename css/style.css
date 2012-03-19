@@ -64,7 +64,7 @@ h2{
 	font-family: Courier New, monospace ;
 }
 input[value = "Submit"],input[value = "Cancel"]{ 
-	font-size:20px;
+	font-size:14px;
 }
 
 #insert{
