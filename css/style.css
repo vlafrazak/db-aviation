@@ -27,6 +27,10 @@ h1{
         /*clear:left;*/
 }
 
+h2{
+	margin-top:50px;
+}
+
 #insert, input[type="submit"], .button {
 	color:#777777;
 	font-family:arial;
@@ -128,6 +132,7 @@ body{
 
 /*Dionyshs*/
 table {
+    margin-top:30px;
     border-collapse: collapse;
     width: 100%;
     border-bottom: 1px solid #ccc;
