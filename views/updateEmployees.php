@@ -19,7 +19,7 @@
     <tr class="even"><td>Salary:</td><td> <input type="int" name="Salary" value="<?php echo rtrim($_POST['Year_of_Birth'],'/'); ?>"/></td></tr>
     </table>
 
-    <input type='submit' title='Prosthiki'/>
+    <input type='submit' value = 'Submit' title='Προσθήκη'/>
 
 
     <form action='/~db/db-aviation/models/listEmployees.php' method='post'>

@@ -64,7 +64,7 @@ h2{
 	font-family: Courier New, monospace ;
 }
 input[value = "Submit"],input[value = "Cancel"], input [title = "Prosthiki"]{ 
-	font-size:23px;
+	font-size:13px;
 }
 
 #insert{
