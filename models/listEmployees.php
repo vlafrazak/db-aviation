@@ -33,6 +33,15 @@
             WHERE
                 t.Emp_Code = " . $employee[ 'Emp_Code' ]
         );
+        if ( !isset($employee[ 'occ' ])){
+            $employee[ 'occ' ] = query_array(
+                "SELECT c.Emp_Code
+                FROM
+                    AIR_TRAFFIC_CONTROLLERS c
+                WHERE
+                    c.Emp_Code = " . $employee[ 'Emp_Code' ]
+            );
+        }
         $answer[] = $employee;
     }
     return $answer;    
