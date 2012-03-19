@@ -23,7 +23,7 @@
     foreach( $aircrafts as $aircraft ) {
         echo "<tr>";
 
-        echo "<td><a href='/~db/db-aviation/views/listChecks.php?Registration_Number=" .  $aircraft[ 'Registration_Number' ] ."'>";
+        echo "<td><a class = 'fleet' href='/~db/db-aviation/views/listChecks.php?Registration_Number=" .  $aircraft[ 'Registration_Number' ] ."'>";
         echo $aircraft[ 'Registration_Number' ] . "</td>";
         echo "<td>" .  $aircraft[ 'Air_Carrier' ] . "</td>";
         echo "<td>" .  $aircraft[ 'Construction_Date' ] . "</td>";

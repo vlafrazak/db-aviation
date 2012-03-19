@@ -186,12 +186,12 @@ td.emails{
 	text-decoration:none;
 }
 
-a.emails, a.models {
+a.emails, a.models, a.fleet {
 	color:#003366;;
 	text-decoration:none;
 }
 
-a.emails:hover, a.models:hover {
+a.emails:hover, a.models:hover, a.fleet:hover{
 	color:#157DEC;
 	text-decoration:none;
 }
