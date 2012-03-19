@@ -128,9 +128,9 @@ body{
             position:right;
             width:400px;
             height:260px;
-	-moz-box-shadow:  6px 6px 8px 1px    #ccc;
-  	-webkit-box-shadow: 6px 6px 8px 1px  #ccc;
-  	box-shadow:         6px 6px 8px 1px  #ccc;
+	-moz-box-shadow:  6px 6px 8px 1px    #000;
+  	-webkit-box-shadow: 6px 6px 8px 1px  #000;
+  	box-shadow:         6px 6px 8px 1px  #000;
 }
 
 /*Dionyshs*/
