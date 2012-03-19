@@ -4,7 +4,7 @@ if( !function_exists('query'))
 {
     function query($query) {
         connect();
-        $result = mysql_query($query) or die(mysql_error());
+        $result = mysql_query($query) or die( error_function( $query,mysql_error()));
         if ( !$result ) {
             die( error_function( $query,mysql_error()) );
         }
@@ -15,7 +15,7 @@ if( !function_exists('query_array'))
 {
     function query_array($query) {
         connect();
-        $result = mysql_query($query) or die(mysql_error());
+        $result = mysql_query($query) or die( error_function( $query,mysql_error()));
         if ( !$result ) {
             die( error_function( $query,mysql_error()) );
         }
@@ -34,7 +34,7 @@ if( !function_exists('query_row'))
 {
     function query_row($query) {
         connect();
-        $result = mysql_query($query) or die(mysql_error());
+        $result = mysql_query($query) or die( error_function( $query,mysql_error()));
         if ( !$result ) {
             die( error_function( $query,mysql_error()) );
         }
