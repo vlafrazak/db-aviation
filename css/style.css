@@ -115,12 +115,11 @@ body{
         /*background: #1E90FF;*/ }
 
 #eikona{
-            margin-top:400px;
-            margin-bottom:200px;
+            margin-bottom:50px;
             margin-left:200px;
             position:right;
-            /*width:400px;
-            height:250px;*/
+            width:400px;
+            height:250px;
   	    box-width:100px;
             box-height:250px;
 	/*-moz-box-shadow:    inset 0 0 35px #ccc;
