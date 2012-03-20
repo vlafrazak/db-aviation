@@ -5,7 +5,7 @@
 
 <h2>Aircraft Models</h2>
 
-<h4><th><a id='insert' href="/~db/db-aviation/views/createAircraftModels">INSERT</a></th></h4>
+<h4><th><a id='insert' href="/~db/db-aviation/views/createAircraftModels.php">INSERT</a></th></h4>
 
 <table id="playlist" class = "content">
 <tr class="odd">

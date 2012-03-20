@@ -5,7 +5,7 @@
 
 <h2>FAA Tests</h2>
 
-<h4><th><a id='insert' href="/~db/db-aviation/views/createFAATests">INSERT</a></th></h4>
+<h4><th><a id='insert' href="/~db/db-aviation/views/createFAATests.php">INSERT</a></th></h4>
 
 <table id="playlist" class = "content">
 <tr class="odd">
