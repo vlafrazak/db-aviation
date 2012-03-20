@@ -6,7 +6,7 @@
 <h2>Aircraft Fleet</h2>
 
 <h4><th><a id='insert' href="/~db/db-aviation/views/createAircraftFleet.php">INSERT</a></th></h4>
-<h4><th><a id='HR Service Ability' href="/~db/db-aviation/views/listHRServiceAbility.php">HR SERVICE ABILITY</a></th></h4>
+<h4><th><a id='HR class = 'HR' Service Ability' href="/~db/db-aviation/views/listHRServiceAbility.php">HR SERVICE ABILITY</a></th></h4>
 
 <table id="playlist" class = "content">
 <tr class="even">

@@ -27,9 +27,9 @@ h1{
         padding-top:40px;
         padding-bottom:20px;
         width: 100%;
-        margin-left:0;
-	position:relative;
-        /*padding:25px;*/
+        margin:0;
+	/*position:relative;*/
+        padding:25px;
         /*clear:left;*/
 }
 
@@ -192,12 +192,12 @@ td.emails{
 	text-decoration:none;
 }
 
-a.emails, a.models, a.fleet {
+a.emails, a.models, a.fleet, a.HR {
 	color:#003366;;
 	text-decoration:none;
 }
 
-a.emails:hover, a.models:hover, a.fleet:hover{
+a.emails:hover, a.models:hover, a.fleet:hover, a.HR:hover{
 	color:#157DEC;
 	text-decoration:none;
 }
