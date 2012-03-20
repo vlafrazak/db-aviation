@@ -49,7 +49,8 @@ if( !function_exists('error_function'))
 {
     function error_function($query,$error) {
         include "../header.php";
-        echo "This shouldn't happen";
+        echo "<br>";
+        echo "<h2>This shouldn't happen! Please make sure that you have filled all the required information correctly.</h2>";
         echo "<table> <tr><td>query :" . $query;
         echo "</td><td>error :" . $error;
         echo "</td><td></table>";
