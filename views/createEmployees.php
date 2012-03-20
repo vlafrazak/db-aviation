@@ -16,7 +16,7 @@
     <tr class = "even"><td>Street Name:</td><td> <input type="text" name="Street_Name" /></td></tr>
     <tr class="odd"><td>Street Number:</td><td> <input type="int" name="Street_Number" /></td></tr>
     <tr class="even"><td>Postal Code:</td><td> <input type="int" name="Postal_Code" /></td></tr>
-    <tr class="odd"><td>Year of Birth:</td><td> <input type="int" name="Year_of_Birth" /></td></tr>
+    <tr class="odd"><td>Year of Birth(YYYY):</td><td> <input type="year" name="Year_of_Birth" /></td></tr>
     <tr class="even"><td>Salary:</td><td> <input type="int" name="Salary" /></td></tr>
     <tr class="odd"><td>E-mail:</td><td> <input type="varchar" name="E_mail" /></td></tr>
     <tr class="even"><td>Phone Number:</td><td> <input type="int" name="Phone_Number" /></td></tr>

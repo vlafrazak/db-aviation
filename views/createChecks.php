@@ -46,7 +46,7 @@
     </tr>
     <tr class="even"><td>Check ID:</td><td> <input type="int" name="Check_ID" /></td></tr>
     <tr class="odd"><td>Check Duration:</td><td> <input type="int" name="Check_Duration" /></td></tr>
-    <tr class="even"><td>Check Score:</td><td> <input type="int" name="Check_Score" /></td></tr>
+    <tr class="even"><td>Check Score[0-99]:</td><td> <input type="int" name="Check_Score" /></td></tr>
     </table>
 
     <input type='submit' value='Submit' title='Προσθήκη'/>                                                   

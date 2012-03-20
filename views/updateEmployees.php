@@ -16,7 +16,7 @@
     <tr class="odd"><td>Street Number:</td><td> <input type="int" name="Street_Number" value="<?php echo rtrim($_POST['Street_Number'],'/'); ?>"/></td></tr>
     <tr class="even"><td>Postal Code:</td><td> <input type="int" name="Postal_Code" value="<?php echo rtrim($_POST['Postal_Code'],'/'); ?>"/></td></tr>
     <tr class="odd"><td>Year of Birth:</td><td> <input type="int" name="Year_of_Birth" value="<?php echo rtrim($_POST['Year_of_Birth'],'/'); ?>"/></td></tr>
-    <tr class="even"><td>Salary:</td><td> <input type="int" name="Salary" value="<?php echo rtrim($_POST['Year_of_Birth'],'/'); ?>"/></td></tr>
+    <tr class="even"><td>Salary:</td><td> <input type="int" name="Salary" value="<?php echo rtrim($_POST['Salary'],'/'); ?>"/></td></tr>
     </table>
 
     <input type='submit' value = 'Submit' title='Προσθήκη'/>
