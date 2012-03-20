@@ -27,8 +27,8 @@ h1{
         padding-top:40px;
         padding-bottom:20px;
         width: 100%;
-        margin:0;
-	/*position:absolute;*/
+        margin-left:0;
+	position:relative;
         /*padding:25px;*/
         /*clear:left;*/
 }
