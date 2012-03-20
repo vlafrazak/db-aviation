@@ -27,20 +27,20 @@
      $chsc     
    )");
     
-     $max_score = query(
-     "SELECT 
-       c.Max_Score
-     FROM
-      FAA_TEST c
-     WHERE
-     c.Test_Number = $test
-     ");
-    echo $score;
-    echo $max_score;
-    if(1000 > $max_score[0]) {
-      die( error_function( $max_score ,mysql_error()) );
-    }
-
+//     $max_score = query(
+//     "SELECT 
+//       c.Max_Score
+//     FROM
+//      FAA_TEST c
+//     WHERE
+//     c.Test_Number = $test
+//     ");
+//    echo $score;
+//    echo $max_score;
+//    if(1000 > $max_score[0]) {
+//      die( error_function( $max_score ,mysql_error()) );
+//    }
+//
     
     $numargs = func_num_args();
     echo "Number of arguments: $numargs\n";
